@@ -1,0 +1,11 @@
+
+
+D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/pll_video.v
+
+Nov 11 06PM:40:28>: Megafunction PLL Intel FPGA IP v18.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/pll_test.v
+
+Nov 12 11PM:35:27>: Megafunction PLL Intel FPGA IP v18.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted

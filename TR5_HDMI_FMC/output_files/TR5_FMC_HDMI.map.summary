@@ -1,0 +1,23 @@
+Analysis & Synthesis Status : Successful - Thu Nov 12 23:38:07 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : TR5_FMC_HDMI
+Top-level Entity Name : TR5_FMC_HDMI
+Family : Stratix V
+Logic utilization (in ALMs) : N/A
+Total registers : 2415
+Total pins : 150
+Total virtual pins : 0
+Total block memory bits : 2,113,664
+Total DSP Blocks : 2
+Total HSSI STD RX PCSs : 0
+Total HSSI 10G RX PCSs : 0
+Total HSSI GEN3 RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI STD TX PCSs : 0
+Total HSSI 10G TX PCSs : 0
+Total HSSI GEN3 TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total HSSI PIPE GEN1_2s : 0
+Total HSSI GEN3s : 0
+Total PLLs : 1
+Total DLLs : 0

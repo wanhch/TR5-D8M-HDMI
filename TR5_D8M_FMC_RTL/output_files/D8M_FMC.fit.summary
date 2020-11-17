@@ -1,0 +1,26 @@
+Fitter Status : Successful - Tue Nov 17 19:55:04 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : D8M_FMC
+Top-level Entity Name : D8M_FMC
+Family : Stratix V
+Device : 5SGXEA7N2F45C2
+Timing Models : Final
+Logic utilization (in ALMs) : 2,975 / 234,720 ( 1 % )
+Total registers : 1933
+Total pins : 148 / 1,064 ( 14 % )
+Total virtual pins : 0
+Total block memory bits : 9,277,440 / 52,428,800 ( 18 % )
+Total RAM Blocks : 565 / 2,560 ( 22 % )
+Total DSP Blocks : 14 / 256 ( 5 % )
+Total HSSI STD RX PCSs : 0 / 48 ( 0 % )
+Total HSSI 10G RX PCSs : 0 / 48 ( 0 % )
+Total HSSI GEN3 RX PCSs : 0 / 48 ( 0 % )
+Total HSSI PMA RX Deserializers : 0 / 48 ( 0 % )
+Total HSSI STD TX PCSs : 0 / 48 ( 0 % )
+Total HSSI 10G TX PCSs : 0 / 48 ( 0 % )
+Total HSSI GEN3 TX PCSs : 0 / 48 ( 0 % )
+Total HSSI PMA TX Serializers : 0 / 48 ( 0 % )
+Total HSSI PIPE GEN1_2s : 0 / 48 ( 0 % )
+Total HSSI GEN3s : 0 / 48 ( 0 % )
+Total PLLs : 2 / 92 ( 2 % )
+Total DLLs : 0 / 4 ( 0 % )

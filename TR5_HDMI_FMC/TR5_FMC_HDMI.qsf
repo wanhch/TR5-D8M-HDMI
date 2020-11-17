@@ -1,0 +1,254 @@
+#============================================================
+# Build by Terasic System Builder
+#============================================================
+
+set_global_assignment -name FAMILY "Stratix V"
+set_global_assignment -name DEVICE 5SGXEA7H3F35C3
+set_global_assignment -name TOP_LEVEL_ENTITY "TR5_FMC_HDMI"
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 15.1.0
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Standard Edition"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:14:01 JANUARY 06,2016"
+
+#============================================================
+# CLOCK
+#============================================================
+set_instance_assignment -name IO_STANDARD "1.5 V" -to OSC_50_B3B
+set_instance_assignment -name IO_STANDARD "1.5 V" -to OSC_50_B4A
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OSC_50_B4D
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OSC_50_B7A
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OSC_50_B7D
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OSC_50_B8A
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OSC_50_B8D
+
+#============================================================
+# KEY
+#============================================================
+set_instance_assignment -name IO_STANDARD "1.5 V" -to BUTTON[0]
+set_instance_assignment -name IO_STANDARD "1.5 V" -to BUTTON[1]
+set_instance_assignment -name IO_STANDARD "1.5 V" -to BUTTON[2]
+set_instance_assignment -name IO_STANDARD "1.5 V" -to BUTTON[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to CPU_RESET_n
+
+#============================================================
+# SW
+#============================================================
+set_instance_assignment -name IO_STANDARD "1.5 V" -to SW[0]
+set_instance_assignment -name IO_STANDARD "1.5 V" -to SW[1]
+set_instance_assignment -name IO_STANDARD "1.5 V" -to SW[2]
+set_instance_assignment -name IO_STANDARD "1.5 V" -to SW[3]
+
+#============================================================
+# LED
+#============================================================
+set_instance_assignment -name IO_STANDARD "1.5 V" -to LED[0]
+set_instance_assignment -name IO_STANDARD "1.5 V" -to LED[1]
+set_instance_assignment -name IO_STANDARD "1.5 V" -to LED[2]
+set_instance_assignment -name IO_STANDARD "1.5 V" -to LED[3]
+
+#============================================================
+# FAN
+#============================================================
+set_instance_assignment -name IO_STANDARD "1.5 V" -to FAN_ALERT_n
+
+#============================================================
+# RZQ for FMC or DDR3
+#============================================================
+set_instance_assignment -name IO_STANDARD "1.5 V" -to RZQ_DDR3
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RZQ_FMC
+
+#============================================================
+# I2C for Temperature-Sensor or Fan-Control or Power-Monitor
+#============================================================
+set_instance_assignment -name IO_STANDARD "1.5 V" -to FPGA_I2C_SCL
+set_instance_assignment -name IO_STANDARD "1.5 V" -to FPGA_I2C_SDA
+
+#============================================================
+# FMC I2C
+#============================================================
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FMC_SCL
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FMC_SDA
+
+#============================================================
+# FMCA, FMCA connect to FMC-HDMI
+#============================================================
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADV7619_CS_n
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADV7619_INT
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADV7619_RESET_n
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FMC_GA[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FMC_GA[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX0_DDC_SCL
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX0_DDC_SDA
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX1_DDC_SCL
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX1_DDC_SDA
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_AP[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_AP[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_AP[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_AP[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_AP[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_AP[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_BD[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_BD[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_BD[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_BD[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_BD[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_BD[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_BD[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_BD[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_BD[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_BD[9]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_BD[10]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_BD[11]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_BD[12]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_BD[13]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_BD[14]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_BD[15]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_DE
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_GD[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_GD[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_GD[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_GD[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_GD[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_GD[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_GD[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_GD[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_GD[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_GD[9]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_GD[10]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_GD[11]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_GD[12]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_GD[13]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_GD[14]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_GD[15]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_HS
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_MCLK
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_PCLK
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_RD[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_RD[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_RD[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_RD[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_RD[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_RD[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_RD[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_RD[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_RD[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_RD[9]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_RD[10]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_RD[11]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_RD[12]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_RD[13]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_RD[14]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_RD[15]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_SCLK
+set_instance_assignment -name IO_STANDARD "2.5 V" -to RX_VS
+set_instance_assignment -name IO_STANDARD "2.5 V" -to SII9136_INT
+set_instance_assignment -name IO_STANDARD "2.5 V" -to SII9136_RST_n
+set_instance_assignment -name IO_STANDARD "2.5 V" -to SII9136_CSCL_FMC
+set_instance_assignment -name IO_STANDARD "2.5 V" -to SII9136_CSDA_FMC
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADV7619_CSCL_FMC
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADV7619_CSDA_FMC
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_BD[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_BD[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_BD[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_BD[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_BD[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_BD[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_BD[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_BD[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_BD[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_BD[9]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_BD[10]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_BD[11]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_DE
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_DSR3L
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_DSR3R
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_GD[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_GD[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_GD[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_GD[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_GD[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_GD[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_GD[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_GD[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_GD[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_GD[9]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_GD[10]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_GD[11]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_HS
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_I2S[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_I2S[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_I2S[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_I2S[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_MCLK
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_PCLK
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_RD[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_RD[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_RD[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_RD[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_RD[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_RD[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_RD[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_RD[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_RD[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_RD[9]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_RD[10]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_RD[11]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_SCK
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_SPDIF
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_VS
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_WS
+
+#FMCD RX
+
+
+
+
+
+
+
+
+
+
+
+#######################FMCD pin assignment
+
+
+
+
+
+
+
+
+
+
+
+
+#============================================================
+# End of pin assignments by Terasic System Builder
+#============================================================
+
+
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name ENABLE_SIGNALTAP OFF
+
+set_global_assignment -name OPTIMIZATION_MODE "AGGRESSIVE PERFORMANCE"
+set_global_assignment -name ALLOW_REGISTER_MERGING OFF
+set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
+set_global_assignment -name ALLOW_REGISTER_DUPLICATION ON
+set_global_assignment -name QIP_FILE pll/pll.qip
+set_global_assignment -name VERILOG_FILE TR5_FMC_HDMI.v
+set_global_assignment -name QIP_FILE TR5_QSYS/synthesis/TR5_QSYS.qip
+set_global_assignment -name SDC_FILE TR5_FMC_HDMI.SDC
+set_global_assignment -name QIP_FILE fifo.qip
+set_global_assignment -name QIP_FILE tx_ddio/tx_ddio.qip
+
+
+set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS ON
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

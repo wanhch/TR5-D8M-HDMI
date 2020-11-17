@@ -1,0 +1,204 @@
+/*
+ * HDMI_RX.c
+ *
+ *  Created on: 1/19/2016
+ *      Author: matthew
+ */
+#include "terasic_includes.h"
+#include "I2C.h"
+
+// I2C Slave Address: 64 (Repeater) EDID
+
+
+//64 74 00 ; Disable the Internal EDID for all ports
+// EDID table (256 byte)
+//6C 00 00
+//6C 01 FF
+//6C 02 FF
+// ..
+//6C FF 9A
+//64 71 00 ; Set the Most Significant Bit of the SPA location to 0
+//64 52 20 ; Set the SPA for port B
+//64 53 00 ; Set the SPA for port B.
+//64 70 B5 ; Set the Least Significant Byte of the SPA location
+//64 74 03 ; Enable the Internal EDID for ports
+
+// https://ez.analog.com/video/f/q-a/7875/adv7619-edid
+
+const unsigned char szDefaultEDID[] = { // given by ADI distributor(justin) FAE
+0x00,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0x00,0x06,0x8F,0x19,0xB0,0x01,0x00,0x00,0x00,
+0x26,0x16,0x01,0x03,0x80,0x1C,0x15,0x78,0x0A,0x1E,0xAC,0x98,0x59,0x56,0x85,0x28,
+0x29,0x52,0x57,0x20,0x00,0x00,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x01,
+0x01,0x01,0x01,0x01,0x01,0x01,0x8C,0x0A,0xD0,0x8A,0x20,0xE0,0x2D,0x10,0x10,0x3E,
+0x96,0x00,0xFA,0xBE,0x00,0x00,0x00,0x18,0xD5,0x09,0x80,0xA0,0x20,0xE0,0x2D,0x10,
+0x10,0x60,0xA2,0x00,0xFA,0xBE,0x00,0x00,0x00,0x18,0x00,0x00,0x00,0xFC,0x00,0x56,
+0x41,0x2D,0x31,0x38,0x33,0x38,0x0A,0x20,0x20,0x20,0x20,0x20,0x00,0x00,0x00,0xFD,
+0x00,0x17,0xF0,0x0D,0x7E,0x1E,0x00,0x0A,0x20,0x20,0x20,0x20,0x20,0x20,0x01,0xC0,
+0x02,0x03,0x42,0x71,0x4F,0x82,0x01,0x03,0x04,0x05,0x10,0x11,0x12,0x13,0x14,0x1F,
+0x06,0x07,0x15,0x16,0x38,0x0F,0x7F,0x07,0x15,0x07,0x50,0x35,0x06,0x3C,0x3E,0x1E,
+0xC0,0x4D,0x02,0x00,0x57,0x06,0x00,0x5F,0x7E,0x01,0x67,0x7E,0x00,0x83,0x4F,0x00,
+0x00,0x6E,0x03,0x0C,0x00,0x11,0x00,0xB8,0x3C,0x2F,0x00,0x80,0x01,0x02,0x03,0x04,
+0xE1,0x05,0x8C,0x0A,0xD0,0x8A,0x20,0xE0,0x2D,0x10,0x10,0x3E,0x96,0x00,0xFA,0x8C,
+0x00,0x00,0x00,0x18,0x01,0x1D,0x00,0x72,0x50,0xD0,0x1E,0x20,0x6E,0x28,0x55,0x00,
+0xFA,0x8C,0x00,0x00,0x00,0x1E,0x01,0x1D,0x80,0x18,0x70,0x1C,0x16,0x20,0x58,0x2C,
+0x25,0x00,0xFA,0x8C,0x00,0x00,0x00,0x1E,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x9A
+};
+
+
+
+bool HDMIRX_WriteEeprom(alt_u32   SCL_BASE, alt_u32 SDA_BASE  ){
+    bool bSuccess = true;
+    int i;
+    const alt_u8 *pEdid = szDefaultEDID;
+    int nNum = sizeof(szDefaultEDID)/sizeof(szDefaultEDID[0]);
+    I2C_Open(SCL_BASE, SDA_BASE);
+    for(i=0;i<nNum && bSuccess;i++){
+            bSuccess = I2C_Write(SCL_BASE, SDA_BASE,0xa0,i, *(pEdid+i));
+    }
+    I2C_Close(SCL_BASE, SDA_BASE);
+    return bSuccess;
+}
+
+bool HDMIRX_VerifyEeprom( alt_u32   SCL_BASE, alt_u32 SDA_BASE  ){
+    bool bSuccess = true;
+    alt_u8 szEDID[256];
+    //alt_u8 szEDID[272];
+    int i;
+    const alt_u8 *pEdid = szDefaultEDID;
+    int nNum = sizeof(szDefaultEDID)/sizeof(szDefaultEDID[0]);
+
+     I2C_Open(SCL_BASE, SDA_BASE);
+
+    for(i=0;i<nNum && bSuccess;i++){
+            bSuccess = I2C_Read(SCL_BASE, SDA_BASE,0xa0,i, &szEDID[i]);
+//            if (bSuccess)
+//            	printf("EDID[%d]=%02xh\r\n", i, szEDID[i]);
+    }
+
+    I2C_Close(SCL_BASE, SDA_BASE);
+
+    // compare
+    if (bSuccess){
+        for(i=0;i<nNum && bSuccess;i++){
+            if (szEDID[i] != *(pEdid+i))
+                bSuccess = false;
+        }
+    }
+    return bSuccess;
+}
+
+
+
+void hdmi_rx_regwrite(alt_32 data)
+{
+	alt_u8 device_addr=(data>>16)&0xff;
+	alt_u8 reg_index=(data>>8)&0xff;
+	alt_u8 value=data&0xff;
+	alt_u8  value2;
+	I2C_Write(I2C_SCL_BASE ,I2C_SDA_BASE , device_addr ,reg_index ,value);
+	//I2C_Read(I2C_SCL_BASE ,I2C_SDA_BASE , device_addr, reg_index, &value2);
+	//printf("value = 0x%x\r\n",value2);
+}
+
+bool hdmi_DE_REGEN_FILTER_STATUS(void)
+{
+	alt_u8 value;
+	I2C_Read(I2C_SCL_BASE ,I2C_SDA_BASE , 0x68 ,0x07 ,&value);
+	if(value&0x01){
+		printf("ED_REGEN_FILTER has been locked\r\n");
+		return true;
+	}else{
+		return false;
+	}
+}
+
+
+bool  hdmi_read_video_statue(void)
+{
+	bool bPass;
+	alt_u8 value1,value2;
+	alt_16 data;
+	bPass=hdmi_DE_REGEN_FILTER_STATUS();
+	if(bPass==false)
+	{
+		printf("hdmi status error\r\n" );
+		return false;
+	}else{
+		I2C_Read(I2C_SCL_BASE ,I2C_SDA_BASE , 0x68 ,0x1E ,&value1);
+		usleep(1000);
+		I2C_Read(I2C_SCL_BASE ,I2C_SDA_BASE , 0x68 ,0x1F ,&value2);
+		usleep(1000);
+		data=(value1&0x3f)<<8|value2;
+		printf("total line data %d\r\n",data);
+		return true;
+	}
+}
+
+#define PORT_A  0x01
+#define PORT_B  0x02
+void  hdmi_port_enable(int port_number)
+{
+	alt_u8  value;
+	if(port_number==PORT_A)
+		value=0x00;
+	else  if(port_number==PORT_B)
+		value=0x01;
+	else
+		value=0x00;
+	I2C_Write(I2C_SCL_BASE ,I2C_SDA_BASE , 0x68 ,0x00 ,value);
+}
+
+void  hdmi_port_detect_st_cl(int port_number)
+{
+	    alt_u8  value;
+		value=0x01;
+		I2C_Write(I2C_SCL_BASE ,I2C_SDA_BASE , 0x98 ,0x71 ,value);
+
+		value=0x80;
+		I2C_Write(I2C_SCL_BASE ,I2C_SDA_BASE , 0x98 ,0x6c ,value);
+		return;
+
+}
+
+
+alt_u8  hdmi_port_detect_st_raw( )
+{
+	alt_u8  value=0x00,value1,value2;
+	I2C_Read(I2C_SCL_BASE ,I2C_SDA_BASE , 0x98, 0x6a, &value1);
+	if(value1&0x80)
+		value=PORT_B;
+	I2C_Read(I2C_SCL_BASE ,I2C_SDA_BASE , 0x98, 0x6f, &value2);
+	if(value2&0x01)
+		value=PORT_A;
+    return value;
+
+}
+
+
+static void hdmi_isr(void* context){
+  //  alt_u32 ActiveMask,i,Mask=0x01, nIndex=0;
+		alt_u8 port_number;
+        if ((alt_u32)context == ADV7619_INT_BASE){
+        	port_number=hdmi_port_detect_st_raw();
+        hdmi_port_enable(port_number);
+        hdmi_port_detect_st_cl(port_number);
+        IOWR_ALTERA_AVALON_PIO_EDGE_CAP(ADV7619_INT_BASE,0);
+    }
+}
+
+
+void hdmi_interrupt_init(void)
+{
+	int error;
+	IOWR_ALTERA_AVALON_PIO_IRQ_MASK(ADV7619_INT_BASE, 0x00);
+
+    // clear capture flag
+    IOWR_ALTERA_AVALON_PIO_EDGE_CAP(ADV7619_INT_BASE,0);
+
+    error = alt_ic_isr_register (ADV7619_INT_IRQ_INTERRUPT_CONTROLLER_ID, ADV7619_INT_IRQ, hdmi_isr, ADV7619_INT_BASE, NULL);
+    if (error){
+                printf("alt_ic_isr_register failed!\r\n");
+    }
+    IOWR_ALTERA_AVALON_PIO_IRQ_MASK(ADV7619_INT_BASE, 0x01);
+}
+
