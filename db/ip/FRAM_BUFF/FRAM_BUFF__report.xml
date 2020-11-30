@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy
+ date="2020.11.30.21:55:18"
+ outputDirectory="D:/Desktop/TR5_D8M_HDMI/db/ip/FRAM_BUFF/">
+ <perimeter>
+  <parameter
+     name="AUTO_GENERATION_ID"
+     type="Integer"
+     defaultValue="0"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_UNIQUE_ID"
+     type="String"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_FAMILY"
+     type="String"
+     defaultValue="Stratix V"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE"
+     type="String"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_SPEEDGRADE"
+     type="String"
+     defaultValue="1"
+     onHdl="0"
+     affectsHdl="1" />
+  <interface name="ram_input" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+  </interface>
+  <interface name="ram_output" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+  </interface>
+ </perimeter>
+ <entity
+   path=""
+   parameterizationKey="FRAM_BUFF:1.0:AUTO_DEVICE=5SGXEA7H3F35C3,AUTO_DEVICE_FAMILY=Stratix V,AUTO_DEVICE_SPEEDGRADE=3_H3,AUTO_GENERATION_ID=1606744517,AUTO_UNIQUE_ID=(ram_2port:18.1:DEVICE_FAMILY=Stratix V,GUI_ACLR_READ_INPUT_RDADDRESS=false,GUI_ACLR_READ_OUTPUT_QA=false,GUI_ACLR_READ_OUTPUT_QB=false,GUI_BLANK_MEMORY=0,GUI_BYTE_ENABLE_A=false,GUI_BYTE_ENABLE_B=false,GUI_BYTE_ENABLE_WIDTH=8,GUI_BYTE_WIDTH=0,GUI_CLKEN_ADDRESS_STALL_A=false,GUI_CLKEN_ADDRESS_STALL_B=false,GUI_CLKEN_INPUT_REG_A=false,GUI_CLKEN_INPUT_REG_B=false,GUI_CLKEN_OUTPUT_REG_A=false,GUI_CLKEN_OUTPUT_REG_B=false,GUI_CLKEN_RDADDRESSSTALL=false,GUI_CLKEN_READ_INPUT_REG=false,GUI_CLKEN_READ_OUTPUT_REG=false,GUI_CLKEN_WRADDRESSSTALL=false,GUI_CLKEN_WRITE_INPUT_REG=false,GUI_CLOCK_TYPE=4,GUI_COHERENT_READ=false,GUI_CONSTRAINED_DONT_CARE=true,GUI_DATAA_WIDTH=10,GUI_DATA_WIDTH=8,GUI_DIFFERENT_CLKENS=false,GUI_ECCENCBYPASS=false,GUI_ECC_DOUBLE=false,GUI_ECC_PIPELINE=false,GUI_ECC_TRIPLE=false,GUI_FILE_REFERENCE=0,GUI_FORCE_TO_ZERO=false,GUI_INIT_FILE_LAYOUT=PORT_A,GUI_INIT_SIM_TO_X=false,GUI_LC_IMPLEMENTION_OPTIONS=0,GUI_MAX_DEPTH=Auto,GUI_MEMSIZE_BITS=256,GUI_MEMSIZE_WORDS=921600,GUI_MEM_IN_BITS=0,GUI_MIF_FILENAME=,GUI_MODE=1,GUI_MODULE_NAME=altsyncram,GUI_NBE_A=true,GUI_NBE_B=true,GUI_NUMWORDS_A=32,GUI_NUMWORDS_B=32,GUI_QA_WIDTH=10,GUI_QB_WIDTH=10,GUI_Q_PORT_MODE=2,GUI_Q_WIDTH=8,GUI_RAM_BLOCK_TYPE=Auto,GUI_RDADDRESS_WIDTH=5,GUI_RDEN_DOUBLE=false,GUI_RDEN_SINGLE=false,GUI_RDW_A_MODE=New Data,GUI_RDW_B_MODE=New Data,GUI_READ_INPUT_RDADDRESS=true,GUI_READ_OUTPUT_QA=false,GUI_READ_OUTPUT_QB=false,GUI_RESOURCE_USAGE=1,GUI_SCLR_READ_OUTPUT_QA=false,GUI_SCLR_READ_OUTPUT_QB=false,GUI_TBENCH=false,GUI_VAR_WIDTH=false,GUI_WIDTH_ECCENCPARITY=8,GUI_WIDTH_ECCSTATUS=2,GUI_WRADDRESS_WIDTH=5,GUI_WRITE_INPUT_PORTS=true)"
+   instancePathKey="FRAM_BUFF"
+   kind="FRAM_BUFF"
+   version="1.0"
+   name="FRAM_BUFF">
+  <parameter name="AUTO_GENERATION_ID" value="1606744517" />
+  <parameter name="AUTO_DEVICE" value="5SGXEA7H3F35C3" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Stratix V" />
+  <parameter name="AUTO_UNIQUE_ID" value="" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="3_H3" />
+  <generatedFiles>
+   <file
+       path="D:/Desktop/TR5_D8M_HDMI/db/ip/FRAM_BUFF/FRAM_BUFF.v"
+       type="VERILOG" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="D:/Desktop/TR5_D8M_HDMI/db/ip/FRAM_BUFF/submodules/FRAM_BUFF_FRAM_BUFF.v"
+       type="VERILOG"
+       attributes="" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file path="D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/FRAM_BUFF.qsys" />
+  </sourceFiles>
+  <childSourceFiles>
+   <file
+       path="D:/software/intelfpga/18.1/ip/altera/megafunctions/ram_2port/ram_2_port_hw.tcl" />
+  </childSourceFiles>
+  <messages>
+   <message level="Debug" culprit="FRAM_BUFF">queue size: 0 starting:FRAM_BUFF "FRAM_BUFF"</message>
+   <message level="Progress" culprit="min"></message>
+   <message level="Progress" culprit="max"></message>
+   <message level="Progress" culprit="current"></message>
+   <message level="Debug">Transform: CustomInstructionTransform</message>
+   <message level="Debug">No custom instruction connections, skipping transform </message>
+   <message level="Debug" culprit="merlin_custom_instruction_transform"><![CDATA[After transform: <b>1</b> modules, <b>0</b> connections]]></message>
+   <message level="Debug">Transform: MMTransform</message>
+   <message level="Debug">Transform: InterruptMapperTransform</message>
+   <message level="Debug">Transform: InterruptSyncTransform</message>
+   <message level="Debug">Transform: InterruptFanoutTransform</message>
+   <message level="Debug">Transform: AvalonStreamingTransform</message>
+   <message level="Debug">Transform: ResetAdaptation</message>
+   <message level="Debug" culprit="FRAM_BUFF"><![CDATA["<b>FRAM_BUFF</b>" reuses <b>ram_2port</b> "<b>submodules/FRAM_BUFF_FRAM_BUFF</b>"]]></message>
+   <message level="Debug" culprit="FRAM_BUFF">queue size: 0 starting:ram_2port "submodules/FRAM_BUFF_FRAM_BUFF"</message>
+   <message level="Info" culprit="FRAM_BUFF"><![CDATA["<b>FRAM_BUFF</b>" instantiated <b>ram_2port</b> "<b>FRAM_BUFF</b>"]]></message>
+  </messages>
+ </entity>
+ <entity
+   path="submodules/"
+   parameterizationKey="ram_2port:18.1:DEVICE_FAMILY=Stratix V,GUI_ACLR_READ_INPUT_RDADDRESS=false,GUI_ACLR_READ_OUTPUT_QA=false,GUI_ACLR_READ_OUTPUT_QB=false,GUI_BLANK_MEMORY=0,GUI_BYTE_ENABLE_A=false,GUI_BYTE_ENABLE_B=false,GUI_BYTE_ENABLE_WIDTH=8,GUI_BYTE_WIDTH=0,GUI_CLKEN_ADDRESS_STALL_A=false,GUI_CLKEN_ADDRESS_STALL_B=false,GUI_CLKEN_INPUT_REG_A=false,GUI_CLKEN_INPUT_REG_B=false,GUI_CLKEN_OUTPUT_REG_A=false,GUI_CLKEN_OUTPUT_REG_B=false,GUI_CLKEN_RDADDRESSSTALL=false,GUI_CLKEN_READ_INPUT_REG=false,GUI_CLKEN_READ_OUTPUT_REG=false,GUI_CLKEN_WRADDRESSSTALL=false,GUI_CLKEN_WRITE_INPUT_REG=false,GUI_CLOCK_TYPE=4,GUI_COHERENT_READ=false,GUI_CONSTRAINED_DONT_CARE=true,GUI_DATAA_WIDTH=10,GUI_DATA_WIDTH=8,GUI_DIFFERENT_CLKENS=false,GUI_ECCENCBYPASS=false,GUI_ECC_DOUBLE=false,GUI_ECC_PIPELINE=false,GUI_ECC_TRIPLE=false,GUI_FILE_REFERENCE=0,GUI_FORCE_TO_ZERO=false,GUI_INIT_FILE_LAYOUT=PORT_A,GUI_INIT_SIM_TO_X=false,GUI_LC_IMPLEMENTION_OPTIONS=0,GUI_MAX_DEPTH=Auto,GUI_MEMSIZE_BITS=256,GUI_MEMSIZE_WORDS=921600,GUI_MEM_IN_BITS=0,GUI_MIF_FILENAME=,GUI_MODE=1,GUI_MODULE_NAME=altsyncram,GUI_NBE_A=true,GUI_NBE_B=true,GUI_NUMWORDS_A=32,GUI_NUMWORDS_B=32,GUI_QA_WIDTH=10,GUI_QB_WIDTH=10,GUI_Q_PORT_MODE=2,GUI_Q_WIDTH=8,GUI_RAM_BLOCK_TYPE=Auto,GUI_RDADDRESS_WIDTH=5,GUI_RDEN_DOUBLE=false,GUI_RDEN_SINGLE=false,GUI_RDW_A_MODE=New Data,GUI_RDW_B_MODE=New Data,GUI_READ_INPUT_RDADDRESS=true,GUI_READ_OUTPUT_QA=false,GUI_READ_OUTPUT_QB=false,GUI_RESOURCE_USAGE=1,GUI_SCLR_READ_OUTPUT_QA=false,GUI_SCLR_READ_OUTPUT_QB=false,GUI_TBENCH=false,GUI_VAR_WIDTH=false,GUI_WIDTH_ECCENCPARITY=8,GUI_WIDTH_ECCSTATUS=2,GUI_WRADDRESS_WIDTH=5,GUI_WRITE_INPUT_PORTS=true"
+   instancePathKey="FRAM_BUFF:.:FRAM_BUFF"
+   kind="ram_2port"
+   version="18.1"
+   name="FRAM_BUFF_FRAM_BUFF">
+  <parameter name="GUI_CLKEN_ADDRESS_STALL_A" value="false" />
+  <parameter name="GUI_RDEN_DOUBLE" value="false" />
+  <parameter name="GUI_NBE_A" value="true" />
+  <parameter name="GUI_NUMWORDS_B" value="32" />
+  <parameter name="GUI_ECC_TRIPLE" value="false" />
+  <parameter name="GUI_MIF_FILENAME" value="" />
+  <parameter name="GUI_NUMWORDS_A" value="32" />
+  <parameter name="GUI_RAM_BLOCK_TYPE" value="Auto" />
+  <parameter name="GUI_MEMSIZE_WORDS" value="921600" />
+  <parameter name="GUI_CONSTRAINED_DONT_CARE" value="true" />
+  <parameter name="GUI_BLANK_MEMORY" value="0" />
+  <parameter name="GUI_CLKEN_OUTPUT_REG_A" value="false" />
+  <parameter name="GUI_CLKEN_OUTPUT_REG_B" value="false" />
+  <parameter name="GUI_RDW_B_MODE" value="New Data" />
+  <parameter name="GUI_BYTE_ENABLE_B" value="false" />
+  <parameter name="GUI_BYTE_ENABLE_A" value="false" />
+  <parameter name="GUI_BYTE_ENABLE_WIDTH" value="8" />
+  <parameter name="GUI_MODE" value="1" />
+  <parameter name="GUI_CLKEN_READ_OUTPUT_REG" value="false" />
+  <parameter name="GUI_RESOURCE_USAGE" value="1" />
+  <parameter name="GUI_SCLR_READ_OUTPUT_QB" value="false" />
+  <parameter name="GUI_SCLR_READ_OUTPUT_QA" value="false" />
+  <parameter name="GUI_QA_WIDTH" value="10" />
+  <parameter name="GUI_NBE_B" value="true" />
+  <parameter name="GUI_ECCENCBYPASS" value="false" />
+  <parameter name="GUI_FORCE_TO_ZERO" value="false" />
+  <parameter name="GUI_ECC_PIPELINE" value="false" />
+  <parameter name="GUI_WRITE_INPUT_PORTS" value="true" />
+  <parameter name="GUI_LC_IMPLEMENTION_OPTIONS" value="0" />
+  <parameter name="GUI_ECC_DOUBLE" value="false" />
+  <parameter name="GUI_RDADDRESS_WIDTH" value="5" />
+  <parameter name="GUI_ACLR_READ_INPUT_RDADDRESS" value="false" />
+  <parameter name="GUI_MEM_IN_BITS" value="0" />
+  <parameter name="GUI_CLKEN_READ_INPUT_REG" value="false" />
+  <parameter name="GUI_DIFFERENT_CLKENS" value="false" />
+  <parameter name="GUI_QB_WIDTH" value="10" />
+  <parameter name="GUI_FILE_REFERENCE" value="0" />
+  <parameter name="GUI_TBENCH" value="false" />
+  <parameter name="GUI_Q_PORT_MODE" value="2" />
+  <parameter name="GUI_DATA_WIDTH" value="8" />
+  <parameter name="GUI_CLKEN_INPUT_REG_A" value="false" />
+  <parameter name="GUI_CLKEN_ADDRESS_STALL_B" value="false" />
+  <parameter name="GUI_CLOCK_TYPE" value="4" />
+  <parameter name="GUI_CLKEN_INPUT_REG_B" value="false" />
+  <parameter name="DEVICE_FAMILY" value="Stratix V" />
+  <parameter name="GUI_INIT_SIM_TO_X" value="false" />
+  <parameter name="GUI_CLKEN_WRADDRESSSTALL" value="false" />
+  <parameter name="GUI_INIT_FILE_LAYOUT" value="PORT_A" />
+  <parameter name="GUI_Q_WIDTH" value="8" />
+  <parameter name="GUI_DATAA_WIDTH" value="10" />
+  <parameter name="GUI_CLKEN_WRITE_INPUT_REG" value="false" />
+  <parameter name="GUI_READ_OUTPUT_QB" value="false" />
+  <parameter name="GUI_MEMSIZE_BITS" value="256" />
+  <parameter name="GUI_READ_OUTPUT_QA" value="false" />
+  <parameter name="GUI_WIDTH_ECCSTATUS" value="2" />
+  <parameter name="GUI_RDEN_SINGLE" value="false" />
+  <parameter name="GUI_READ_INPUT_RDADDRESS" value="true" />
+  <parameter name="GUI_RDW_A_MODE" value="New Data" />
+  <parameter name="GUI_WRADDRESS_WIDTH" value="5" />
+  <parameter name="GUI_CLKEN_RDADDRESSSTALL" value="false" />
+  <parameter name="GUI_MAX_DEPTH" value="Auto" />
+  <parameter name="GUI_ACLR_READ_OUTPUT_QA" value="false" />
+  <parameter name="GUI_BYTE_WIDTH" value="0" />
+  <parameter name="GUI_ACLR_READ_OUTPUT_QB" value="false" />
+  <parameter name="GUI_COHERENT_READ" value="false" />
+  <parameter name="GUI_VAR_WIDTH" value="false" />
+  <parameter name="GUI_MODULE_NAME" value="altsyncram" />
+  <parameter name="GUI_WIDTH_ECCENCPARITY" value="8" />
+  <generatedFiles>
+   <file
+       path="D:/Desktop/TR5_D8M_HDMI/db/ip/FRAM_BUFF/submodules/FRAM_BUFF_FRAM_BUFF.v"
+       type="VERILOG"
+       attributes="" />
+  </generatedFiles>
+  <childGeneratedFiles/>
+  <sourceFiles>
+   <file
+       path="D:/software/intelfpga/18.1/ip/altera/megafunctions/ram_2port/ram_2_port_hw.tcl" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="FRAM_BUFF" as="FRAM_BUFF" />
+  <messages>
+   <message level="Debug" culprit="FRAM_BUFF">queue size: 0 starting:ram_2port "submodules/FRAM_BUFF_FRAM_BUFF"</message>
+   <message level="Info" culprit="FRAM_BUFF"><![CDATA["<b>FRAM_BUFF</b>" instantiated <b>ram_2port</b> "<b>FRAM_BUFF</b>"]]></message>
+  </messages>
+ </entity>
+</deploy>

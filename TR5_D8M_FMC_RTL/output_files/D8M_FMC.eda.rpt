@@ -1,5 +1,5 @@
 EDA Netlist Writer report for D8M_FMC
-Fri Oct 30 21:18:56 2020
+Mon Nov 30 23:03:16 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -34,7 +34,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                                       ;
 +---------------------------+------------------------------------------------------+
-; EDA Netlist Writer Status ; No Output Files Generated - Fri Oct 30 21:18:56 2020 ;
+; EDA Netlist Writer Status ; No Output Files Generated - Mon Nov 30 23:03:16 2020 ;
 ; Revision Name             ; D8M_FMC                                              ;
 ; Top-level Entity Name     ; D8M_FMC                                              ;
 ; Family                    ; Stratix V                                            ;
@@ -47,7 +47,7 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Fri Oct 30 21:18:53 2020
+    Info: Processing started: Mon Nov 30 23:03:14 2020
 Info: Command: quartus_eda --read_settings_files=on --write_settings_files=off D8M_FMC -c D8M_FMC
 Warning (125092): Tcl Script File V/pll_vga.qip not found
     Info (125063): set_global_assignment -name QIP_FILE V/pll_vga.qip
@@ -58,8 +58,8 @@ Warning (20013): Ignored 3 assignments for entity "pll_vga" -- entity does not e
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Warning (199027): Can't generate output files. Specify command-line options to generate output files, or update EDA tool settings using GUI or Tcl script.
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 4732 megabytes
-    Info: Processing ended: Fri Oct 30 21:18:56 2020
+    Info: Peak virtual memory: 4724 megabytes
+    Info: Processing ended: Mon Nov 30 23:03:17 2020
     Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:03
 

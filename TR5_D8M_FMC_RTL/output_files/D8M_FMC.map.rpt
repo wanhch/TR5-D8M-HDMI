@@ -1,5 +1,5 @@
 Analysis & Synthesis report for D8M_FMC
-Tue Nov 17 19:48:46 2020
+Mon Nov 30 22:56:08 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -119,7 +119,7 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Nov 17 19:48:46 2020           ;
+; Analysis & Synthesis Status     ; Successful - Mon Nov 30 22:56:08 2020           ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                   ; D8M_FMC                                         ;
 ; Top-level Entity Name           ; D8M_FMC                                         ;
@@ -251,89 +251,89 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                                                    ;
-+--------------------------------------------------------------------+-----------------+----------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+-------------+
-; File Name with User-Entered Path                                   ; Used in Netlist ; File Type                                    ; File Name with Absolute Path                                                                                                          ; Library     ;
-+--------------------------------------------------------------------+-----------------+----------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+-------------+
-; V_D8M/R_GAIN.v                                                     ; yes             ; User Wizard-Generated File                   ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/R_GAIN.v                                                     ;             ;
-; V_D8M/G_GAIN.v                                                     ; yes             ; User Wizard-Generated File                   ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/G_GAIN.v                                                     ;             ;
-; V_D8M/B_GAIN.v                                                     ; yes             ; User Wizard-Generated File                   ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/B_GAIN.v                                                     ;             ;
-; VGA_Controller/VGA_Param.h                                         ; yes             ; User File                                    ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Param.h                                         ;             ;
-; V/I2C_WRITE_WDATA.v                                                ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_WRITE_WDATA.v                                                ;             ;
-; V/I2C_WRITE_PTR.v                                                  ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_WRITE_PTR.v                                                  ;             ;
-; V/I2C_RESET_DELAY.v                                                ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_RESET_DELAY.v                                                ;             ;
-; V/I2C_READ_DATA.v                                                  ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v                                                  ;             ;
-; V_Auto/AUTO_FOCUS_ON.v                                             ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/AUTO_FOCUS_ON.v                                             ;             ;
-; V_Auto/VCM_I2C.v                                                   ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/VCM_I2C.v                                                   ;             ;
-; V_Auto/VCM_CTRL_P.v                                                ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/VCM_CTRL_P.v                                                ;             ;
-; V_Auto/LCD_COUNTER.v                                               ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/LCD_COUNTER.v                                               ;             ;
-; V_Auto/I2C_DELAY.v                                                 ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/I2C_DELAY.v                                                 ;             ;
-; V_Auto/FOCUS_ADJ.v                                                 ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v                                                 ;             ;
-; V_Auto/F_VCM.v                                                     ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v                                                     ;             ;
-; V_Auto/CLOCKMEM.v                                                  ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/CLOCKMEM.v                                                  ;             ;
-; V_Auto/MODIFY_SYNC.v                                               ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/MODIFY_SYNC.v                                               ;             ;
-; V_Auto/AUTO_SYNC_MODIFY.v                                          ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/AUTO_SYNC_MODIFY.v                                          ;             ;
-; V_Auto/RESET_DELAY.v                                               ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/RESET_DELAY.v                                               ;             ;
-; V_D8M/MIPI_CAMERA_CONFIG.v                                         ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v                                         ;             ;
-; V_D8M/MIPI_BRIDGE_CONFIG.v                                         ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v                                         ;             ;
-; V_D8M/int_line.v                                                   ; yes             ; User Wizard-Generated File                   ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/int_line.v                                                   ;             ;
-; V_D8M/RAW_RGB_BIN.v                                                ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/RAW_RGB_BIN.v                                                ;             ;
-; V_D8M/Line_Buffer_J.v                                              ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/Line_Buffer_J.v                                              ;             ;
-; V_D8M/FRAM_BUFF.v                                                  ; yes             ; User Wizard-Generated File                   ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/FRAM_BUFF.v                                                  ;             ;
-; V_D8M/RAW2RGB_J.v                                                  ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/RAW2RGB_J.v                                                  ;             ;
-; V_D8M/MIPI_BRIDGE_CAMERA_Config.v                                  ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CAMERA_Config.v                                  ;             ;
-; V_D8M/FRM_COUNTER.v                                                ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/FRM_COUNTER.v                                                ;             ;
-; V_D8M/ON_CHIP_FRAM.v                                               ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/ON_CHIP_FRAM.v                                               ;             ;
-; V_D8M/GAMMA_CORRECT.v                                              ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/GAMMA_CORRECT.v                                              ;             ;
-; V_D8M/BEZIER_CURVE.v                                               ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/BEZIER_CURVE.v                                               ;             ;
-; V_D8M/P2.v                                                         ; yes             ; User Wizard-Generated File                   ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/P2.v                                                         ;             ;
-; V_D8M/P1.v                                                         ; yes             ; User Wizard-Generated File                   ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/P1.v                                                         ;             ;
-; VGA_Controller/VGA_Controller.v                                    ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Controller.v                                    ;             ;
-; V_HDMI_TX_Reconfig/I2C_HDMI_Config.v                               ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_HDMI_Config.v                               ;             ;
-; V_HDMI_TX_Reconfig/I2C_Controller.v                                ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_Controller.v                                ;             ;
-; V_HDMI_TX_Reconfig/AUDIO_IF.v                                      ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/AUDIO_IF.v                                      ;             ;
-; V_HDMI_TX_Reconfig/HDMI_TX_AD7513.v                                ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/HDMI_TX_AD7513.v                                ;             ;
-; V/pll_test.v                                                       ; yes             ; User Wizard-Generated File                   ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/pll_test.v                                                       ; pll_test    ;
-; V/pll_test/pll_test_0002.v                                         ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/pll_test/pll_test_0002.v                                         ; pll_test    ;
-; V_Auto/SHI.v                                                       ; yes             ; User Wizard-Generated File                   ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/SHI.v                                                       ;             ;
-; V/pll_video.v                                                      ; yes             ; User Wizard-Generated File                   ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/pll_video.v                                                      ; pll_video   ;
-; V/pll_video/pll_video_0002.v                                       ; yes             ; User Verilog HDL File                        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/pll_video/pll_video_0002.v                                       ; pll_video   ;
-; d8m_fmc.v                                                          ; yes             ; Auto-Found Verilog HDL File                  ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v                                                          ;             ;
-; lpm_constant.tdf                                                   ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/lpm_constant.tdf                                                           ;             ;
-; db/lpm_constant_sc8.tdf                                            ; yes             ; Auto-Generated Megafunction                  ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_sc8.tdf                                            ;             ;
-; sld_mod_ram_rom.vhd                                                ; yes             ; Encrypted Megafunction                       ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd                                                        ;             ;
-; sld_jtag_endpoint_adapter.vhd                                      ; yes             ; Encrypted Megafunction                       ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter.vhd                                              ;             ;
-; sld_jtag_endpoint_adapter_impl.sv                                  ; yes             ; Encrypted Megafunction                       ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter_impl.sv                                          ;             ;
-; sld_rom_sr.vhd                                                     ; yes             ; Encrypted Megafunction                       ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/sld_rom_sr.vhd                                                             ;             ;
-; db/lpm_constant_fc8.tdf                                            ; yes             ; Auto-Generated Megafunction                  ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_fc8.tdf                                            ;             ;
-; db/lpm_constant_na8.tdf                                            ; yes             ; Auto-Generated Megafunction                  ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_na8.tdf                                            ;             ;
-; altera_pll.v                                                       ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/altera_pll.v                                                               ;             ;
-; altsyncram.tdf                                                     ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/altsyncram.tdf                                                             ;             ;
-; stratix_ram_block.inc                                              ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc                                                      ;             ;
-; lpm_mux.inc                                                        ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/lpm_mux.inc                                                                ;             ;
-; lpm_decode.inc                                                     ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/lpm_decode.inc                                                             ;             ;
-; aglobal181.inc                                                     ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/aglobal181.inc                                                             ;             ;
-; a_rdenreg.inc                                                      ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/a_rdenreg.inc                                                              ;             ;
-; altrom.inc                                                         ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/altrom.inc                                                                 ;             ;
-; altram.inc                                                         ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/altram.inc                                                                 ;             ;
-; altdpram.inc                                                       ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/altdpram.inc                                                               ;             ;
-; db/altsyncram_feo2.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/altsyncram_feo2.tdf                                             ;             ;
-; db/decode_6oa.tdf                                                  ; yes             ; Auto-Generated Megafunction                  ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/decode_6oa.tdf                                                  ;             ;
-; db/decode_v3a.tdf                                                  ; yes             ; Auto-Generated Megafunction                  ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/decode_v3a.tdf                                                  ;             ;
-; db/mux_vjb.tdf                                                     ; yes             ; Auto-Generated Megafunction                  ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/mux_vjb.tdf                                                     ;             ;
-; db/altsyncram_u2v1.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/altsyncram_u2v1.tdf                                             ;             ;
-; db/lpm_constant_qh8.tdf                                            ; yes             ; Auto-Generated Megafunction                  ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_qh8.tdf                                            ;             ;
-; db/lpm_constant_1g8.tdf                                            ; yes             ; Auto-Generated Megafunction                  ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_1g8.tdf                                            ;             ;
-; sld_hub.vhd                                                        ; yes             ; Encrypted Megafunction                       ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/sld_hub.vhd                                                                ; altera_sld  ;
-; db/ip/sld86241617/alt_sld_fab.v                                    ; yes             ; Encrypted Auto-Found Verilog HDL File        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/ip/sld86241617/alt_sld_fab.v                                    ; alt_sld_fab ;
-; db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab.v             ; yes             ; Encrypted Auto-Found Verilog HDL File        ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab.v             ; alt_sld_fab ;
-; db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_ident.sv      ; yes             ; Auto-Found SystemVerilog HDL File            ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_ident.sv      ; alt_sld_fab ;
-; db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_presplit.sv   ; yes             ; Encrypted Auto-Found SystemVerilog HDL File  ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_presplit.sv   ; alt_sld_fab ;
-; db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd ; yes             ; Encrypted Auto-Found VHDL File               ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd ; alt_sld_fab ;
-; db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_splitter.sv   ; yes             ; Encrypted Auto-Found SystemVerilog HDL File  ; D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_splitter.sv   ; alt_sld_fab ;
-; sld_jtag_hub.vhd                                                   ; yes             ; Encrypted Megafunction                       ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/sld_jtag_hub.vhd                                                           ;             ;
-+--------------------------------------------------------------------+-----------------+----------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+-------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                         ;
++--------------------------------------------------------------------+-----------------+----------------------------------------------+------------------------------------------------------------------------------------------------------------+-------------+
+; File Name with User-Entered Path                                   ; Used in Netlist ; File Type                                    ; File Name with Absolute Path                                                                               ; Library     ;
++--------------------------------------------------------------------+-----------------+----------------------------------------------+------------------------------------------------------------------------------------------------------------+-------------+
+; V_D8M/R_GAIN.v                                                     ; yes             ; User Wizard-Generated File                   ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/R_GAIN.v                                                     ;             ;
+; V_D8M/G_GAIN.v                                                     ; yes             ; User Wizard-Generated File                   ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/G_GAIN.v                                                     ;             ;
+; V_D8M/B_GAIN.v                                                     ; yes             ; User Wizard-Generated File                   ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/B_GAIN.v                                                     ;             ;
+; VGA_Controller/VGA_Param.h                                         ; yes             ; User File                                    ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Param.h                                         ;             ;
+; V/I2C_WRITE_WDATA.v                                                ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_WRITE_WDATA.v                                                ;             ;
+; V/I2C_WRITE_PTR.v                                                  ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_WRITE_PTR.v                                                  ;             ;
+; V/I2C_RESET_DELAY.v                                                ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_RESET_DELAY.v                                                ;             ;
+; V/I2C_READ_DATA.v                                                  ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v                                                  ;             ;
+; V_Auto/AUTO_FOCUS_ON.v                                             ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/AUTO_FOCUS_ON.v                                             ;             ;
+; V_Auto/VCM_I2C.v                                                   ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/VCM_I2C.v                                                   ;             ;
+; V_Auto/VCM_CTRL_P.v                                                ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/VCM_CTRL_P.v                                                ;             ;
+; V_Auto/LCD_COUNTER.v                                               ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/LCD_COUNTER.v                                               ;             ;
+; V_Auto/I2C_DELAY.v                                                 ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/I2C_DELAY.v                                                 ;             ;
+; V_Auto/FOCUS_ADJ.v                                                 ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v                                                 ;             ;
+; V_Auto/F_VCM.v                                                     ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v                                                     ;             ;
+; V_Auto/CLOCKMEM.v                                                  ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/CLOCKMEM.v                                                  ;             ;
+; V_Auto/MODIFY_SYNC.v                                               ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/MODIFY_SYNC.v                                               ;             ;
+; V_Auto/AUTO_SYNC_MODIFY.v                                          ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/AUTO_SYNC_MODIFY.v                                          ;             ;
+; V_Auto/RESET_DELAY.v                                               ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/RESET_DELAY.v                                               ;             ;
+; V_D8M/MIPI_CAMERA_CONFIG.v                                         ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v                                         ;             ;
+; V_D8M/MIPI_BRIDGE_CONFIG.v                                         ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v                                         ;             ;
+; V_D8M/int_line.v                                                   ; yes             ; User Wizard-Generated File                   ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/int_line.v                                                   ;             ;
+; V_D8M/RAW_RGB_BIN.v                                                ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/RAW_RGB_BIN.v                                                ;             ;
+; V_D8M/Line_Buffer_J.v                                              ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/Line_Buffer_J.v                                              ;             ;
+; V_D8M/FRAM_BUFF.v                                                  ; yes             ; User Wizard-Generated File                   ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/FRAM_BUFF.v                                                  ;             ;
+; V_D8M/RAW2RGB_J.v                                                  ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/RAW2RGB_J.v                                                  ;             ;
+; V_D8M/MIPI_BRIDGE_CAMERA_Config.v                                  ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CAMERA_Config.v                                  ;             ;
+; V_D8M/FRM_COUNTER.v                                                ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/FRM_COUNTER.v                                                ;             ;
+; V_D8M/ON_CHIP_FRAM.v                                               ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/ON_CHIP_FRAM.v                                               ;             ;
+; V_D8M/GAMMA_CORRECT.v                                              ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/GAMMA_CORRECT.v                                              ;             ;
+; V_D8M/BEZIER_CURVE.v                                               ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/BEZIER_CURVE.v                                               ;             ;
+; V_D8M/P2.v                                                         ; yes             ; User Wizard-Generated File                   ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/P2.v                                                         ;             ;
+; V_D8M/P1.v                                                         ; yes             ; User Wizard-Generated File                   ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/P1.v                                                         ;             ;
+; VGA_Controller/VGA_Controller.v                                    ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Controller.v                                    ;             ;
+; V_HDMI_TX_Reconfig/I2C_HDMI_Config.v                               ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_HDMI_Config.v                               ;             ;
+; V_HDMI_TX_Reconfig/I2C_Controller.v                                ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_Controller.v                                ;             ;
+; V_HDMI_TX_Reconfig/AUDIO_IF.v                                      ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/AUDIO_IF.v                                      ;             ;
+; V_HDMI_TX_Reconfig/HDMI_TX_AD7513.v                                ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/HDMI_TX_AD7513.v                                ;             ;
+; V/pll_test.v                                                       ; yes             ; User Wizard-Generated File                   ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/pll_test.v                                                       ; pll_test    ;
+; V/pll_test/pll_test_0002.v                                         ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/pll_test/pll_test_0002.v                                         ; pll_test    ;
+; V_Auto/SHI.v                                                       ; yes             ; User Wizard-Generated File                   ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/SHI.v                                                       ;             ;
+; V/pll_video.v                                                      ; yes             ; User Wizard-Generated File                   ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/pll_video.v                                                      ; pll_video   ;
+; V/pll_video/pll_video_0002.v                                       ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/pll_video/pll_video_0002.v                                       ; pll_video   ;
+; d8m_fmc.v                                                          ; yes             ; Auto-Found Verilog HDL File                  ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v                                                          ;             ;
+; lpm_constant.tdf                                                   ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/lpm_constant.tdf                                ;             ;
+; db/lpm_constant_sc8.tdf                                            ; yes             ; Auto-Generated Megafunction                  ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_sc8.tdf                                            ;             ;
+; sld_mod_ram_rom.vhd                                                ; yes             ; Encrypted Megafunction                       ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd                             ;             ;
+; sld_jtag_endpoint_adapter.vhd                                      ; yes             ; Encrypted Megafunction                       ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter.vhd                   ;             ;
+; sld_jtag_endpoint_adapter_impl.sv                                  ; yes             ; Encrypted Megafunction                       ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter_impl.sv               ;             ;
+; sld_rom_sr.vhd                                                     ; yes             ; Encrypted Megafunction                       ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/sld_rom_sr.vhd                                  ;             ;
+; db/lpm_constant_fc8.tdf                                            ; yes             ; Auto-Generated Megafunction                  ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_fc8.tdf                                            ;             ;
+; db/lpm_constant_na8.tdf                                            ; yes             ; Auto-Generated Megafunction                  ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_na8.tdf                                            ;             ;
+; altera_pll.v                                                       ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/altera_pll.v                                    ;             ;
+; altsyncram.tdf                                                     ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/altsyncram.tdf                                  ;             ;
+; stratix_ram_block.inc                                              ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc                           ;             ;
+; lpm_mux.inc                                                        ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/lpm_mux.inc                                     ;             ;
+; lpm_decode.inc                                                     ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/lpm_decode.inc                                  ;             ;
+; aglobal181.inc                                                     ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/aglobal181.inc                                  ;             ;
+; a_rdenreg.inc                                                      ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/a_rdenreg.inc                                   ;             ;
+; altrom.inc                                                         ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/altrom.inc                                      ;             ;
+; altram.inc                                                         ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/altram.inc                                      ;             ;
+; altdpram.inc                                                       ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/altdpram.inc                                    ;             ;
+; db/altsyncram_feo2.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/altsyncram_feo2.tdf                                             ;             ;
+; db/decode_6oa.tdf                                                  ; yes             ; Auto-Generated Megafunction                  ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/decode_6oa.tdf                                                  ;             ;
+; db/decode_v3a.tdf                                                  ; yes             ; Auto-Generated Megafunction                  ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/decode_v3a.tdf                                                  ;             ;
+; db/mux_vjb.tdf                                                     ; yes             ; Auto-Generated Megafunction                  ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/mux_vjb.tdf                                                     ;             ;
+; db/altsyncram_u2v1.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/altsyncram_u2v1.tdf                                             ;             ;
+; db/lpm_constant_qh8.tdf                                            ; yes             ; Auto-Generated Megafunction                  ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_qh8.tdf                                            ;             ;
+; db/lpm_constant_1g8.tdf                                            ; yes             ; Auto-Generated Megafunction                  ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_1g8.tdf                                            ;             ;
+; sld_hub.vhd                                                        ; yes             ; Encrypted Megafunction                       ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/sld_hub.vhd                                     ; altera_sld  ;
+; db/ip/sld86241617/alt_sld_fab.v                                    ; yes             ; Encrypted Auto-Found Verilog HDL File        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/ip/sld86241617/alt_sld_fab.v                                    ; alt_sld_fab ;
+; db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab.v             ; yes             ; Encrypted Auto-Found Verilog HDL File        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab.v             ; alt_sld_fab ;
+; db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_ident.sv      ; yes             ; Auto-Found SystemVerilog HDL File            ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_ident.sv      ; alt_sld_fab ;
+; db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_presplit.sv   ; yes             ; Encrypted Auto-Found SystemVerilog HDL File  ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_presplit.sv   ; alt_sld_fab ;
+; db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd ; yes             ; Encrypted Auto-Found VHDL File               ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd ; alt_sld_fab ;
+; db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_splitter.sv   ; yes             ; Encrypted Auto-Found SystemVerilog HDL File  ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_splitter.sv   ; alt_sld_fab ;
+; sld_jtag_hub.vhd                                                   ; yes             ; Encrypted Megafunction                       ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/sld_jtag_hub.vhd                                ;             ;
++--------------------------------------------------------------------+-----------------+----------------------------------------------+------------------------------------------------------------------------------------------------------------+-------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------+
@@ -2518,7 +2518,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:45     ;
+; Top            ; 00:00:36     ;
 +----------------+--------------+
 
 
@@ -2528,7 +2528,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Tue Nov 17 19:47:23 2020
+    Info: Processing started: Mon Nov 30 22:54:59 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off D8M_FMC -c D8M_FMC
 Warning (125092): Tcl Script File V/pll_vga.qip not found
     Info (125063): set_global_assignment -name QIP_FILE V/pll_vga.qip
@@ -2539,160 +2539,160 @@ Warning (12019): Can't analyze file -- file V_FAN/I2C_Config.v is missing
 Warning (12019): Can't analyze file -- file V_FAN/I2C_Bus_Controller.v is missing
 Warning (12019): Can't analyze file -- file V_FAN/Fan_Control.v is missing
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/r_gain.v
-    Info (12023): Found entity 1: R_GAIN File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/R_GAIN.v Line: 40
+    Info (12023): Found entity 1: R_GAIN File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/R_GAIN.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/g_gain.v
-    Info (12023): Found entity 1: G_GAIN File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/G_GAIN.v Line: 40
+    Info (12023): Found entity 1: G_GAIN File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/G_GAIN.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/b_gain.v
-    Info (12023): Found entity 1: B_GAIN File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/B_GAIN.v Line: 40
+    Info (12023): Found entity 1: B_GAIN File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/B_GAIN.v Line: 40
 Warning (12019): Can't analyze file -- file A10GFP_D8M_FMC_RTL.v is missing
 Info (12021): Found 1 design units, including 1 entities, in source file v/i2c_write_wdata.v
-    Info (12023): Found entity 1: I2C_WRITE_WDATA File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_WRITE_WDATA.v Line: 1
+    Info (12023): Found entity 1: I2C_WRITE_WDATA File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_WRITE_WDATA.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v/i2c_write_ptr.v
-    Info (12023): Found entity 1: I2C_WRITE_PTR File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_WRITE_PTR.v Line: 1
+    Info (12023): Found entity 1: I2C_WRITE_PTR File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_WRITE_PTR.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v/i2c_reset_delay.v
-    Info (12023): Found entity 1: I2C_RESET_DELAY File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_RESET_DELAY.v Line: 1
+    Info (12023): Found entity 1: I2C_RESET_DELAY File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_RESET_DELAY.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v/i2c_read_data.v
-    Info (12023): Found entity 1: I2C_READ_DATA File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v Line: 1
+    Info (12023): Found entity 1: I2C_READ_DATA File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/vcm_test.v
-    Info (12023): Found entity 1: VCM_TEST File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/VCM_TEST.v Line: 1
+    Info (12023): Found entity 1: VCM_TEST File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/VCM_TEST.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/vcm_step.v
-    Info (12023): Found entity 1: VCM_STEP File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/VCM_STEP.v Line: 1
+    Info (12023): Found entity 1: VCM_STEP File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/VCM_STEP.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/auto_focus_on.v
-    Info (12023): Found entity 1: AUTO_FOCUS_ON File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/AUTO_FOCUS_ON.v Line: 1
-Warning (10275): Verilog HDL Module Instantiation warning at VCM_I2C.v(288): ignored dangling comma in List of Port Connections File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/VCM_I2C.v Line: 288
+    Info (12023): Found entity 1: AUTO_FOCUS_ON File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/AUTO_FOCUS_ON.v Line: 1
+Warning (10275): Verilog HDL Module Instantiation warning at VCM_I2C.v(288): ignored dangling comma in List of Port Connections File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/VCM_I2C.v Line: 288
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/vcm_i2c.v
-    Info (12023): Found entity 1: VCM_I2C File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/VCM_I2C.v Line: 1
+    Info (12023): Found entity 1: VCM_I2C File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/VCM_I2C.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/vcm_ctrl_p.v
-    Info (12023): Found entity 1: VCM_CTRL_P File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/VCM_CTRL_P.v Line: 1
+    Info (12023): Found entity 1: VCM_CTRL_P File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/VCM_CTRL_P.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/lcd_counter.v
-    Info (12023): Found entity 1: LCD_COUNTER File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/LCD_COUNTER.v Line: 1
+    Info (12023): Found entity 1: LCD_COUNTER File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/LCD_COUNTER.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/i2c_delay.v
-    Info (12023): Found entity 1: I2C_DELAY File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/I2C_DELAY.v Line: 1
+    Info (12023): Found entity 1: I2C_DELAY File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/I2C_DELAY.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/focus_adj.v
-    Info (12023): Found entity 1: FOCUS_ADJ File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v Line: 2
+    Info (12023): Found entity 1: FOCUS_ADJ File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/f_vcm.v
-    Info (12023): Found entity 1: F_VCM File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 1
+    Info (12023): Found entity 1: F_VCM File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/clockmem.v
-    Info (12023): Found entity 1: CLOCKMEM File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/CLOCKMEM.v Line: 1
+    Info (12023): Found entity 1: CLOCKMEM File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/CLOCKMEM.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/modify_sync.v
-    Info (12023): Found entity 1: MODIFY_SYNC File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/MODIFY_SYNC.v Line: 1
+    Info (12023): Found entity 1: MODIFY_SYNC File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/MODIFY_SYNC.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/auto_sync_modify.v
-    Info (12023): Found entity 1: AUTO_SYNC_MODIFY File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/AUTO_SYNC_MODIFY.v Line: 2
+    Info (12023): Found entity 1: AUTO_SYNC_MODIFY File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/AUTO_SYNC_MODIFY.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/reset_delay.v
-    Info (12023): Found entity 1: RESET_DELAY File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/RESET_DELAY.v Line: 1
-Warning (10890): Verilog HDL Attribute warning at MIPI_CAMERA_CONFIG.v(33): overriding existing value for attribute "keep" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 33
-Warning (10275): Verilog HDL Module Instantiation warning at MIPI_CAMERA_CONFIG.v(338): ignored dangling comma in List of Port Connections File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 338
+    Info (12023): Found entity 1: RESET_DELAY File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/RESET_DELAY.v Line: 1
+Warning (10890): Verilog HDL Attribute warning at MIPI_CAMERA_CONFIG.v(33): overriding existing value for attribute "keep" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 33
+Warning (10275): Verilog HDL Module Instantiation warning at MIPI_CAMERA_CONFIG.v(338): ignored dangling comma in List of Port Connections File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 338
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/mipi_camera_config.v
-    Info (12023): Found entity 1: MIPI_CAMERA_CONFIG File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 1
-Warning (10890): Verilog HDL Attribute warning at MIPI_BRIDGE_CONFIG.v(38): overriding existing value for attribute "keep" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 38
-Warning (10275): Verilog HDL Module Instantiation warning at MIPI_BRIDGE_CONFIG.v(350): ignored dangling comma in List of Port Connections File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 350
+    Info (12023): Found entity 1: MIPI_CAMERA_CONFIG File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 1
+Warning (10890): Verilog HDL Attribute warning at MIPI_BRIDGE_CONFIG.v(38): overriding existing value for attribute "keep" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 38
+Warning (10275): Verilog HDL Module Instantiation warning at MIPI_BRIDGE_CONFIG.v(350): ignored dangling comma in List of Port Connections File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 350
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/mipi_bridge_config.v
-    Info (12023): Found entity 1: MIPI_BRIDGE_CONFIG File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 1
+    Info (12023): Found entity 1: MIPI_BRIDGE_CONFIG File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/int_line.v
-    Info (12023): Found entity 1: int_line File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/int_line.v Line: 40
+    Info (12023): Found entity 1: int_line File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/int_line.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/raw_rgb_bin.v
-    Info (12023): Found entity 1: RAW_RGB_BIN File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/RAW_RGB_BIN.v Line: 4
+    Info (12023): Found entity 1: RAW_RGB_BIN File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/RAW_RGB_BIN.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/line_buffer_j.v
-    Info (12023): Found entity 1: Line_Buffer_J File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/Line_Buffer_J.v Line: 1
+    Info (12023): Found entity 1: Line_Buffer_J File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/Line_Buffer_J.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/fram_buff.v
-    Info (12023): Found entity 1: FRAM_BUFF File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/FRAM_BUFF.v Line: 40
+    Info (12023): Found entity 1: FRAM_BUFF File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/FRAM_BUFF.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/raw2rgb_j.v
-    Info (12023): Found entity 1: RAW2RGB_J File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/RAW2RGB_J.v Line: 2
+    Info (12023): Found entity 1: RAW2RGB_J File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/RAW2RGB_J.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/mipi_bridge_camera_config.v
-    Info (12023): Found entity 1: MIPI_BRIDGE_CAMERA_Config File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 1
+    Info (12023): Found entity 1: MIPI_BRIDGE_CAMERA_Config File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/frm_counter.v
-    Info (12023): Found entity 1: FRM_COUNTER File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/FRM_COUNTER.v Line: 1
-Warning (10275): Verilog HDL Module Instantiation warning at ON_CHIP_FRAM.v(31): ignored dangling comma in List of Port Connections File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/ON_CHIP_FRAM.v Line: 31
+    Info (12023): Found entity 1: FRM_COUNTER File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/FRM_COUNTER.v Line: 1
+Warning (10275): Verilog HDL Module Instantiation warning at ON_CHIP_FRAM.v(31): ignored dangling comma in List of Port Connections File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/ON_CHIP_FRAM.v Line: 31
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/on_chip_fram.v
-    Info (12023): Found entity 1: ON_CHIP_FRAM File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/ON_CHIP_FRAM.v Line: 1
+    Info (12023): Found entity 1: ON_CHIP_FRAM File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/ON_CHIP_FRAM.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/gamma_correct.v
-    Info (12023): Found entity 1: GAMMA_CORRECT File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/GAMMA_CORRECT.v Line: 2
+    Info (12023): Found entity 1: GAMMA_CORRECT File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/GAMMA_CORRECT.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/bezier_curve.v
-    Info (12023): Found entity 1: BEZIER_CURVE File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/BEZIER_CURVE.v Line: 2
+    Info (12023): Found entity 1: BEZIER_CURVE File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/BEZIER_CURVE.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/p2.v
-    Info (12023): Found entity 1: P2 File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/P2.v Line: 40
+    Info (12023): Found entity 1: P2 File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/P2.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/p1.v
-    Info (12023): Found entity 1: P1 File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/P1.v Line: 40
+    Info (12023): Found entity 1: P1 File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/P1.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file vga_controller/vga_controller.v
-    Info (12023): Found entity 1: VGA_Controller File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Controller.v Line: 2
+    Info (12023): Found entity 1: VGA_Controller File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Controller.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file v_hdmi_tx_reconfig/i2c_hdmi_config.v
-    Info (12023): Found entity 1: I2C_HDMI_Config File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_HDMI_Config.v Line: 1
+    Info (12023): Found entity 1: I2C_HDMI_Config File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_HDMI_Config.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_hdmi_tx_reconfig/i2c_controller.v
-    Info (12023): Found entity 1: I2C_Controller File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_Controller.v Line: 42
+    Info (12023): Found entity 1: I2C_Controller File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_Controller.v Line: 42
 Info (12021): Found 1 design units, including 1 entities, in source file v_hdmi_tx_reconfig/audio_if.v
-    Info (12023): Found entity 1: AUDIO_IF File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/AUDIO_IF.v Line: 56
+    Info (12023): Found entity 1: AUDIO_IF File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/AUDIO_IF.v Line: 56
 Info (12021): Found 1 design units, including 1 entities, in source file v_hdmi_tx_reconfig/hdmi_tx_ad7513.v
-    Info (12023): Found entity 1: HDMI_TX_AD7513 File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/HDMI_TX_AD7513.v Line: 3
+    Info (12023): Found entity 1: HDMI_TX_AD7513 File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/HDMI_TX_AD7513.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file v/pll_test.v
-    Info (12023): Found entity 1: pll_test File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/pll_test.v Line: 8
+    Info (12023): Found entity 1: pll_test File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/pll_test.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file v/pll_test/pll_test_0002.v
-    Info (12023): Found entity 1: pll_test_0002 File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/pll_test/pll_test_0002.v Line: 2
+    Info (12023): Found entity 1: pll_test_0002 File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/pll_test/pll_test_0002.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/shi.v
-    Info (12023): Found entity 1: SHI File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/SHI.v Line: 40
+    Info (12023): Found entity 1: SHI File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/SHI.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file v/pll_video.v
-    Info (12023): Found entity 1: pll_video File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/pll_video.v Line: 8
+    Info (12023): Found entity 1: pll_video File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/pll_video.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file v/pll_video/pll_video_0002.v
-    Info (12023): Found entity 1: pll_video_0002 File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/pll_video/pll_video_0002.v Line: 2
-Warning (10236): Verilog HDL Implicit Net warning at FOCUS_ADJ.v(58): created implicit net for "V_CNT" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v Line: 58
-Warning (10236): Verilog HDL Implicit Net warning at FOCUS_ADJ.v(59): created implicit net for "H_CNT" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v Line: 59
-Warning (10236): Verilog HDL Implicit Net warning at FOCUS_ADJ.v(60): created implicit net for "LINE" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v Line: 60
+    Info (12023): Found entity 1: pll_video_0002 File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/pll_video/pll_video_0002.v Line: 2
+Warning (10236): Verilog HDL Implicit Net warning at FOCUS_ADJ.v(58): created implicit net for "V_CNT" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v Line: 58
+Warning (10236): Verilog HDL Implicit Net warning at FOCUS_ADJ.v(59): created implicit net for "H_CNT" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v Line: 59
+Warning (10236): Verilog HDL Implicit Net warning at FOCUS_ADJ.v(60): created implicit net for "LINE" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v Line: 60
 Warning (12125): Using design file d8m_fmc.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: D8M_FMC File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 6
-Warning (10236): Verilog HDL Implicit Net warning at d8m_fmc.v(310): created implicit net for "HZ1_50M" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 310
+    Info (12023): Found entity 1: D8M_FMC File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 6
+Warning (10236): Verilog HDL Implicit Net warning at d8m_fmc.v(310): created implicit net for "HZ1_50M" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 310
 Info (12127): Elaborating entity "D8M_FMC" for the top level hierarchy
-Warning (10034): Output port "FSM_A" at d8m_fmc.v(32) has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-Warning (10034): Output port "SD_CLK" at d8m_fmc.v(36) has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 36
-Warning (10034): Output port "UART_TX" at d8m_fmc.v(42) has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 42
-Warning (10034): Output port "SMA_CLKOUT_p" at d8m_fmc.v(57) has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 57
-Warning (10034): Output port "HDMI_SPDIF" at d8m_fmc.v(69) has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 69
-Info (12128): Elaborating entity "RESET_DELAY" for hierarchy "RESET_DELAY:dl" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 150
-Info (12128): Elaborating entity "MIPI_BRIDGE_CAMERA_Config" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 167
-Warning (10858): Verilog HDL warning at MIPI_BRIDGE_CAMERA_Config.v(18): object VCM_I2C_SCL used but never assigned File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 18
-Warning (10030): Net "VCM_I2C_SCL" at MIPI_BRIDGE_CAMERA_Config.v(18) has no driver or initial value, using a default initial value '0' File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 18
-Warning (10034): Output port "STEP" at MIPI_BRIDGE_CAMERA_Config.v(12) has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 12
-Info (12128): Elaborating entity "MIPI_CAMERA_CONFIG" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 44
-Warning (10230): Verilog HDL assignment warning at MIPI_CAMERA_CONFIG.v(126): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 126
-Warning (10230): Verilog HDL assignment warning at MIPI_CAMERA_CONFIG.v(173): truncated value with size 32 to match size of target (16) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 173
-Warning (10230): Verilog HDL assignment warning at MIPI_CAMERA_CONFIG.v(200): truncated value with size 32 to match size of target (16) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 200
-Warning (10272): Verilog HDL Case Statement warning at MIPI_CAMERA_CONFIG.v(517): case item expression covers a value already covered by a previous case item File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 517
-Warning (10034): Output port "ID0" at MIPI_CAMERA_CONFIG.v(11) has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 11
-Warning (10034): Output port "ID2" at MIPI_CAMERA_CONFIG.v(13) has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 13
-Warning (10034): Output port "WORD_DATA[15..8]" at MIPI_CAMERA_CONFIG.v(21) has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 21
-Warning (10034): Output port "TR" at MIPI_CAMERA_CONFIG.v(32) has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 32
-Info (12128): Elaborating entity "CLOCKMEM" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|CLOCKMEM:c1" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 51
-Info (12128): Elaborating entity "I2C_WRITE_WDATA" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|I2C_WRITE_WDATA:wrd" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 283
-Warning (10230): Verilog HDL assignment warning at I2C_WRITE_WDATA.v(72): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_WRITE_WDATA.v Line: 72
-Warning (10230): Verilog HDL assignment warning at I2C_WRITE_WDATA.v(143): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_WRITE_WDATA.v Line: 143
-Warning (10230): Verilog HDL assignment warning at I2C_WRITE_WDATA.v(153): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_WRITE_WDATA.v Line: 153
-Info (12128): Elaborating entity "I2C_WRITE_PTR" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|I2C_WRITE_PTR:wpt" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 307
-Warning (10230): Verilog HDL assignment warning at I2C_WRITE_PTR.v(61): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_WRITE_PTR.v Line: 61
-Warning (10230): Verilog HDL assignment warning at I2C_WRITE_PTR.v(125): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_WRITE_PTR.v Line: 125
-Warning (10230): Verilog HDL assignment warning at I2C_WRITE_PTR.v(135): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_WRITE_PTR.v Line: 135
-Warning (10230): Verilog HDL assignment warning at I2C_WRITE_PTR.v(160): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_WRITE_PTR.v Line: 160
-Info (12128): Elaborating entity "I2C_READ_DATA" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|I2C_READ_DATA:rd" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 338
-Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(53): truncated value with size 33 to match size of target (9) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v Line: 53
-Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(67): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v Line: 67
-Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(90): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v Line: 90
-Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(93): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v Line: 93
-Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(104): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v Line: 104
-Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(168): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v Line: 168
-Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(178): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v Line: 178
-Warning (10272): Verilog HDL Case Statement warning at I2C_READ_DATA.v(141): case item expression covers a value already covered by a previous case item File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v Line: 141
-Info (12128): Elaborating entity "I2C_RESET_DELAY" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|I2C_RESET_DELAY:DY" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 348
-Info (12128): Elaborating entity "R_GAIN" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|R_GAIN:r2" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 372
-Info (12128): Elaborating entity "lpm_constant" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|R_GAIN:r2|lpm_constant:LPM_CONSTANT_component" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/R_GAIN.v Line: 49
-Info (12130): Elaborated megafunction instantiation "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|R_GAIN:r2|lpm_constant:LPM_CONSTANT_component" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/R_GAIN.v Line: 49
-Info (12133): Instantiated megafunction "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|R_GAIN:r2|lpm_constant:LPM_CONSTANT_component" with the following parameter: File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/R_GAIN.v Line: 49
+Warning (10034): Output port "FSM_A" at d8m_fmc.v(32) has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+Warning (10034): Output port "SD_CLK" at d8m_fmc.v(36) has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 36
+Warning (10034): Output port "UART_TX" at d8m_fmc.v(42) has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 42
+Warning (10034): Output port "SMA_CLKOUT_p" at d8m_fmc.v(57) has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 57
+Warning (10034): Output port "HDMI_SPDIF" at d8m_fmc.v(69) has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 69
+Info (12128): Elaborating entity "RESET_DELAY" for hierarchy "RESET_DELAY:dl" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 150
+Info (12128): Elaborating entity "MIPI_BRIDGE_CAMERA_Config" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 167
+Warning (10858): Verilog HDL warning at MIPI_BRIDGE_CAMERA_Config.v(18): object VCM_I2C_SCL used but never assigned File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 18
+Warning (10030): Net "VCM_I2C_SCL" at MIPI_BRIDGE_CAMERA_Config.v(18) has no driver or initial value, using a default initial value '0' File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 18
+Warning (10034): Output port "STEP" at MIPI_BRIDGE_CAMERA_Config.v(12) has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 12
+Info (12128): Elaborating entity "MIPI_CAMERA_CONFIG" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 44
+Warning (10230): Verilog HDL assignment warning at MIPI_CAMERA_CONFIG.v(126): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 126
+Warning (10230): Verilog HDL assignment warning at MIPI_CAMERA_CONFIG.v(173): truncated value with size 32 to match size of target (16) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 173
+Warning (10230): Verilog HDL assignment warning at MIPI_CAMERA_CONFIG.v(200): truncated value with size 32 to match size of target (16) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 200
+Warning (10272): Verilog HDL Case Statement warning at MIPI_CAMERA_CONFIG.v(517): case item expression covers a value already covered by a previous case item File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 517
+Warning (10034): Output port "ID0" at MIPI_CAMERA_CONFIG.v(11) has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 11
+Warning (10034): Output port "ID2" at MIPI_CAMERA_CONFIG.v(13) has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 13
+Warning (10034): Output port "WORD_DATA[15..8]" at MIPI_CAMERA_CONFIG.v(21) has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 21
+Warning (10034): Output port "TR" at MIPI_CAMERA_CONFIG.v(32) has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 32
+Info (12128): Elaborating entity "CLOCKMEM" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|CLOCKMEM:c1" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 51
+Info (12128): Elaborating entity "I2C_WRITE_WDATA" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|I2C_WRITE_WDATA:wrd" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 283
+Warning (10230): Verilog HDL assignment warning at I2C_WRITE_WDATA.v(72): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_WRITE_WDATA.v Line: 72
+Warning (10230): Verilog HDL assignment warning at I2C_WRITE_WDATA.v(143): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_WRITE_WDATA.v Line: 143
+Warning (10230): Verilog HDL assignment warning at I2C_WRITE_WDATA.v(153): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_WRITE_WDATA.v Line: 153
+Info (12128): Elaborating entity "I2C_WRITE_PTR" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|I2C_WRITE_PTR:wpt" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 307
+Warning (10230): Verilog HDL assignment warning at I2C_WRITE_PTR.v(61): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_WRITE_PTR.v Line: 61
+Warning (10230): Verilog HDL assignment warning at I2C_WRITE_PTR.v(125): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_WRITE_PTR.v Line: 125
+Warning (10230): Verilog HDL assignment warning at I2C_WRITE_PTR.v(135): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_WRITE_PTR.v Line: 135
+Warning (10230): Verilog HDL assignment warning at I2C_WRITE_PTR.v(160): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_WRITE_PTR.v Line: 160
+Info (12128): Elaborating entity "I2C_READ_DATA" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|I2C_READ_DATA:rd" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 338
+Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(53): truncated value with size 33 to match size of target (9) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v Line: 53
+Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(67): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v Line: 67
+Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(90): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v Line: 90
+Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(93): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v Line: 93
+Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(104): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v Line: 104
+Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(168): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v Line: 168
+Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(178): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v Line: 178
+Warning (10272): Verilog HDL Case Statement warning at I2C_READ_DATA.v(141): case item expression covers a value already covered by a previous case item File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v Line: 141
+Info (12128): Elaborating entity "I2C_RESET_DELAY" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|I2C_RESET_DELAY:DY" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 348
+Info (12128): Elaborating entity "R_GAIN" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|R_GAIN:r2" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 372
+Info (12128): Elaborating entity "lpm_constant" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|R_GAIN:r2|lpm_constant:LPM_CONSTANT_component" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/R_GAIN.v Line: 49
+Info (12130): Elaborated megafunction instantiation "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|R_GAIN:r2|lpm_constant:LPM_CONSTANT_component" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/R_GAIN.v Line: 49
+Info (12133): Instantiated megafunction "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|R_GAIN:r2|lpm_constant:LPM_CONSTANT_component" with the following parameter: File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/R_GAIN.v Line: 49
     Info (12134): Parameter "lpm_cvalue" = "1098"
     Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=YES, INSTANCE_NAME=R"
     Info (12134): Parameter "lpm_type" = "LPM_CONSTANT"
     Info (12134): Parameter "lpm_width" = "14"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_constant_sc8.tdf
-    Info (12023): Found entity 1: lpm_constant_sc8 File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_sc8.tdf Line: 25
+    Info (12023): Found entity 1: lpm_constant_sc8 File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_sc8.tdf Line: 25
 Info (12128): Elaborating entity "lpm_constant_sc8" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|R_GAIN:r2|lpm_constant:LPM_CONSTANT_component|lpm_constant_sc8:ag" File: d:/software/intelfpga/18.1/quartus/libraries/megafunctions/lpm_constant.tdf Line: 45
-Info (12128): Elaborating entity "sld_mod_ram_rom" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|R_GAIN:r2|lpm_constant:LPM_CONSTANT_component|lpm_constant_sc8:ag|sld_mod_ram_rom:mgl_prim1" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_sc8.tdf Line: 30
-Info (12130): Elaborated megafunction instantiation "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|R_GAIN:r2|lpm_constant:LPM_CONSTANT_component|lpm_constant_sc8:ag|sld_mod_ram_rom:mgl_prim1" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_sc8.tdf Line: 30
-Info (12133): Instantiated megafunction "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|R_GAIN:r2|lpm_constant:LPM_CONSTANT_component|lpm_constant_sc8:ag|sld_mod_ram_rom:mgl_prim1" with the following parameter: File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_sc8.tdf Line: 30
+Info (12128): Elaborating entity "sld_mod_ram_rom" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|R_GAIN:r2|lpm_constant:LPM_CONSTANT_component|lpm_constant_sc8:ag|sld_mod_ram_rom:mgl_prim1" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_sc8.tdf Line: 30
+Info (12130): Elaborated megafunction instantiation "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|R_GAIN:r2|lpm_constant:LPM_CONSTANT_component|lpm_constant_sc8:ag|sld_mod_ram_rom:mgl_prim1" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_sc8.tdf Line: 30
+Info (12133): Instantiated megafunction "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|R_GAIN:r2|lpm_constant:LPM_CONSTANT_component|lpm_constant_sc8:ag|sld_mod_ram_rom:mgl_prim1" with the following parameter: File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_sc8.tdf Line: 30
     Info (12134): Parameter "CVALUE" = "00010001001010"
     Info (12134): Parameter "IS_DATA_IN_RAM" = "0"
     Info (12134): Parameter "IS_READABLE" = "0"
@@ -2704,20 +2704,20 @@ Info (12133): Instantiated megafunction "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAM
 Info (12128): Elaborating entity "sld_jtag_endpoint_adapter" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|R_GAIN:r2|lpm_constant:LPM_CONSTANT_component|lpm_constant_sc8:ag|sld_mod_ram_rom:mgl_prim1|sld_jtag_endpoint_adapter:jtag_signal_adapter" File: d:/software/intelfpga/18.1/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd Line: 302
 Info (12128): Elaborating entity "sld_jtag_endpoint_adapter_impl" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|R_GAIN:r2|lpm_constant:LPM_CONSTANT_component|lpm_constant_sc8:ag|sld_mod_ram_rom:mgl_prim1|sld_jtag_endpoint_adapter:jtag_signal_adapter|sld_jtag_endpoint_adapter_impl:sld_jtag_endpoint_adapter_impl_inst" File: d:/software/intelfpga/18.1/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter.vhd Line: 232
 Info (12128): Elaborating entity "sld_rom_sr" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|R_GAIN:r2|lpm_constant:LPM_CONSTANT_component|lpm_constant_sc8:ag|sld_mod_ram_rom:mgl_prim1|sld_rom_sr:\constant_logic_gen:name_gen:info_rom_sr" File: d:/software/intelfpga/18.1/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd Line: 485
-Info (12128): Elaborating entity "G_GAIN" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|G_GAIN:g2" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 373
-Info (12128): Elaborating entity "lpm_constant" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|G_GAIN:g2|lpm_constant:LPM_CONSTANT_component" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/G_GAIN.v Line: 49
-Info (12130): Elaborated megafunction instantiation "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|G_GAIN:g2|lpm_constant:LPM_CONSTANT_component" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/G_GAIN.v Line: 49
-Info (12133): Instantiated megafunction "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|G_GAIN:g2|lpm_constant:LPM_CONSTANT_component" with the following parameter: File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/G_GAIN.v Line: 49
+Info (12128): Elaborating entity "G_GAIN" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|G_GAIN:g2" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 373
+Info (12128): Elaborating entity "lpm_constant" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|G_GAIN:g2|lpm_constant:LPM_CONSTANT_component" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/G_GAIN.v Line: 49
+Info (12130): Elaborated megafunction instantiation "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|G_GAIN:g2|lpm_constant:LPM_CONSTANT_component" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/G_GAIN.v Line: 49
+Info (12133): Instantiated megafunction "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|G_GAIN:g2|lpm_constant:LPM_CONSTANT_component" with the following parameter: File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/G_GAIN.v Line: 49
     Info (12134): Parameter "lpm_cvalue" = "1216"
     Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=YES, INSTANCE_NAME=G"
     Info (12134): Parameter "lpm_type" = "LPM_CONSTANT"
     Info (12134): Parameter "lpm_width" = "14"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_constant_fc8.tdf
-    Info (12023): Found entity 1: lpm_constant_fc8 File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_fc8.tdf Line: 25
+    Info (12023): Found entity 1: lpm_constant_fc8 File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_fc8.tdf Line: 25
 Info (12128): Elaborating entity "lpm_constant_fc8" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|G_GAIN:g2|lpm_constant:LPM_CONSTANT_component|lpm_constant_fc8:ag" File: d:/software/intelfpga/18.1/quartus/libraries/megafunctions/lpm_constant.tdf Line: 45
-Info (12128): Elaborating entity "sld_mod_ram_rom" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|G_GAIN:g2|lpm_constant:LPM_CONSTANT_component|lpm_constant_fc8:ag|sld_mod_ram_rom:mgl_prim1" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_fc8.tdf Line: 30
-Info (12130): Elaborated megafunction instantiation "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|G_GAIN:g2|lpm_constant:LPM_CONSTANT_component|lpm_constant_fc8:ag|sld_mod_ram_rom:mgl_prim1" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_fc8.tdf Line: 30
-Info (12133): Instantiated megafunction "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|G_GAIN:g2|lpm_constant:LPM_CONSTANT_component|lpm_constant_fc8:ag|sld_mod_ram_rom:mgl_prim1" with the following parameter: File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_fc8.tdf Line: 30
+Info (12128): Elaborating entity "sld_mod_ram_rom" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|G_GAIN:g2|lpm_constant:LPM_CONSTANT_component|lpm_constant_fc8:ag|sld_mod_ram_rom:mgl_prim1" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_fc8.tdf Line: 30
+Info (12130): Elaborated megafunction instantiation "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|G_GAIN:g2|lpm_constant:LPM_CONSTANT_component|lpm_constant_fc8:ag|sld_mod_ram_rom:mgl_prim1" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_fc8.tdf Line: 30
+Info (12133): Instantiated megafunction "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|G_GAIN:g2|lpm_constant:LPM_CONSTANT_component|lpm_constant_fc8:ag|sld_mod_ram_rom:mgl_prim1" with the following parameter: File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_fc8.tdf Line: 30
     Info (12134): Parameter "CVALUE" = "00010011000000"
     Info (12134): Parameter "IS_DATA_IN_RAM" = "0"
     Info (12134): Parameter "IS_READABLE" = "0"
@@ -2726,20 +2726,20 @@ Info (12133): Instantiated megafunction "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAM
     Info (12134): Parameter "SHIFT_COUNT_BITS" = "4"
     Info (12134): Parameter "WIDTH_WORD" = "14"
     Info (12134): Parameter "WIDTHAD" = "1"
-Info (12128): Elaborating entity "B_GAIN" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|B_GAIN:b2" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 374
-Info (12128): Elaborating entity "lpm_constant" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|B_GAIN:b2|lpm_constant:LPM_CONSTANT_component" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/B_GAIN.v Line: 49
-Info (12130): Elaborated megafunction instantiation "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|B_GAIN:b2|lpm_constant:LPM_CONSTANT_component" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/B_GAIN.v Line: 49
-Info (12133): Instantiated megafunction "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|B_GAIN:b2|lpm_constant:LPM_CONSTANT_component" with the following parameter: File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/B_GAIN.v Line: 49
+Info (12128): Elaborating entity "B_GAIN" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|B_GAIN:b2" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 374
+Info (12128): Elaborating entity "lpm_constant" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|B_GAIN:b2|lpm_constant:LPM_CONSTANT_component" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/B_GAIN.v Line: 49
+Info (12130): Elaborated megafunction instantiation "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|B_GAIN:b2|lpm_constant:LPM_CONSTANT_component" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/B_GAIN.v Line: 49
+Info (12133): Instantiated megafunction "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|B_GAIN:b2|lpm_constant:LPM_CONSTANT_component" with the following parameter: File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/B_GAIN.v Line: 49
     Info (12134): Parameter "lpm_cvalue" = "1024"
     Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=YES, INSTANCE_NAME=B"
     Info (12134): Parameter "lpm_type" = "LPM_CONSTANT"
     Info (12134): Parameter "lpm_width" = "14"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_constant_na8.tdf
-    Info (12023): Found entity 1: lpm_constant_na8 File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_na8.tdf Line: 25
+    Info (12023): Found entity 1: lpm_constant_na8 File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_na8.tdf Line: 25
 Info (12128): Elaborating entity "lpm_constant_na8" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|B_GAIN:b2|lpm_constant:LPM_CONSTANT_component|lpm_constant_na8:ag" File: d:/software/intelfpga/18.1/quartus/libraries/megafunctions/lpm_constant.tdf Line: 45
-Info (12128): Elaborating entity "sld_mod_ram_rom" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|B_GAIN:b2|lpm_constant:LPM_CONSTANT_component|lpm_constant_na8:ag|sld_mod_ram_rom:mgl_prim1" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_na8.tdf Line: 30
-Info (12130): Elaborated megafunction instantiation "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|B_GAIN:b2|lpm_constant:LPM_CONSTANT_component|lpm_constant_na8:ag|sld_mod_ram_rom:mgl_prim1" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_na8.tdf Line: 30
-Info (12133): Instantiated megafunction "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|B_GAIN:b2|lpm_constant:LPM_CONSTANT_component|lpm_constant_na8:ag|sld_mod_ram_rom:mgl_prim1" with the following parameter: File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_na8.tdf Line: 30
+Info (12128): Elaborating entity "sld_mod_ram_rom" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|B_GAIN:b2|lpm_constant:LPM_CONSTANT_component|lpm_constant_na8:ag|sld_mod_ram_rom:mgl_prim1" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_na8.tdf Line: 30
+Info (12130): Elaborated megafunction instantiation "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|B_GAIN:b2|lpm_constant:LPM_CONSTANT_component|lpm_constant_na8:ag|sld_mod_ram_rom:mgl_prim1" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_na8.tdf Line: 30
+Info (12133): Instantiated megafunction "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|B_GAIN:b2|lpm_constant:LPM_CONSTANT_component|lpm_constant_na8:ag|sld_mod_ram_rom:mgl_prim1" with the following parameter: File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_na8.tdf Line: 30
     Info (12134): Parameter "CVALUE" = "00010000000000"
     Info (12134): Parameter "IS_DATA_IN_RAM" = "0"
     Info (12134): Parameter "IS_READABLE" = "0"
@@ -2748,22 +2748,22 @@ Info (12133): Instantiated megafunction "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAM
     Info (12134): Parameter "SHIFT_COUNT_BITS" = "4"
     Info (12134): Parameter "WIDTH_WORD" = "14"
     Info (12134): Parameter "WIDTHAD" = "1"
-Info (12128): Elaborating entity "MIPI_BRIDGE_CONFIG" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 56
-Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(127): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 127
-Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(174): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 174
-Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(203): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 203
-Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(234): truncated value with size 32 to match size of target (16) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 234
-Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(235): truncated value with size 32 to match size of target (16) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 235
-Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(236): truncated value with size 32 to match size of target (16) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 236
-Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(237): truncated value with size 32 to match size of target (16) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 237
-Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(238): truncated value with size 32 to match size of target (16) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 238
-Warning (10034): Output port "TR" at MIPI_BRIDGE_CONFIG.v(36) has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 36
-Info (12128): Elaborating entity "pll_test" for hierarchy "pll_test:pll_ref" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 177
-Info (12128): Elaborating entity "pll_test_0002" for hierarchy "pll_test:pll_ref|pll_test_0002:pll_test_inst" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/pll_test.v Line: 22
-Info (12128): Elaborating entity "altera_pll" for hierarchy "pll_test:pll_ref|pll_test_0002:pll_test_inst|altera_pll:altera_pll_i" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/pll_test/pll_test_0002.v Line: 88
+Info (12128): Elaborating entity "MIPI_BRIDGE_CONFIG" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 56
+Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(127): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 127
+Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(174): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 174
+Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(203): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 203
+Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(234): truncated value with size 32 to match size of target (16) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 234
+Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(235): truncated value with size 32 to match size of target (16) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 235
+Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(236): truncated value with size 32 to match size of target (16) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 236
+Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(237): truncated value with size 32 to match size of target (16) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 237
+Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(238): truncated value with size 32 to match size of target (16) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 238
+Warning (10034): Output port "TR" at MIPI_BRIDGE_CONFIG.v(36) has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 36
+Info (12128): Elaborating entity "pll_test" for hierarchy "pll_test:pll_ref" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 177
+Info (12128): Elaborating entity "pll_test_0002" for hierarchy "pll_test:pll_ref|pll_test_0002:pll_test_inst" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/pll_test.v Line: 22
+Info (12128): Elaborating entity "altera_pll" for hierarchy "pll_test:pll_ref|pll_test_0002:pll_test_inst|altera_pll:altera_pll_i" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/pll_test/pll_test_0002.v Line: 88
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus
-Info (12130): Elaborated megafunction instantiation "pll_test:pll_ref|pll_test_0002:pll_test_inst|altera_pll:altera_pll_i" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/pll_test/pll_test_0002.v Line: 88
-Info (12133): Instantiated megafunction "pll_test:pll_ref|pll_test_0002:pll_test_inst|altera_pll:altera_pll_i" with the following parameter: File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/pll_test/pll_test_0002.v Line: 88
+Info (12130): Elaborated megafunction instantiation "pll_test:pll_ref|pll_test_0002:pll_test_inst|altera_pll:altera_pll_i" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/pll_test/pll_test_0002.v Line: 88
+Info (12133): Instantiated megafunction "pll_test:pll_ref|pll_test_0002:pll_test_inst|altera_pll:altera_pll_i" with the following parameter: File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/pll_test/pll_test_0002.v Line: 88
     Info (12134): Parameter "fractional_vco_multiplier" = "false"
     Info (12134): Parameter "reference_clock_frequency" = "50.0 MHz"
     Info (12134): Parameter "operation_mode" = "direct"
@@ -2824,12 +2824,12 @@ Info (12133): Instantiated megafunction "pll_test:pll_ref|pll_test_0002:pll_test
     Info (12134): Parameter "duty_cycle17" = "50"
     Info (12134): Parameter "pll_type" = "General"
     Info (12134): Parameter "pll_subtype" = "General"
-Info (12128): Elaborating entity "pll_video" for hierarchy "pll_video:pll_vg" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 185
-Info (12128): Elaborating entity "pll_video_0002" for hierarchy "pll_video:pll_vg|pll_video_0002:pll_video_inst" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/pll_video.v Line: 20
-Info (12128): Elaborating entity "altera_pll" for hierarchy "pll_video:pll_vg|pll_video_0002:pll_video_inst|altera_pll:altera_pll_i" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/pll_video/pll_video_0002.v Line: 85
+Info (12128): Elaborating entity "pll_video" for hierarchy "pll_video:pll_vg" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 185
+Info (12128): Elaborating entity "pll_video_0002" for hierarchy "pll_video:pll_vg|pll_video_0002:pll_video_inst" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/pll_video.v Line: 20
+Info (12128): Elaborating entity "altera_pll" for hierarchy "pll_video:pll_vg|pll_video_0002:pll_video_inst|altera_pll:altera_pll_i" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/pll_video/pll_video_0002.v Line: 85
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus
-Info (12130): Elaborated megafunction instantiation "pll_video:pll_vg|pll_video_0002:pll_video_inst|altera_pll:altera_pll_i" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/pll_video/pll_video_0002.v Line: 85
-Info (12133): Instantiated megafunction "pll_video:pll_vg|pll_video_0002:pll_video_inst|altera_pll:altera_pll_i" with the following parameter: File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V/pll_video/pll_video_0002.v Line: 85
+Info (12130): Elaborated megafunction instantiation "pll_video:pll_vg|pll_video_0002:pll_video_inst|altera_pll:altera_pll_i" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/pll_video/pll_video_0002.v Line: 85
+Info (12133): Instantiated megafunction "pll_video:pll_vg|pll_video_0002:pll_video_inst|altera_pll:altera_pll_i" with the following parameter: File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/pll_video/pll_video_0002.v Line: 85
     Info (12134): Parameter "fractional_vco_multiplier" = "false"
     Info (12134): Parameter "reference_clock_frequency" = "50.0 MHz"
     Info (12134): Parameter "operation_mode" = "direct"
@@ -2890,13 +2890,13 @@ Info (12133): Instantiated megafunction "pll_video:pll_vg|pll_video_0002:pll_vid
     Info (12134): Parameter "duty_cycle17" = "50"
     Info (12134): Parameter "pll_type" = "General"
     Info (12134): Parameter "pll_subtype" = "General"
-Info (12128): Elaborating entity "ON_CHIP_FRAM" for hierarchy "ON_CHIP_FRAM:fra" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 202
-Info (12128): Elaborating entity "FRM_COUNTER" for hierarchy "ON_CHIP_FRAM:fra|FRM_COUNTER:wrw" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/ON_CHIP_FRAM.v Line: 17
-Warning (10230): Verilog HDL assignment warning at FRM_COUNTER.v(13): truncated value with size 32 to match size of target (20) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/FRM_COUNTER.v Line: 13
-Info (12128): Elaborating entity "FRAM_BUFF" for hierarchy "ON_CHIP_FRAM:fra|FRAM_BUFF:GG" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/ON_CHIP_FRAM.v Line: 31
-Info (12128): Elaborating entity "altsyncram" for hierarchy "ON_CHIP_FRAM:fra|FRAM_BUFF:GG|altsyncram:altsyncram_component" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/FRAM_BUFF.v Line: 100
-Info (12130): Elaborated megafunction instantiation "ON_CHIP_FRAM:fra|FRAM_BUFF:GG|altsyncram:altsyncram_component" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/FRAM_BUFF.v Line: 100
-Info (12133): Instantiated megafunction "ON_CHIP_FRAM:fra|FRAM_BUFF:GG|altsyncram:altsyncram_component" with the following parameter: File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/FRAM_BUFF.v Line: 100
+Info (12128): Elaborating entity "ON_CHIP_FRAM" for hierarchy "ON_CHIP_FRAM:fra" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 202
+Info (12128): Elaborating entity "FRM_COUNTER" for hierarchy "ON_CHIP_FRAM:fra|FRM_COUNTER:wrw" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/ON_CHIP_FRAM.v Line: 17
+Warning (10230): Verilog HDL assignment warning at FRM_COUNTER.v(13): truncated value with size 32 to match size of target (20) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/FRM_COUNTER.v Line: 13
+Info (12128): Elaborating entity "FRAM_BUFF" for hierarchy "ON_CHIP_FRAM:fra|FRAM_BUFF:GG" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/ON_CHIP_FRAM.v Line: 31
+Info (12128): Elaborating entity "altsyncram" for hierarchy "ON_CHIP_FRAM:fra|FRAM_BUFF:GG|altsyncram:altsyncram_component" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/FRAM_BUFF.v Line: 100
+Info (12130): Elaborated megafunction instantiation "ON_CHIP_FRAM:fra|FRAM_BUFF:GG|altsyncram:altsyncram_component" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/FRAM_BUFF.v Line: 100
+Info (12133): Instantiated megafunction "ON_CHIP_FRAM:fra|FRAM_BUFF:GG|altsyncram:altsyncram_component" with the following parameter: File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/FRAM_BUFF.v Line: 100
     Info (12134): Parameter "address_reg_b" = "CLOCK1"
     Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
     Info (12134): Parameter "clock_enable_input_b" = "BYPASS"
@@ -2923,34 +2923,34 @@ Info (12133): Instantiated megafunction "ON_CHIP_FRAM:fra|FRAM_BUFF:GG|altsyncra
     Info (12134): Parameter "width_byteena_b" = "1"
     Info (12134): Parameter "wrcontrol_wraddress_reg_b" = "CLOCK1"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_feo2.tdf
-    Info (12023): Found entity 1: altsyncram_feo2 File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/altsyncram_feo2.tdf Line: 33
+    Info (12023): Found entity 1: altsyncram_feo2 File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/altsyncram_feo2.tdf Line: 33
 Info (12128): Elaborating entity "altsyncram_feo2" for hierarchy "ON_CHIP_FRAM:fra|FRAM_BUFF:GG|altsyncram:altsyncram_component|altsyncram_feo2:auto_generated" File: d:/software/intelfpga/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_6oa.tdf
-    Info (12023): Found entity 1: decode_6oa File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/decode_6oa.tdf Line: 22
-Info (12128): Elaborating entity "decode_6oa" for hierarchy "ON_CHIP_FRAM:fra|FRAM_BUFF:GG|altsyncram:altsyncram_component|altsyncram_feo2:auto_generated|decode_6oa:decode2" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/altsyncram_feo2.tdf Line: 49
+    Info (12023): Found entity 1: decode_6oa File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/decode_6oa.tdf Line: 22
+Info (12128): Elaborating entity "decode_6oa" for hierarchy "ON_CHIP_FRAM:fra|FRAM_BUFF:GG|altsyncram:altsyncram_component|altsyncram_feo2:auto_generated|decode_6oa:decode2" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/altsyncram_feo2.tdf Line: 49
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_v3a.tdf
-    Info (12023): Found entity 1: decode_v3a File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/decode_v3a.tdf Line: 22
-Info (12128): Elaborating entity "decode_v3a" for hierarchy "ON_CHIP_FRAM:fra|FRAM_BUFF:GG|altsyncram:altsyncram_component|altsyncram_feo2:auto_generated|decode_v3a:rden_decode_a" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/altsyncram_feo2.tdf Line: 51
+    Info (12023): Found entity 1: decode_v3a File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/decode_v3a.tdf Line: 22
+Info (12128): Elaborating entity "decode_v3a" for hierarchy "ON_CHIP_FRAM:fra|FRAM_BUFF:GG|altsyncram:altsyncram_component|altsyncram_feo2:auto_generated|decode_v3a:rden_decode_a" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/altsyncram_feo2.tdf Line: 51
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_vjb.tdf
-    Info (12023): Found entity 1: mux_vjb File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/mux_vjb.tdf Line: 22
-Info (12128): Elaborating entity "mux_vjb" for hierarchy "ON_CHIP_FRAM:fra|FRAM_BUFF:GG|altsyncram:altsyncram_component|altsyncram_feo2:auto_generated|mux_vjb:mux4" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/altsyncram_feo2.tdf Line: 53
-Info (12128): Elaborating entity "RAW2RGB_J" for hierarchy "RAW2RGB_J:u4" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 217
-Warning (10230): Verilog HDL assignment warning at RAW2RGB_J.v(34): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/RAW2RGB_J.v Line: 34
-Warning (10230): Verilog HDL assignment warning at RAW2RGB_J.v(35): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/RAW2RGB_J.v Line: 35
-Warning (10230): Verilog HDL assignment warning at RAW2RGB_J.v(36): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/RAW2RGB_J.v Line: 36
-Warning (10230): Verilog HDL assignment warning at RAW2RGB_J.v(48): truncated value with size 32 to match size of target (11) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/RAW2RGB_J.v Line: 48
-Warning (10230): Verilog HDL assignment warning at RAW2RGB_J.v(49): truncated value with size 32 to match size of target (11) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/RAW2RGB_J.v Line: 49
-Info (12128): Elaborating entity "Line_Buffer_J" for hierarchy "RAW2RGB_J:u4|Line_Buffer_J:u0" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/RAW2RGB_J.v Line: 69
-Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(28): truncated value with size 32 to match size of target (2) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/Line_Buffer_J.v Line: 28
-Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(31): truncated value with size 32 to match size of target (1) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/Line_Buffer_J.v Line: 31
-Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(32): truncated value with size 32 to match size of target (1) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/Line_Buffer_J.v Line: 32
-Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(33): truncated value with size 32 to match size of target (1) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/Line_Buffer_J.v Line: 33
-Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(36): truncated value with size 32 to match size of target (10) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/Line_Buffer_J.v Line: 36
-Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(43): truncated value with size 32 to match size of target (10) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/Line_Buffer_J.v Line: 43
-Info (12128): Elaborating entity "int_line" for hierarchy "RAW2RGB_J:u4|Line_Buffer_J:u0|int_line:d1" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/Line_Buffer_J.v Line: 59
-Info (12128): Elaborating entity "altsyncram" for hierarchy "RAW2RGB_J:u4|Line_Buffer_J:u0|int_line:d1|altsyncram:altsyncram_component" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/int_line.v Line: 91
-Info (12130): Elaborated megafunction instantiation "RAW2RGB_J:u4|Line_Buffer_J:u0|int_line:d1|altsyncram:altsyncram_component" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/int_line.v Line: 91
-Info (12133): Instantiated megafunction "RAW2RGB_J:u4|Line_Buffer_J:u0|int_line:d1|altsyncram:altsyncram_component" with the following parameter: File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/int_line.v Line: 91
+    Info (12023): Found entity 1: mux_vjb File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/mux_vjb.tdf Line: 22
+Info (12128): Elaborating entity "mux_vjb" for hierarchy "ON_CHIP_FRAM:fra|FRAM_BUFF:GG|altsyncram:altsyncram_component|altsyncram_feo2:auto_generated|mux_vjb:mux4" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/altsyncram_feo2.tdf Line: 53
+Info (12128): Elaborating entity "RAW2RGB_J" for hierarchy "RAW2RGB_J:u4" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 217
+Warning (10230): Verilog HDL assignment warning at RAW2RGB_J.v(34): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/RAW2RGB_J.v Line: 34
+Warning (10230): Verilog HDL assignment warning at RAW2RGB_J.v(35): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/RAW2RGB_J.v Line: 35
+Warning (10230): Verilog HDL assignment warning at RAW2RGB_J.v(36): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/RAW2RGB_J.v Line: 36
+Warning (10230): Verilog HDL assignment warning at RAW2RGB_J.v(48): truncated value with size 32 to match size of target (11) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/RAW2RGB_J.v Line: 48
+Warning (10230): Verilog HDL assignment warning at RAW2RGB_J.v(49): truncated value with size 32 to match size of target (11) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/RAW2RGB_J.v Line: 49
+Info (12128): Elaborating entity "Line_Buffer_J" for hierarchy "RAW2RGB_J:u4|Line_Buffer_J:u0" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/RAW2RGB_J.v Line: 69
+Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(28): truncated value with size 32 to match size of target (2) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/Line_Buffer_J.v Line: 28
+Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(31): truncated value with size 32 to match size of target (1) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/Line_Buffer_J.v Line: 31
+Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(32): truncated value with size 32 to match size of target (1) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/Line_Buffer_J.v Line: 32
+Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(33): truncated value with size 32 to match size of target (1) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/Line_Buffer_J.v Line: 33
+Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(36): truncated value with size 32 to match size of target (10) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/Line_Buffer_J.v Line: 36
+Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(43): truncated value with size 32 to match size of target (10) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/Line_Buffer_J.v Line: 43
+Info (12128): Elaborating entity "int_line" for hierarchy "RAW2RGB_J:u4|Line_Buffer_J:u0|int_line:d1" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/Line_Buffer_J.v Line: 59
+Info (12128): Elaborating entity "altsyncram" for hierarchy "RAW2RGB_J:u4|Line_Buffer_J:u0|int_line:d1|altsyncram:altsyncram_component" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/int_line.v Line: 91
+Info (12130): Elaborated megafunction instantiation "RAW2RGB_J:u4|Line_Buffer_J:u0|int_line:d1|altsyncram:altsyncram_component" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/int_line.v Line: 91
+Info (12133): Instantiated megafunction "RAW2RGB_J:u4|Line_Buffer_J:u0|int_line:d1|altsyncram:altsyncram_component" with the following parameter: File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/int_line.v Line: 91
     Info (12134): Parameter "address_aclr_b" = "NONE"
     Info (12134): Parameter "address_reg_b" = "CLOCK1"
     Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
@@ -2970,59 +2970,59 @@ Info (12133): Instantiated megafunction "RAW2RGB_J:u4|Line_Buffer_J:u0|int_line:
     Info (12134): Parameter "width_b" = "10"
     Info (12134): Parameter "width_byteena_a" = "1"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_u2v1.tdf
-    Info (12023): Found entity 1: altsyncram_u2v1 File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/altsyncram_u2v1.tdf Line: 27
+    Info (12023): Found entity 1: altsyncram_u2v1 File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/altsyncram_u2v1.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_u2v1" for hierarchy "RAW2RGB_J:u4|Line_Buffer_J:u0|int_line:d1|altsyncram:altsyncram_component|altsyncram_u2v1:auto_generated" File: d:/software/intelfpga/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
-Info (12128): Elaborating entity "RAW_RGB_BIN" for hierarchy "RAW2RGB_J:u4|RAW_RGB_BIN:bin" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/RAW2RGB_J.v Line: 83
-Warning (10230): Verilog HDL assignment warning at RAW_RGB_BIN.v(41): truncated value with size 32 to match size of target (10) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/RAW_RGB_BIN.v Line: 41
-Warning (10230): Verilog HDL assignment warning at RAW_RGB_BIN.v(47): truncated value with size 32 to match size of target (10) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/RAW_RGB_BIN.v Line: 47
-Warning (10230): Verilog HDL assignment warning at RAW_RGB_BIN.v(53): truncated value with size 32 to match size of target (10) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/RAW_RGB_BIN.v Line: 53
-Warning (10230): Verilog HDL assignment warning at RAW_RGB_BIN.v(59): truncated value with size 32 to match size of target (10) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/RAW_RGB_BIN.v Line: 59
-Info (12128): Elaborating entity "VGA_Controller" for hierarchy "VGA_Controller:u1" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 231
-Warning (10230): Verilog HDL assignment warning at VGA_Controller.v(63): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Controller.v Line: 63
-Warning (10230): Verilog HDL assignment warning at VGA_Controller.v(66): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Controller.v Line: 66
-Warning (10230): Verilog HDL assignment warning at VGA_Controller.v(69): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Controller.v Line: 69
-Warning (10230): Verilog HDL assignment warning at VGA_Controller.v(128): truncated value with size 32 to match size of target (13) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Controller.v Line: 128
-Warning (10230): Verilog HDL assignment warning at VGA_Controller.v(153): truncated value with size 32 to match size of target (13) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Controller.v Line: 153
-Info (12128): Elaborating entity "AUTO_FOCUS_ON" for hierarchy "AUTO_FOCUS_ON:u9" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 238
-Warning (10230): Verilog HDL assignment warning at AUTO_FOCUS_ON.v(19): truncated value with size 32 to match size of target (1) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/AUTO_FOCUS_ON.v Line: 19
-Info (12128): Elaborating entity "FOCUS_ADJ" for hierarchy "FOCUS_ADJ:adl" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 266
-Info (12128): Elaborating entity "AUTO_SYNC_MODIFY" for hierarchy "FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v Line: 51
-Info (12128): Elaborating entity "MODIFY_SYNC" for hierarchy "FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE|MODIFY_SYNC:vs" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/AUTO_SYNC_MODIFY.v Line: 17
-Warning (10230): Verilog HDL assignment warning at MODIFY_SYNC.v(19): truncated value with size 32 to match size of target (16) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/MODIFY_SYNC.v Line: 19
-Info (12128): Elaborating entity "LCD_COUNTER" for hierarchy "FOCUS_ADJ:adl|LCD_COUNTER:cv1" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v Line: 63
-Warning (10230): Verilog HDL assignment warning at LCD_COUNTER.v(31): truncated value with size 32 to match size of target (16) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/LCD_COUNTER.v Line: 31
-Warning (10230): Verilog HDL assignment warning at LCD_COUNTER.v(36): truncated value with size 32 to match size of target (16) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/LCD_COUNTER.v Line: 36
-Warning (10230): Verilog HDL assignment warning at LCD_COUNTER.v(39): truncated value with size 32 to match size of target (1) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/LCD_COUNTER.v Line: 39
-Warning (10230): Verilog HDL assignment warning at LCD_COUNTER.v(47): truncated value with size 32 to match size of target (1) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/LCD_COUNTER.v Line: 47
-Info (12128): Elaborating entity "VCM_CTRL_P" for hierarchy "FOCUS_ADJ:adl|VCM_CTRL_P:pp" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v Line: 84
-Warning (10230): Verilog HDL assignment warning at VCM_CTRL_P.v(24): truncated value with size 32 to match size of target (18) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/VCM_CTRL_P.v Line: 24
-Warning (10230): Verilog HDL assignment warning at VCM_CTRL_P.v(53): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/VCM_CTRL_P.v Line: 53
-Info (12128): Elaborating entity "F_VCM" for hierarchy "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/VCM_CTRL_P.v Line: 94
-Warning (10230): Verilog HDL assignment warning at F_VCM.v(32): truncated value with size 32 to match size of target (11) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 32
-Warning (10230): Verilog HDL assignment warning at F_VCM.v(41): truncated value with size 32 to match size of target (11) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 41
-Warning (10230): Verilog HDL assignment warning at F_VCM.v(49): truncated value with size 32 to match size of target (11) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 49
-Info (12128): Elaborating entity "I2C_DELAY" for hierarchy "FOCUS_ADJ:adl|I2C_DELAY:i2c" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v Line: 95
-Warning (10034): Output port "READY1" at I2C_DELAY.v(6) has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/I2C_DELAY.v Line: 6
-Info (12128): Elaborating entity "VCM_I2C" for hierarchy "FOCUS_ADJ:adl|VCM_I2C:i2c2" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v Line: 113
-Warning (10230): Verilog HDL assignment warning at VCM_I2C.v(116): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/VCM_I2C.v Line: 116
-Warning (10230): Verilog HDL assignment warning at VCM_I2C.v(169): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/VCM_I2C.v Line: 169
-Warning (10230): Verilog HDL assignment warning at VCM_I2C.v(208): truncated value with size 32 to match size of target (1) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/VCM_I2C.v Line: 208
-Warning (10034): Output port "TR" at VCM_I2C.v(32) has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/VCM_I2C.v Line: 32
-Info (12128): Elaborating entity "GAMMA_CORRECT" for hierarchy "GAMMA_CORRECT:ui" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 278
-Info (12128): Elaborating entity "P1" for hierarchy "GAMMA_CORRECT:ui|P1:pp11" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/GAMMA_CORRECT.v Line: 14
-Info (12128): Elaborating entity "lpm_constant" for hierarchy "GAMMA_CORRECT:ui|P1:pp11|lpm_constant:LPM_CONSTANT_component" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/P1.v Line: 49
-Info (12130): Elaborated megafunction instantiation "GAMMA_CORRECT:ui|P1:pp11|lpm_constant:LPM_CONSTANT_component" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/P1.v Line: 49
-Info (12133): Instantiated megafunction "GAMMA_CORRECT:ui|P1:pp11|lpm_constant:LPM_CONSTANT_component" with the following parameter: File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/P1.v Line: 49
+Info (12128): Elaborating entity "RAW_RGB_BIN" for hierarchy "RAW2RGB_J:u4|RAW_RGB_BIN:bin" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/RAW2RGB_J.v Line: 83
+Warning (10230): Verilog HDL assignment warning at RAW_RGB_BIN.v(41): truncated value with size 32 to match size of target (10) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/RAW_RGB_BIN.v Line: 41
+Warning (10230): Verilog HDL assignment warning at RAW_RGB_BIN.v(47): truncated value with size 32 to match size of target (10) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/RAW_RGB_BIN.v Line: 47
+Warning (10230): Verilog HDL assignment warning at RAW_RGB_BIN.v(53): truncated value with size 32 to match size of target (10) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/RAW_RGB_BIN.v Line: 53
+Warning (10230): Verilog HDL assignment warning at RAW_RGB_BIN.v(59): truncated value with size 32 to match size of target (10) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/RAW_RGB_BIN.v Line: 59
+Info (12128): Elaborating entity "VGA_Controller" for hierarchy "VGA_Controller:u1" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 231
+Warning (10230): Verilog HDL assignment warning at VGA_Controller.v(63): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Controller.v Line: 63
+Warning (10230): Verilog HDL assignment warning at VGA_Controller.v(66): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Controller.v Line: 66
+Warning (10230): Verilog HDL assignment warning at VGA_Controller.v(69): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Controller.v Line: 69
+Warning (10230): Verilog HDL assignment warning at VGA_Controller.v(128): truncated value with size 32 to match size of target (13) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Controller.v Line: 128
+Warning (10230): Verilog HDL assignment warning at VGA_Controller.v(153): truncated value with size 32 to match size of target (13) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Controller.v Line: 153
+Info (12128): Elaborating entity "AUTO_FOCUS_ON" for hierarchy "AUTO_FOCUS_ON:u9" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 238
+Warning (10230): Verilog HDL assignment warning at AUTO_FOCUS_ON.v(19): truncated value with size 32 to match size of target (1) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/AUTO_FOCUS_ON.v Line: 19
+Info (12128): Elaborating entity "FOCUS_ADJ" for hierarchy "FOCUS_ADJ:adl" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 266
+Info (12128): Elaborating entity "AUTO_SYNC_MODIFY" for hierarchy "FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v Line: 51
+Info (12128): Elaborating entity "MODIFY_SYNC" for hierarchy "FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE|MODIFY_SYNC:vs" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/AUTO_SYNC_MODIFY.v Line: 17
+Warning (10230): Verilog HDL assignment warning at MODIFY_SYNC.v(19): truncated value with size 32 to match size of target (16) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/MODIFY_SYNC.v Line: 19
+Info (12128): Elaborating entity "LCD_COUNTER" for hierarchy "FOCUS_ADJ:adl|LCD_COUNTER:cv1" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v Line: 63
+Warning (10230): Verilog HDL assignment warning at LCD_COUNTER.v(31): truncated value with size 32 to match size of target (16) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/LCD_COUNTER.v Line: 31
+Warning (10230): Verilog HDL assignment warning at LCD_COUNTER.v(36): truncated value with size 32 to match size of target (16) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/LCD_COUNTER.v Line: 36
+Warning (10230): Verilog HDL assignment warning at LCD_COUNTER.v(39): truncated value with size 32 to match size of target (1) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/LCD_COUNTER.v Line: 39
+Warning (10230): Verilog HDL assignment warning at LCD_COUNTER.v(47): truncated value with size 32 to match size of target (1) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/LCD_COUNTER.v Line: 47
+Info (12128): Elaborating entity "VCM_CTRL_P" for hierarchy "FOCUS_ADJ:adl|VCM_CTRL_P:pp" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v Line: 84
+Warning (10230): Verilog HDL assignment warning at VCM_CTRL_P.v(24): truncated value with size 32 to match size of target (18) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/VCM_CTRL_P.v Line: 24
+Warning (10230): Verilog HDL assignment warning at VCM_CTRL_P.v(53): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/VCM_CTRL_P.v Line: 53
+Info (12128): Elaborating entity "F_VCM" for hierarchy "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/VCM_CTRL_P.v Line: 94
+Warning (10230): Verilog HDL assignment warning at F_VCM.v(32): truncated value with size 32 to match size of target (11) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 32
+Warning (10230): Verilog HDL assignment warning at F_VCM.v(41): truncated value with size 32 to match size of target (11) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 41
+Warning (10230): Verilog HDL assignment warning at F_VCM.v(49): truncated value with size 32 to match size of target (11) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 49
+Info (12128): Elaborating entity "I2C_DELAY" for hierarchy "FOCUS_ADJ:adl|I2C_DELAY:i2c" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v Line: 95
+Warning (10034): Output port "READY1" at I2C_DELAY.v(6) has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/I2C_DELAY.v Line: 6
+Info (12128): Elaborating entity "VCM_I2C" for hierarchy "FOCUS_ADJ:adl|VCM_I2C:i2c2" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v Line: 113
+Warning (10230): Verilog HDL assignment warning at VCM_I2C.v(116): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/VCM_I2C.v Line: 116
+Warning (10230): Verilog HDL assignment warning at VCM_I2C.v(169): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/VCM_I2C.v Line: 169
+Warning (10230): Verilog HDL assignment warning at VCM_I2C.v(208): truncated value with size 32 to match size of target (1) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/VCM_I2C.v Line: 208
+Warning (10034): Output port "TR" at VCM_I2C.v(32) has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/VCM_I2C.v Line: 32
+Info (12128): Elaborating entity "GAMMA_CORRECT" for hierarchy "GAMMA_CORRECT:ui" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 278
+Info (12128): Elaborating entity "P1" for hierarchy "GAMMA_CORRECT:ui|P1:pp11" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/GAMMA_CORRECT.v Line: 14
+Info (12128): Elaborating entity "lpm_constant" for hierarchy "GAMMA_CORRECT:ui|P1:pp11|lpm_constant:LPM_CONSTANT_component" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/P1.v Line: 49
+Info (12130): Elaborated megafunction instantiation "GAMMA_CORRECT:ui|P1:pp11|lpm_constant:LPM_CONSTANT_component" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/P1.v Line: 49
+Info (12133): Instantiated megafunction "GAMMA_CORRECT:ui|P1:pp11|lpm_constant:LPM_CONSTANT_component" with the following parameter: File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/P1.v Line: 49
     Info (12134): Parameter "lpm_cvalue" = "255"
     Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=YES, INSTANCE_NAME=PP1"
     Info (12134): Parameter "lpm_type" = "LPM_CONSTANT"
     Info (12134): Parameter "lpm_width" = "10"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_constant_qh8.tdf
-    Info (12023): Found entity 1: lpm_constant_qh8 File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_qh8.tdf Line: 25
+    Info (12023): Found entity 1: lpm_constant_qh8 File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_qh8.tdf Line: 25
 Info (12128): Elaborating entity "lpm_constant_qh8" for hierarchy "GAMMA_CORRECT:ui|P1:pp11|lpm_constant:LPM_CONSTANT_component|lpm_constant_qh8:ag" File: d:/software/intelfpga/18.1/quartus/libraries/megafunctions/lpm_constant.tdf Line: 45
-Info (12128): Elaborating entity "sld_mod_ram_rom" for hierarchy "GAMMA_CORRECT:ui|P1:pp11|lpm_constant:LPM_CONSTANT_component|lpm_constant_qh8:ag|sld_mod_ram_rom:mgl_prim1" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_qh8.tdf Line: 30
-Info (12130): Elaborated megafunction instantiation "GAMMA_CORRECT:ui|P1:pp11|lpm_constant:LPM_CONSTANT_component|lpm_constant_qh8:ag|sld_mod_ram_rom:mgl_prim1" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_qh8.tdf Line: 30
-Info (12133): Instantiated megafunction "GAMMA_CORRECT:ui|P1:pp11|lpm_constant:LPM_CONSTANT_component|lpm_constant_qh8:ag|sld_mod_ram_rom:mgl_prim1" with the following parameter: File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_qh8.tdf Line: 30
+Info (12128): Elaborating entity "sld_mod_ram_rom" for hierarchy "GAMMA_CORRECT:ui|P1:pp11|lpm_constant:LPM_CONSTANT_component|lpm_constant_qh8:ag|sld_mod_ram_rom:mgl_prim1" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_qh8.tdf Line: 30
+Info (12130): Elaborated megafunction instantiation "GAMMA_CORRECT:ui|P1:pp11|lpm_constant:LPM_CONSTANT_component|lpm_constant_qh8:ag|sld_mod_ram_rom:mgl_prim1" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_qh8.tdf Line: 30
+Info (12133): Instantiated megafunction "GAMMA_CORRECT:ui|P1:pp11|lpm_constant:LPM_CONSTANT_component|lpm_constant_qh8:ag|sld_mod_ram_rom:mgl_prim1" with the following parameter: File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_qh8.tdf Line: 30
     Info (12134): Parameter "CVALUE" = "0011111111"
     Info (12134): Parameter "IS_DATA_IN_RAM" = "0"
     Info (12134): Parameter "IS_READABLE" = "0"
@@ -3031,20 +3031,20 @@ Info (12133): Instantiated megafunction "GAMMA_CORRECT:ui|P1:pp11|lpm_constant:L
     Info (12134): Parameter "SHIFT_COUNT_BITS" = "4"
     Info (12134): Parameter "WIDTH_WORD" = "10"
     Info (12134): Parameter "WIDTHAD" = "1"
-Info (12128): Elaborating entity "P2" for hierarchy "GAMMA_CORRECT:ui|P2:pp22" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/GAMMA_CORRECT.v Line: 15
-Info (12128): Elaborating entity "lpm_constant" for hierarchy "GAMMA_CORRECT:ui|P2:pp22|lpm_constant:LPM_CONSTANT_component" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/P2.v Line: 49
-Info (12130): Elaborated megafunction instantiation "GAMMA_CORRECT:ui|P2:pp22|lpm_constant:LPM_CONSTANT_component" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/P2.v Line: 49
-Info (12133): Instantiated megafunction "GAMMA_CORRECT:ui|P2:pp22|lpm_constant:LPM_CONSTANT_component" with the following parameter: File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/P2.v Line: 49
+Info (12128): Elaborating entity "P2" for hierarchy "GAMMA_CORRECT:ui|P2:pp22" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/GAMMA_CORRECT.v Line: 15
+Info (12128): Elaborating entity "lpm_constant" for hierarchy "GAMMA_CORRECT:ui|P2:pp22|lpm_constant:LPM_CONSTANT_component" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/P2.v Line: 49
+Info (12130): Elaborated megafunction instantiation "GAMMA_CORRECT:ui|P2:pp22|lpm_constant:LPM_CONSTANT_component" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/P2.v Line: 49
+Info (12133): Instantiated megafunction "GAMMA_CORRECT:ui|P2:pp22|lpm_constant:LPM_CONSTANT_component" with the following parameter: File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/P2.v Line: 49
     Info (12134): Parameter "lpm_cvalue" = "416"
     Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=YES, INSTANCE_NAME=pp2"
     Info (12134): Parameter "lpm_type" = "LPM_CONSTANT"
     Info (12134): Parameter "lpm_width" = "10"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_constant_1g8.tdf
-    Info (12023): Found entity 1: lpm_constant_1g8 File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_1g8.tdf Line: 25
+    Info (12023): Found entity 1: lpm_constant_1g8 File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_1g8.tdf Line: 25
 Info (12128): Elaborating entity "lpm_constant_1g8" for hierarchy "GAMMA_CORRECT:ui|P2:pp22|lpm_constant:LPM_CONSTANT_component|lpm_constant_1g8:ag" File: d:/software/intelfpga/18.1/quartus/libraries/megafunctions/lpm_constant.tdf Line: 45
-Info (12128): Elaborating entity "sld_mod_ram_rom" for hierarchy "GAMMA_CORRECT:ui|P2:pp22|lpm_constant:LPM_CONSTANT_component|lpm_constant_1g8:ag|sld_mod_ram_rom:mgl_prim1" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_1g8.tdf Line: 30
-Info (12130): Elaborated megafunction instantiation "GAMMA_CORRECT:ui|P2:pp22|lpm_constant:LPM_CONSTANT_component|lpm_constant_1g8:ag|sld_mod_ram_rom:mgl_prim1" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_1g8.tdf Line: 30
-Info (12133): Instantiated megafunction "GAMMA_CORRECT:ui|P2:pp22|lpm_constant:LPM_CONSTANT_component|lpm_constant_1g8:ag|sld_mod_ram_rom:mgl_prim1" with the following parameter: File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/lpm_constant_1g8.tdf Line: 30
+Info (12128): Elaborating entity "sld_mod_ram_rom" for hierarchy "GAMMA_CORRECT:ui|P2:pp22|lpm_constant:LPM_CONSTANT_component|lpm_constant_1g8:ag|sld_mod_ram_rom:mgl_prim1" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_1g8.tdf Line: 30
+Info (12130): Elaborated megafunction instantiation "GAMMA_CORRECT:ui|P2:pp22|lpm_constant:LPM_CONSTANT_component|lpm_constant_1g8:ag|sld_mod_ram_rom:mgl_prim1" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_1g8.tdf Line: 30
+Info (12133): Instantiated megafunction "GAMMA_CORRECT:ui|P2:pp22|lpm_constant:LPM_CONSTANT_component|lpm_constant_1g8:ag|sld_mod_ram_rom:mgl_prim1" with the following parameter: File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/lpm_constant_1g8.tdf Line: 30
     Info (12134): Parameter "CVALUE" = "0110100000"
     Info (12134): Parameter "IS_DATA_IN_RAM" = "0"
     Info (12134): Parameter "IS_READABLE" = "0"
@@ -3053,21 +3053,21 @@ Info (12133): Instantiated megafunction "GAMMA_CORRECT:ui|P2:pp22|lpm_constant:L
     Info (12134): Parameter "SHIFT_COUNT_BITS" = "4"
     Info (12134): Parameter "WIDTH_WORD" = "10"
     Info (12134): Parameter "WIDTHAD" = "1"
-Info (12128): Elaborating entity "BEZIER_CURVE" for hierarchy "GAMMA_CORRECT:ui|BEZIER_CURVE:rr" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/GAMMA_CORRECT.v Line: 22
-Warning (10230): Verilog HDL assignment warning at BEZIER_CURVE.v(16): truncated value with size 32 to match size of target (8) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/BEZIER_CURVE.v Line: 16
-Info (12128): Elaborating entity "HDMI_TX_AD7513" for hierarchy "HDMI_TX_AD7513:hdmi" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 294
-Info (12128): Elaborating entity "I2C_HDMI_Config" for hierarchy "HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/HDMI_TX_AD7513.v Line: 40
-Warning (10230): Verilog HDL assignment warning at I2C_HDMI_Config.v(45): truncated value with size 32 to match size of target (16) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_HDMI_Config.v Line: 45
-Warning (10230): Verilog HDL assignment warning at I2C_HDMI_Config.v(93): truncated value with size 32 to match size of target (6) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_HDMI_Config.v Line: 93
-Info (12128): Elaborating entity "I2C_Controller" for hierarchy "HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|I2C_Controller:u0" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_HDMI_Config.v Line: 61
-Warning (10230): Verilog HDL assignment warning at I2C_Controller.v(64): truncated value with size 32 to match size of target (1) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_Controller.v Line: 64
-Warning (10230): Verilog HDL assignment warning at I2C_Controller.v(87): truncated value with size 32 to match size of target (6) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_Controller.v Line: 87
-Info (12128): Elaborating entity "AUDIO_IF" for hierarchy "HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/HDMI_TX_AD7513.v Line: 49
-Warning (10230): Verilog HDL assignment warning at AUDIO_IF.v(113): truncated value with size 32 to match size of target (6) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/AUDIO_IF.v Line: 113
-Warning (10230): Verilog HDL assignment warning at AUDIO_IF.v(129): truncated value with size 32 to match size of target (7) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/AUDIO_IF.v Line: 129
-Warning (10230): Verilog HDL assignment warning at AUDIO_IF.v(155): truncated value with size 32 to match size of target (6) File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/AUDIO_IF.v Line: 155
+Info (12128): Elaborating entity "BEZIER_CURVE" for hierarchy "GAMMA_CORRECT:ui|BEZIER_CURVE:rr" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/GAMMA_CORRECT.v Line: 22
+Warning (10230): Verilog HDL assignment warning at BEZIER_CURVE.v(16): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/BEZIER_CURVE.v Line: 16
+Info (12128): Elaborating entity "HDMI_TX_AD7513" for hierarchy "HDMI_TX_AD7513:hdmi" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 294
+Info (12128): Elaborating entity "I2C_HDMI_Config" for hierarchy "HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/HDMI_TX_AD7513.v Line: 40
+Warning (10230): Verilog HDL assignment warning at I2C_HDMI_Config.v(45): truncated value with size 32 to match size of target (16) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_HDMI_Config.v Line: 45
+Warning (10230): Verilog HDL assignment warning at I2C_HDMI_Config.v(93): truncated value with size 32 to match size of target (6) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_HDMI_Config.v Line: 93
+Info (12128): Elaborating entity "I2C_Controller" for hierarchy "HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|I2C_Controller:u0" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_HDMI_Config.v Line: 61
+Warning (10230): Verilog HDL assignment warning at I2C_Controller.v(64): truncated value with size 32 to match size of target (1) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_Controller.v Line: 64
+Warning (10230): Verilog HDL assignment warning at I2C_Controller.v(87): truncated value with size 32 to match size of target (6) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_Controller.v Line: 87
+Info (12128): Elaborating entity "AUDIO_IF" for hierarchy "HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/HDMI_TX_AD7513.v Line: 49
+Warning (10230): Verilog HDL assignment warning at AUDIO_IF.v(113): truncated value with size 32 to match size of target (6) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/AUDIO_IF.v Line: 113
+Warning (10230): Verilog HDL assignment warning at AUDIO_IF.v(129): truncated value with size 32 to match size of target (7) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/AUDIO_IF.v Line: 129
+Warning (10230): Verilog HDL assignment warning at AUDIO_IF.v(155): truncated value with size 32 to match size of target (6) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/AUDIO_IF.v Line: 155
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2020.11.17.19:47:47 Progress: Loading sld86241617/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2020.11.30.22:55:19 Progress: Loading sld86241617/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -3078,141 +3078,141 @@ Info (11172): Ident: "alt_sld_fab" instantiated altera_connection_identification
 Info (11172): Alt_sld_fab: Done "alt_sld_fab" with 6 modules, 6 files
 Info (11171): Finished IP generation for the debug fabric: alt_sld_fab.
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld86241617/alt_sld_fab.v
-    Info (12023): Found entity 1: alt_sld_fab File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/ip/sld86241617/alt_sld_fab.v Line: 9
+    Info (12023): Found entity 1: alt_sld_fab File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/ip/sld86241617/alt_sld_fab.v Line: 9
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab.v
-    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab.v Line: 9
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab.v Line: 9
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_ident.sv
-    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_ident File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_ident.sv Line: 33
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_ident File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_ident.sv Line: 33
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_presplit.sv
-    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_presplit File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_presplit.sv Line: 3
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_presplit File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_presplit.sv Line: 3
 Info (12021): Found 2 design units, including 1 entities, in source file db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd
-    Info (12022): Found design unit 1: alt_sld_fab_alt_sld_fab_sldfabric-rtl File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd Line: 262
-    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_sldfabric File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd Line: 11
+    Info (12022): Found design unit 1: alt_sld_fab_alt_sld_fab_sldfabric-rtl File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd Line: 262
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_sldfabric File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd Line: 11
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_splitter.sv
-    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_splitter File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_splitter.sv Line: 3
-Warning (12161): Node "HDMI_TX_AD7513:hdmi|HDMI_MCLK" is stuck at GND because node is in wire loop and does not have a source File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/HDMI_TX_AD7513.v Line: 16
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_splitter File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/ip/sld86241617/submodules/alt_sld_fab_alt_sld_fab_splitter.sv Line: 3
+Warning (12161): Node "HDMI_TX_AD7513:hdmi|HDMI_MCLK" is stuck at GND because node is in wire loop and does not have a source File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/HDMI_TX_AD7513.v Line: 16
 Info (276014): Found 1 instances of uninferred RAM logic
-    Info (276004): RAM logic "HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|Ram0" is uninferred due to inappropriate RAM size File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/AUDIO_IF.v Line: 166
+    Info (276004): RAM logic "HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|Ram0" is uninferred due to inappropriate RAM size File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/AUDIO_IF.v Line: 166
 Info (286031): Timing-Driven Synthesis is running on partition "Top"
 Warning (12241): 32 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13034): The following nodes have both tri-state and non-tri-state drivers
-    Warning (13035): Inserted always-enabled tri-state buffer between "CAMERA_I2C_SCL" and its non-tri-state driver. File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 60
-    Warning (13035): Inserted always-enabled tri-state buffer between "HDMI_I2C_SCL" and its non-tri-state driver. File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 63
-    Warning (13035): Inserted always-enabled tri-state buffer between "MIPI_I2C_SCL" and its non-tri-state driver. File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 77
+    Warning (13035): Inserted always-enabled tri-state buffer between "CAMERA_I2C_SCL" and its non-tri-state driver. File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 60
+    Warning (13035): Inserted always-enabled tri-state buffer between "HDMI_I2C_SCL" and its non-tri-state driver. File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 63
+    Warning (13035): Inserted always-enabled tri-state buffer between "MIPI_I2C_SCL" and its non-tri-state driver. File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 77
 Warning (13039): The following bidirectional pins have no drivers
-    Warning (13040): bidirectional pin "FSM_D[0]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[1]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[2]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[3]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[4]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[5]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[6]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[7]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[8]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[9]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[10]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[11]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[12]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[13]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[14]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[15]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
-    Warning (13040): bidirectional pin "SD_CMD" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 37
-    Warning (13040): bidirectional pin "SD_DATA[0]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 38
-    Warning (13040): bidirectional pin "SD_DATA[1]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 38
-    Warning (13040): bidirectional pin "SD_DATA[2]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 38
-    Warning (13040): bidirectional pin "SD_DATA[3]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 38
-    Warning (13040): bidirectional pin "FPGA_I2C_SCL" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 45
-    Warning (13040): bidirectional pin "FPGA_I2C_SDA" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 46
-    Warning (13040): bidirectional pin "TMD_D[0]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 86
-    Warning (13040): bidirectional pin "TMD_D[1]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 86
-    Warning (13040): bidirectional pin "TMD_D[2]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 86
-    Warning (13040): bidirectional pin "TMD_D[3]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 86
-    Warning (13040): bidirectional pin "TMD_D[4]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 86
-    Warning (13040): bidirectional pin "TMD_D[5]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 86
-    Warning (13040): bidirectional pin "TMD_D[6]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 86
-    Warning (13040): bidirectional pin "TMD_D[7]" has no driver File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 86
+    Warning (13040): bidirectional pin "FSM_D[0]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[1]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[2]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[3]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[4]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[5]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[6]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[7]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[8]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[9]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[10]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[11]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[12]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[13]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[14]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[15]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 33
+    Warning (13040): bidirectional pin "SD_CMD" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 37
+    Warning (13040): bidirectional pin "SD_DATA[0]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 38
+    Warning (13040): bidirectional pin "SD_DATA[1]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 38
+    Warning (13040): bidirectional pin "SD_DATA[2]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 38
+    Warning (13040): bidirectional pin "SD_DATA[3]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 38
+    Warning (13040): bidirectional pin "FPGA_I2C_SCL" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 45
+    Warning (13040): bidirectional pin "FPGA_I2C_SDA" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 46
+    Warning (13040): bidirectional pin "TMD_D[0]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 86
+    Warning (13040): bidirectional pin "TMD_D[1]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 86
+    Warning (13040): bidirectional pin "TMD_D[2]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 86
+    Warning (13040): bidirectional pin "TMD_D[3]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 86
+    Warning (13040): bidirectional pin "TMD_D[4]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 86
+    Warning (13040): bidirectional pin "TMD_D[5]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 86
+    Warning (13040): bidirectional pin "TMD_D[6]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 86
+    Warning (13040): bidirectional pin "TMD_D[7]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 86
 Warning (13004): Presettable and clearable registers converted to equivalent circuits with latches. Registers power-up to an undefined state, and DEVCLRn places the registers in an undefined state.
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_I2C:i2c2|rTR_IN" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_I2C:i2c2|rTR_IN~_emulated" and latch "FOCUS_ADJ:adl|VCM_I2C:i2c2|rTR_IN~1" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/VCM_I2C.v Line: 38
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[9]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[9]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[9]~1" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[10]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[10]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[10]~5" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[8]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[8]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[8]~9" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[7]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[7]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[7]~13" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[6]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[6]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[6]~17" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[5]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[5]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[5]~21" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[4]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[4]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[4]~25" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[3]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[3]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[3]~29" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[2]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[2]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[2]~33" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[1]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[1]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[1]~37" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[0]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[0]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[0]~41" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_I2C:i2c2|rTR_IN" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_I2C:i2c2|rTR_IN~_emulated" and latch "FOCUS_ADJ:adl|VCM_I2C:i2c2|rTR_IN~1" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/VCM_I2C.v Line: 38
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[9]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[9]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[9]~1" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[10]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[10]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[10]~5" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[8]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[8]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[8]~9" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[7]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[7]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[7]~13" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[6]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[6]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[6]~17" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[5]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[5]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[5]~21" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[4]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[4]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[4]~25" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[3]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[3]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[3]~29" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[2]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[2]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[2]~33" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[1]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[1]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[1]~37" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[0]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[0]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[0]~41" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
 Warning (13009): TRI or OPNDRN buffers permanently enabled
-    Warning (13010): Node "CAMERA_I2C_SCL~synth" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 60
-    Warning (13010): Node "HDMI_I2C_SCL~synth" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 63
-    Warning (13010): Node "MIPI_I2C_SCL~synth" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 77
+    Warning (13010): Node "CAMERA_I2C_SCL~synth" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 60
+    Warning (13010): Node "HDMI_I2C_SCL~synth" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 63
+    Warning (13010): Node "MIPI_I2C_SCL~synth" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 77
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "FSM_A[1]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[2]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[3]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[4]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[5]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[6]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[7]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[8]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[9]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[10]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[11]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[12]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[13]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[14]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[15]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[16]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[17]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[18]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[19]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[20]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[21]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[22]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[23]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[24]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[25]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "FSM_A[26]" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
-    Warning (13410): Pin "SD_CLK" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 36
-    Warning (13410): Pin "UART_TX" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 42
-    Warning (13410): Pin "SMA_CLKOUT_p" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 57
-    Warning (13410): Pin "HDMI_MCLK" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 67
-    Warning (13410): Pin "HDMI_SPDIF" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 69
-    Warning (13410): Pin "MIPI_CS_n" is stuck at GND File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 76
+    Warning (13410): Pin "FSM_A[1]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[2]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[3]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[4]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[5]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[6]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[7]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[8]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[9]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[10]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[11]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[12]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[13]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[14]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[15]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[16]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[17]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[18]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[19]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[20]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[21]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[22]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[23]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[24]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[25]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "FSM_A[26]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 32
+    Warning (13410): Pin "SD_CLK" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 36
+    Warning (13410): Pin "UART_TX" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 42
+    Warning (13410): Pin "SMA_CLKOUT_p" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 57
+    Warning (13410): Pin "HDMI_MCLK" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 67
+    Warning (13410): Pin "HDMI_SPDIF" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 69
+    Warning (13410): Pin "MIPI_CS_n" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 76
 Info (17049): 86 registers lost all their fanouts during netlist optimizations.
-Info (17036): Removed 1 MSB VCC or GND address nodes from RAM block "RAW2RGB_J:u4|Line_Buffer_J:u0|int_line:d1|altsyncram:altsyncram_component|altsyncram_u2v1:auto_generated|ALTSYNCRAM" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/altsyncram_u2v1.tdf Line: 34
-Info (17036): Removed 1 MSB VCC or GND address nodes from RAM block "RAW2RGB_J:u4|Line_Buffer_J:u0|int_line:d3|altsyncram:altsyncram_component|altsyncram_u2v1:auto_generated|ALTSYNCRAM" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/altsyncram_u2v1.tdf Line: 34
-Info (17036): Removed 1 MSB VCC or GND address nodes from RAM block "RAW2RGB_J:u4|Line_Buffer_J:u0|int_line:d2|altsyncram:altsyncram_component|altsyncram_u2v1:auto_generated|ALTSYNCRAM" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/db/altsyncram_u2v1.tdf Line: 34
+Info (17036): Removed 1 MSB VCC or GND address nodes from RAM block "RAW2RGB_J:u4|Line_Buffer_J:u0|int_line:d1|altsyncram:altsyncram_component|altsyncram_u2v1:auto_generated|ALTSYNCRAM" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/altsyncram_u2v1.tdf Line: 34
+Info (17036): Removed 1 MSB VCC or GND address nodes from RAM block "RAW2RGB_J:u4|Line_Buffer_J:u0|int_line:d3|altsyncram:altsyncram_component|altsyncram_u2v1:auto_generated|ALTSYNCRAM" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/altsyncram_u2v1.tdf Line: 34
+Info (17036): Removed 1 MSB VCC or GND address nodes from RAM block "RAW2RGB_J:u4|Line_Buffer_J:u0|int_line:d2|altsyncram:altsyncram_component|altsyncram_u2v1:auto_generated|ALTSYNCRAM" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/db/altsyncram_u2v1.tdf Line: 34
 Info (17016): Found the following redundant logic cells in design
-    Info (17048): Logic cell "FOCUS_ADJ:adl|VCM_I2C:i2c2|const_zero_sig" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_Auto/VCM_I2C.v Line: 199
-    Info (17048): Logic cell "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|const_zero_sig" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 249
-    Info (17048): Logic cell "HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|I2C_Controller:u0|const_zero_sig" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_Controller.v Line: 72
-    Info (17048): Logic cell "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv|const_zero_sig" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 266
+    Info (17048): Logic cell "FOCUS_ADJ:adl|VCM_I2C:i2c2|const_zero_sig" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/VCM_I2C.v Line: 199
+    Info (17048): Logic cell "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|const_zero_sig" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 249
+    Info (17048): Logic cell "HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|I2C_Controller:u0|const_zero_sig" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_Controller.v Line: 72
+    Info (17048): Logic cell "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv|const_zero_sig" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 266
 Warning (20013): Ignored 3 assignments for entity "pll_vga" -- entity does not exist in design
     Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_NAME altera_pll -entity pll_vga -sip V/pll_vga.sip -library lib_pll_vga was ignored
     Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_VERSION 16.0 -entity pll_vga -sip V/pll_vga.sip -library lib_pll_vga was ignored
     Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_ENV mwpim -entity pll_vga -sip V/pll_vga.sip -library lib_pll_vga was ignored
-Info (144001): Generated suppressed messages file D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/output_files/D8M_FMC.map.smsg
+Info (144001): Generated suppressed messages file D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/output_files/D8M_FMC.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 26 node(s), including 0 DDIO, 3 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 15 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "OSC_50_B7A" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 12
-    Warning (15610): No output dependent on input pin "OSC_50_B7D" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 13
-    Warning (15610): No output dependent on input pin "OSC_50_B8A" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 14
-    Warning (15610): No output dependent on input pin "OSC_50_B8D" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 15
-    Warning (15610): No output dependent on input pin "BUTTON[1]" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 18
-    Warning (15610): No output dependent on input pin "CPU_RESET_n" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 19
-    Warning (15610): No output dependent on input pin "SW[0]" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 22
-    Warning (15610): No output dependent on input pin "SW[1]" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 22
-    Warning (15610): No output dependent on input pin "SW[2]" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 22
-    Warning (15610): No output dependent on input pin "FAN_ALERT_n" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 28
-    Warning (15610): No output dependent on input pin "UART_RX" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 41
-    Warning (15610): No output dependent on input pin "TEMP_INT_n" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 49
-    Warning (15610): No output dependent on input pin "TEMP_OVERT_n" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 50
-    Warning (15610): No output dependent on input pin "POWER_MONITOR_ALERT" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 53
-    Warning (15610): No output dependent on input pin "SMA_CLKIN_p" File: D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 56
+    Warning (15610): No output dependent on input pin "OSC_50_B7A" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 12
+    Warning (15610): No output dependent on input pin "OSC_50_B7D" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 13
+    Warning (15610): No output dependent on input pin "OSC_50_B8A" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 14
+    Warning (15610): No output dependent on input pin "OSC_50_B8D" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 15
+    Warning (15610): No output dependent on input pin "BUTTON[1]" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 18
+    Warning (15610): No output dependent on input pin "CPU_RESET_n" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 19
+    Warning (15610): No output dependent on input pin "SW[0]" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 22
+    Warning (15610): No output dependent on input pin "SW[1]" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 22
+    Warning (15610): No output dependent on input pin "SW[2]" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 22
+    Warning (15610): No output dependent on input pin "FAN_ALERT_n" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 28
+    Warning (15610): No output dependent on input pin "UART_RX" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 41
+    Warning (15610): No output dependent on input pin "TEMP_INT_n" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 49
+    Warning (15610): No output dependent on input pin "TEMP_OVERT_n" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 50
+    Warning (15610): No output dependent on input pin "POWER_MONITOR_ALERT" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 53
+    Warning (15610): No output dependent on input pin "SMA_CLKIN_p" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/d8m_fmc.v Line: 56
 Info (21057): Implemented 6001 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 40 input pins
     Info (21059): Implemented 74 output pins
@@ -3222,15 +3222,15 @@ Info (21057): Implemented 6001 device resources after synthesis - the final reso
     Info (21065): Implemented 3 PLLs
     Info (21062): Implemented 14 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 210 warnings
-    Info: Peak virtual memory: 5093 megabytes
-    Info: Processing ended: Tue Nov 17 19:48:46 2020
-    Info: Elapsed time: 00:01:23
-    Info: Total CPU time (on all processors): 00:01:39
+    Info: Peak virtual memory: 5092 megabytes
+    Info: Processing ended: Mon Nov 30 22:56:09 2020
+    Info: Elapsed time: 00:01:10
+    Info: Total CPU time (on all processors): 00:01:31
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in D:/Desktop/D8M-FMC_v.1.0.1_SystemCD/Demonstrations/TR5_D8M_FMC_RTL/output_files/D8M_FMC.map.smsg.
+The suppressed messages can be found in D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/output_files/D8M_FMC.map.smsg.
 
 
