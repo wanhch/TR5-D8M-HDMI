@@ -1,5 +1,5 @@
 Timing Analyzer report for TR5_D8M_HDMI
-Mon Nov 30 22:49:37 2020
+Tue Dec 01 21:14:55 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -9,54 +9,55 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
   1. Legal Notice
   2. Timing Analyzer Summary
   3. Parallel Compilation
-  4. Clocks
-  5. Slow 900mV 85C Model Fmax Summary
-  6. Timing Closure Recommendations
-  7. Slow 900mV 85C Model Setup Summary
-  8. Slow 900mV 85C Model Hold Summary
-  9. Slow 900mV 85C Model Recovery Summary
- 10. Slow 900mV 85C Model Removal Summary
- 11. Slow 900mV 85C Model Minimum Pulse Width Summary
- 12. Slow 900mV 85C Model Metastability Summary
- 13. Slow 900mV 0C Model Fmax Summary
- 14. Slow 900mV 0C Model Setup Summary
- 15. Slow 900mV 0C Model Hold Summary
- 16. Slow 900mV 0C Model Recovery Summary
- 17. Slow 900mV 0C Model Removal Summary
- 18. Slow 900mV 0C Model Minimum Pulse Width Summary
- 19. Slow 900mV 0C Model Metastability Summary
- 20. Fast 900mV 85C Model Setup Summary
- 21. Fast 900mV 85C Model Hold Summary
- 22. Fast 900mV 85C Model Recovery Summary
- 23. Fast 900mV 85C Model Removal Summary
- 24. Fast 900mV 85C Model Minimum Pulse Width Summary
- 25. Fast 900mV 85C Model Metastability Summary
- 26. Fast 900mV 0C Model Setup Summary
- 27. Fast 900mV 0C Model Hold Summary
- 28. Fast 900mV 0C Model Recovery Summary
- 29. Fast 900mV 0C Model Removal Summary
- 30. Fast 900mV 0C Model Minimum Pulse Width Summary
- 31. Fast 900mV 0C Model Metastability Summary
- 32. Multicorner Timing Analysis Summary
- 33. Board Trace Model Assignments
- 34. Input Transition Times
- 35. Signal Integrity Metrics (Slow 900mv 0c Model)
- 36. Signal Integrity Metrics (Slow 900mv 85c Model)
- 37. Signal Integrity Metrics (Fast 900mv 0c Model)
- 38. Signal Integrity Metrics (Fast 900mv 85c Model)
- 39. Setup Transfers
- 40. Hold Transfers
- 41. Recovery Transfers
- 42. Removal Transfers
- 43. Report TCCS
- 44. Report RSKM
- 45. Unconstrained Paths Summary
- 46. Clock Status Summary
- 47. Unconstrained Input Ports
- 48. Unconstrained Output Ports
- 49. Unconstrained Input Ports
- 50. Unconstrained Output Ports
- 51. Timing Analyzer Messages
+  4. SDC File List
+  5. Clocks
+  6. Slow 900mV 85C Model Fmax Summary
+  7. Timing Closure Recommendations
+  8. Slow 900mV 85C Model Setup Summary
+  9. Slow 900mV 85C Model Hold Summary
+ 10. Slow 900mV 85C Model Recovery Summary
+ 11. Slow 900mV 85C Model Removal Summary
+ 12. Slow 900mV 85C Model Minimum Pulse Width Summary
+ 13. Slow 900mV 85C Model Metastability Summary
+ 14. Slow 900mV 0C Model Fmax Summary
+ 15. Slow 900mV 0C Model Setup Summary
+ 16. Slow 900mV 0C Model Hold Summary
+ 17. Slow 900mV 0C Model Recovery Summary
+ 18. Slow 900mV 0C Model Removal Summary
+ 19. Slow 900mV 0C Model Minimum Pulse Width Summary
+ 20. Slow 900mV 0C Model Metastability Summary
+ 21. Fast 900mV 85C Model Setup Summary
+ 22. Fast 900mV 85C Model Hold Summary
+ 23. Fast 900mV 85C Model Recovery Summary
+ 24. Fast 900mV 85C Model Removal Summary
+ 25. Fast 900mV 85C Model Minimum Pulse Width Summary
+ 26. Fast 900mV 85C Model Metastability Summary
+ 27. Fast 900mV 0C Model Setup Summary
+ 28. Fast 900mV 0C Model Hold Summary
+ 29. Fast 900mV 0C Model Recovery Summary
+ 30. Fast 900mV 0C Model Removal Summary
+ 31. Fast 900mV 0C Model Minimum Pulse Width Summary
+ 32. Fast 900mV 0C Model Metastability Summary
+ 33. Multicorner Timing Analysis Summary
+ 34. Board Trace Model Assignments
+ 35. Input Transition Times
+ 36. Signal Integrity Metrics (Slow 900mv 0c Model)
+ 37. Signal Integrity Metrics (Slow 900mv 85c Model)
+ 38. Signal Integrity Metrics (Fast 900mv 0c Model)
+ 39. Signal Integrity Metrics (Fast 900mv 85c Model)
+ 40. Setup Transfers
+ 41. Hold Transfers
+ 42. Recovery Transfers
+ 43. Removal Transfers
+ 44. Report TCCS
+ 45. Report RSKM
+ 46. Unconstrained Paths Summary
+ 47. Clock Status Summary
+ 48. Unconstrained Input Ports
+ 49. Unconstrained Output Ports
+ 50. Unconstrained Input Ports
+ 51. Unconstrained Output Ports
+ 52. Timing Analyzer Messages
 
 
 
@@ -101,33 +102,62 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.33        ;
+; Average used               ; 1.40        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;  11.0%      ;
-;     Processor 3            ;  10.9%      ;
-;     Processor 4            ;  10.8%      ;
+;     Processor 2            ;  15.4%      ;
+;     Processor 3            ;  12.6%      ;
+;     Processor 4            ;  12.4%      ;
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Clocks                                                                                                                                                                                                   ;
-+---------------------+------+--------+-----------+-------+--------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+-------------------------+
-; Clock Name          ; Type ; Period ; Frequency ; Rise  ; Fall   ; Duty Cycle ; Divide by ; Multiply by ; Phase ; Offset ; Edge List ; Edge Shift ; Inverted ; Master ; Source ; Targets                 ;
-+---------------------+------+--------+-----------+-------+--------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+-------------------------+
-; altera_reserved_tck ; Base ; 33.333 ; 30.0 MHz  ; 0.000 ; 16.666 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { altera_reserved_tck } ;
-+---------------------+------+--------+-----------+-------+--------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+-------------------------+
++------------------------------------------------------+
+; SDC File List                                        ;
++------------------+--------+--------------------------+
+; SDC File Path    ; Status ; Read at                  ;
++------------------+--------+--------------------------+
+; TR5_D8M_HDMI.sdc ; OK     ; Tue Dec 01 21:14:41 2020 ;
++------------------+--------+--------------------------+
 
 
-+-----------------------------------------------------------+
-; Slow 900mV 85C Model Fmax Summary                         ;
-+------------+-----------------+---------------------+------+
-; Fmax       ; Restricted Fmax ; Clock Name          ; Note ;
-+------------+-----------------+---------------------+------+
-; 110.95 MHz ; 110.95 MHz      ; altera_reserved_tck ;      ;
-+------------+-----------------+---------------------+------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clocks                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ;
++------------------------------------------------------------------------------+-----------+---------+------------+-------+---------+------------+-----------+-------------+-------+--------+-----------+------------+----------+----------------------------------------------------------------------------+---------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+; Clock Name                                                                   ; Type      ; Period  ; Frequency  ; Rise  ; Fall    ; Duty Cycle ; Divide by ; Multiply by ; Phase ; Offset ; Edge List ; Edge Shift ; Inverted ; Master                                                                     ; Source                                                                          ; Targets                                                                          ;
++------------------------------------------------------------------------------+-----------+---------+------------+-------+---------+------------+-----------+-------------+-------+--------+-----------+------------+----------+----------------------------------------------------------------------------+---------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+; altera_reserved_tck                                                          ; Base      ; 33.333  ; 30.0 MHz   ; 0.000 ; 16.666  ;            ;           ;             ;       ;        ;           ;            ;          ;                                                                            ;                                                                                 ; { altera_reserved_tck }                                                          ;
+; MIPI_PIXEL_CLK                                                               ; Base      ; 10.000  ; 100.0 MHz  ; 0.000 ; 5.000   ;            ;           ;             ;       ;        ;           ;            ;          ;                                                                            ;                                                                                 ; { MIPI_PIXEL_CLK }                                                               ;
+; MIPI_PIXEL_CLK_ext                                                           ; Virtual   ; 10.000  ; 100.0 MHz  ; 0.000 ; 5.000   ;            ;           ;             ;       ;        ;           ;            ;          ;                                                                            ;                                                                                 ; { }                                                                              ;
+; OSC_50_B3B                                                                   ; Base      ; 20.000  ; 50.0 MHz   ; 0.000 ; 10.000  ;            ;           ;             ;       ;        ;           ;            ;          ;                                                                            ;                                                                                 ; { OSC_50_B3B }                                                                   ;
+; OSC_50_B4A                                                                   ; Base      ; 20.000  ; 50.0 MHz   ; 0.000 ; 10.000  ;            ;           ;             ;       ;        ;           ;            ;          ;                                                                            ;                                                                                 ; { OSC_50_B4A }                                                                   ;
+; OSC_50_B4D                                                                   ; Base      ; 20.000  ; 50.0 MHz   ; 0.000 ; 10.000  ;            ;           ;             ;       ;        ;           ;            ;          ;                                                                            ;                                                                                 ; { OSC_50_B4D }                                                                   ;
+; OSC_50_B7A                                                                   ; Base      ; 20.000  ; 50.0 MHz   ; 0.000 ; 10.000  ;            ;           ;             ;       ;        ;           ;            ;          ;                                                                            ;                                                                                 ; { OSC_50_B7A }                                                                   ;
+; OSC_50_B7D                                                                   ; Base      ; 20.000  ; 50.0 MHz   ; 0.000 ; 10.000  ;            ;           ;             ;       ;        ;           ;            ;          ;                                                                            ;                                                                                 ; { OSC_50_B7D }                                                                   ;
+; OSC_50_B8A                                                                   ; Base      ; 20.000  ; 50.0 MHz   ; 0.000 ; 10.000  ;            ;           ;             ;       ;        ;           ;            ;          ;                                                                            ;                                                                                 ; { OSC_50_B8A }                                                                   ;
+; OSC_50_B8D                                                                   ; Base      ; 20.000  ; 50.0 MHz   ; 0.000 ; 10.000  ;            ;           ;             ;       ;        ;           ;            ;          ;                                                                            ;                                                                                 ; { OSC_50_B8D }                                                                   ;
+; pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; Generated ; 1.282   ; 780.0 MHz  ; 0.000 ; 0.641   ; 50.00      ; 5         ; 78          ;       ;        ;           ;            ; false    ; OSC_50_B4A                                                                 ; pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|refclkin      ; { pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] }   ;
+; pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; Generated ; 50.000  ; 20.0 MHz   ; 0.000 ; 25.000  ; 50.00      ; 39        ; 1           ;       ;        ;           ;            ; false    ; pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] ; pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|vco1ph[0] ; { pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk } ;
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; Generated ; 651.282 ; 1.54 MHz   ; 0.000 ; 325.641 ; 50.00      ; 508       ; 1           ;       ;        ;           ;            ; false    ; pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] ; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|vco1ph[0] ; { pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk } ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; Generated ; 1.224   ; 816.67 MHz ; 0.000 ; 0.612   ; 50.00      ; 6         ; 98          ;       ;        ;           ;            ; false    ; OSC_50_B4D                                                                 ; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|refclkin      ; { pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] }   ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; Generated ; 13.469  ; 74.24 MHz  ; 0.000 ; 6.734   ; 50.00      ; 11        ; 1           ;       ;        ;           ;            ; false    ; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] ; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|vco1ph[0] ; { pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk } ;
++------------------------------------------------------------------------------+-----------+---------+------------+-------+---------+------------+-----------+-------------+-------+--------+-----------+------------+----------+----------------------------------------------------------------------------+---------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow 900mV 85C Model Fmax Summary                                                                                                                              ;
++--------------+-----------------+------------------------------------------------------------------------------+------------------------------------------------+
+; Fmax         ; Restricted Fmax ; Clock Name                                                                   ; Note                                           ;
++--------------+-----------------+------------------------------------------------------------------------------+------------------------------------------------+
+; 114.16 MHz   ; 114.16 MHz      ; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ;                                                ;
+; 118.81 MHz   ; 118.81 MHz      ; altera_reserved_tck                                                          ;                                                ;
+; 133.85 MHz   ; 133.85 MHz      ; MIPI_PIXEL_CLK                                                               ;                                                ;
+; 255.69 MHz   ; 255.69 MHz      ; OSC_50_B3B                                                                   ;                                                ;
+; 628.54 MHz   ; 628.54 MHz      ; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ;                                                ;
+; 33333.33 MHz ; 800.0 MHz       ; OSC_50_B4A                                                                   ; limit due to minimum period restriction (tmin) ;
+; 33333.33 MHz ; 800.0 MHz       ; OSC_50_B4D                                                                   ; limit due to minimum period restriction (tmin) ;
++--------------+-----------------+------------------------------------------------------------------------------+------------------------------------------------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
 
@@ -137,49 +167,73 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 HTML report is unavailable in plain text report export.
 
 
-+----------------------------------------------+
-; Slow 900mV 85C Model Setup Summary           ;
-+---------------------+--------+---------------+
-; Clock               ; Slack  ; End Point TNS ;
-+---------------------+--------+---------------+
-; altera_reserved_tck ; 12.160 ; 0.000         ;
-+---------------------+--------+---------------+
++--------------------------------------------------------------------------------------------------------+
+; Slow 900mV 85C Model Setup Summary                                                                     ;
++------------------------------------------------------------------------------+---------+---------------+
+; Clock                                                                        ; Slack   ; End Point TNS ;
++------------------------------------------------------------------------------+---------+---------------+
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; -1.514  ; -60.670       ;
+; MIPI_PIXEL_CLK                                                               ; 0.770   ; 0.000         ;
+; altera_reserved_tck                                                          ; 12.458  ; 0.000         ;
+; OSC_50_B3B                                                                   ; 16.089  ; 0.000         ;
+; OSC_50_B4A                                                                   ; 19.970  ; 0.000         ;
+; OSC_50_B4D                                                                   ; 19.970  ; 0.000         ;
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; 649.691 ; 0.000         ;
++------------------------------------------------------------------------------+---------+---------------+
 
 
-+---------------------------------------------+
-; Slow 900mV 85C Model Hold Summary           ;
-+---------------------+-------+---------------+
-; Clock               ; Slack ; End Point TNS ;
-+---------------------+-------+---------------+
-; altera_reserved_tck ; 0.073 ; 0.000         ;
-+---------------------+-------+---------------+
++------------------------------------------------------------------------------------------------------+
+; Slow 900mV 85C Model Hold Summary                                                                    ;
++------------------------------------------------------------------------------+-------+---------------+
+; Clock                                                                        ; Slack ; End Point TNS ;
++------------------------------------------------------------------------------+-------+---------------+
+; altera_reserved_tck                                                          ; 0.089 ; 0.000         ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.091 ; 0.000         ;
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.113 ; 0.000         ;
+; MIPI_PIXEL_CLK                                                               ; 0.124 ; 0.000         ;
+; OSC_50_B3B                                                                   ; 0.157 ; 0.000         ;
+; OSC_50_B4A                                                                   ; 1.250 ; 0.000         ;
+; OSC_50_B4D                                                                   ; 1.250 ; 0.000         ;
++------------------------------------------------------------------------------+-------+---------------+
 
 
-+----------------------------------------------+
-; Slow 900mV 85C Model Recovery Summary        ;
-+---------------------+--------+---------------+
-; Clock               ; Slack  ; End Point TNS ;
-+---------------------+--------+---------------+
-; altera_reserved_tck ; 30.558 ; 0.000         ;
-+---------------------+--------+---------------+
++-------------------------------------------------------------------------------------------------------+
+; Slow 900mV 85C Model Recovery Summary                                                                 ;
++------------------------------------------------------------------------------+--------+---------------+
+; Clock                                                                        ; Slack  ; End Point TNS ;
++------------------------------------------------------------------------------+--------+---------------+
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; -1.717 ; -22.296       ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 11.797 ; 0.000         ;
+; altera_reserved_tck                                                          ; 31.159 ; 0.000         ;
++------------------------------------------------------------------------------+--------+---------------+
 
 
-+---------------------------------------------+
-; Slow 900mV 85C Model Removal Summary        ;
-+---------------------+-------+---------------+
-; Clock               ; Slack ; End Point TNS ;
-+---------------------+-------+---------------+
-; altera_reserved_tck ; 0.307 ; 0.000         ;
-+---------------------+-------+---------------+
++------------------------------------------------------------------------------------------------------+
+; Slow 900mV 85C Model Removal Summary                                                                 ;
++------------------------------------------------------------------------------+-------+---------------+
+; Clock                                                                        ; Slack ; End Point TNS ;
++------------------------------------------------------------------------------+-------+---------------+
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.351 ; 0.000         ;
+; altera_reserved_tck                                                          ; 0.528 ; 0.000         ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.556 ; 0.000         ;
++------------------------------------------------------------------------------+-------+---------------+
 
 
-+--------------------------------------------------+
-; Slow 900mV 85C Model Minimum Pulse Width Summary ;
-+---------------------+--------+-------------------+
-; Clock               ; Slack  ; End Point TNS     ;
-+---------------------+--------+-------------------+
-; altera_reserved_tck ; 16.041 ; 0.000             ;
-+---------------------+--------+-------------------+
++--------------------------------------------------------------------------------------------------------+
+; Slow 900mV 85C Model Minimum Pulse Width Summary                                                       ;
++------------------------------------------------------------------------------+---------+---------------+
+; Clock                                                                        ; Slack   ; End Point TNS ;
++------------------------------------------------------------------------------+---------+---------------+
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; 0.612   ; 0.000         ;
+; pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; 0.641   ; 0.000         ;
+; MIPI_PIXEL_CLK                                                               ; 4.305   ; 0.000         ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 6.054   ; 0.000         ;
+; OSC_50_B3B                                                                   ; 9.263   ; 0.000         ;
+; OSC_50_B4D                                                                   ; 9.834   ; 0.000         ;
+; OSC_50_B4A                                                                   ; 9.837   ; 0.000         ;
+; altera_reserved_tck                                                          ; 16.020  ; 0.000         ;
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; 325.104 ; 0.000         ;
++------------------------------------------------------------------------------+---------+---------------+
 
 
 ----------------------------------------------
@@ -188,59 +242,89 @@ HTML report is unavailable in plain text report export.
 No synchronizer chains to report.
 
 
-+-----------------------------------------------------------+
-; Slow 900mV 0C Model Fmax Summary                          ;
-+------------+-----------------+---------------------+------+
-; Fmax       ; Restricted Fmax ; Clock Name          ; Note ;
-+------------+-----------------+---------------------+------+
-; 115.11 MHz ; 115.11 MHz      ; altera_reserved_tck ;      ;
-+------------+-----------------+---------------------+------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow 900mV 0C Model Fmax Summary                                                                                                                               ;
++--------------+-----------------+------------------------------------------------------------------------------+------------------------------------------------+
+; Fmax         ; Restricted Fmax ; Clock Name                                                                   ; Note                                           ;
++--------------+-----------------+------------------------------------------------------------------------------+------------------------------------------------+
+; 122.93 MHz   ; 122.93 MHz      ; altera_reserved_tck                                                          ;                                                ;
+; 124.35 MHz   ; 124.35 MHz      ; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ;                                                ;
+; 148.35 MHz   ; 148.35 MHz      ; MIPI_PIXEL_CLK                                                               ;                                                ;
+; 275.94 MHz   ; 275.94 MHz      ; OSC_50_B3B                                                                   ;                                                ;
+; 666.22 MHz   ; 666.22 MHz      ; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ;                                                ;
+; 33333.33 MHz ; 800.0 MHz       ; OSC_50_B4A                                                                   ; limit due to minimum period restriction (tmin) ;
+; 33333.33 MHz ; 800.0 MHz       ; OSC_50_B4D                                                                   ; limit due to minimum period restriction (tmin) ;
++--------------+-----------------+------------------------------------------------------------------------------+------------------------------------------------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
 
-+----------------------------------------------+
-; Slow 900mV 0C Model Setup Summary            ;
-+---------------------+--------+---------------+
-; Clock               ; Slack  ; End Point TNS ;
-+---------------------+--------+---------------+
-; altera_reserved_tck ; 12.323 ; 0.000         ;
-+---------------------+--------+---------------+
++--------------------------------------------------------------------------------------------------------+
+; Slow 900mV 0C Model Setup Summary                                                                      ;
++------------------------------------------------------------------------------+---------+---------------+
+; Clock                                                                        ; Slack   ; End Point TNS ;
++------------------------------------------------------------------------------+---------+---------------+
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; -1.199  ; -47.338       ;
+; MIPI_PIXEL_CLK                                                               ; 1.300   ; 0.000         ;
+; altera_reserved_tck                                                          ; 12.599  ; 0.000         ;
+; OSC_50_B3B                                                                   ; 16.376  ; 0.000         ;
+; OSC_50_B4A                                                                   ; 19.970  ; 0.000         ;
+; OSC_50_B4D                                                                   ; 19.970  ; 0.000         ;
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; 649.781 ; 0.000         ;
++------------------------------------------------------------------------------+---------+---------------+
 
 
-+---------------------------------------------+
-; Slow 900mV 0C Model Hold Summary            ;
-+---------------------+-------+---------------+
-; Clock               ; Slack ; End Point TNS ;
-+---------------------+-------+---------------+
-; altera_reserved_tck ; 0.075 ; 0.000         ;
-+---------------------+-------+---------------+
++------------------------------------------------------------------------------------------------------+
+; Slow 900mV 0C Model Hold Summary                                                                     ;
++------------------------------------------------------------------------------+-------+---------------+
+; Clock                                                                        ; Slack ; End Point TNS ;
++------------------------------------------------------------------------------+-------+---------------+
+; altera_reserved_tck                                                          ; 0.091 ; 0.000         ;
+; MIPI_PIXEL_CLK                                                               ; 0.130 ; 0.000         ;
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.170 ; 0.000         ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.178 ; 0.000         ;
+; OSC_50_B3B                                                                   ; 0.214 ; 0.000         ;
+; OSC_50_B4A                                                                   ; 1.250 ; 0.000         ;
+; OSC_50_B4D                                                                   ; 1.250 ; 0.000         ;
++------------------------------------------------------------------------------+-------+---------------+
 
 
-+----------------------------------------------+
-; Slow 900mV 0C Model Recovery Summary         ;
-+---------------------+--------+---------------+
-; Clock               ; Slack  ; End Point TNS ;
-+---------------------+--------+---------------+
-; altera_reserved_tck ; 30.758 ; 0.000         ;
-+---------------------+--------+---------------+
++-------------------------------------------------------------------------------------------------------+
+; Slow 900mV 0C Model Recovery Summary                                                                  ;
++------------------------------------------------------------------------------+--------+---------------+
+; Clock                                                                        ; Slack  ; End Point TNS ;
++------------------------------------------------------------------------------+--------+---------------+
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; -1.276 ; -16.481       ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 11.964 ; 0.000         ;
+; altera_reserved_tck                                                          ; 31.272 ; 0.000         ;
++------------------------------------------------------------------------------+--------+---------------+
 
 
-+---------------------------------------------+
-; Slow 900mV 0C Model Removal Summary         ;
-+---------------------+-------+---------------+
-; Clock               ; Slack ; End Point TNS ;
-+---------------------+-------+---------------+
-; altera_reserved_tck ; 0.328 ; 0.000         ;
-+---------------------+-------+---------------+
++------------------------------------------------------------------------------------------------------+
+; Slow 900mV 0C Model Removal Summary                                                                  ;
++------------------------------------------------------------------------------+-------+---------------+
+; Clock                                                                        ; Slack ; End Point TNS ;
++------------------------------------------------------------------------------+-------+---------------+
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.162 ; 0.000         ;
+; altera_reserved_tck                                                          ; 0.526 ; 0.000         ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.584 ; 0.000         ;
++------------------------------------------------------------------------------+-------+---------------+
 
 
-+-------------------------------------------------+
-; Slow 900mV 0C Model Minimum Pulse Width Summary ;
-+---------------------+--------+------------------+
-; Clock               ; Slack  ; End Point TNS    ;
-+---------------------+--------+------------------+
-; altera_reserved_tck ; 16.137 ; 0.000            ;
-+---------------------+--------+------------------+
++--------------------------------------------------------------------------------------------------------+
+; Slow 900mV 0C Model Minimum Pulse Width Summary                                                        ;
++------------------------------------------------------------------------------+---------+---------------+
+; Clock                                                                        ; Slack   ; End Point TNS ;
++------------------------------------------------------------------------------+---------+---------------+
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; 0.612   ; 0.000         ;
+; pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; 0.641   ; 0.000         ;
+; MIPI_PIXEL_CLK                                                               ; 4.431   ; 0.000         ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 6.043   ; 0.000         ;
+; OSC_50_B3B                                                                   ; 9.218   ; 0.000         ;
+; OSC_50_B4A                                                                   ; 9.777   ; 0.000         ;
+; OSC_50_B4D                                                                   ; 9.934   ; 0.000         ;
+; altera_reserved_tck                                                          ; 16.119  ; 0.000         ;
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; 325.098 ; 0.000         ;
++------------------------------------------------------------------------------+---------+---------------+
 
 
 ---------------------------------------------
@@ -249,49 +333,73 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 No synchronizer chains to report.
 
 
-+----------------------------------------------+
-; Fast 900mV 85C Model Setup Summary           ;
-+---------------------+--------+---------------+
-; Clock               ; Slack  ; End Point TNS ;
-+---------------------+--------+---------------+
-; altera_reserved_tck ; 14.017 ; 0.000         ;
-+---------------------+--------+---------------+
++--------------------------------------------------------------------------------------------------------+
+; Fast 900mV 85C Model Setup Summary                                                                     ;
++------------------------------------------------------------------------------+---------+---------------+
+; Clock                                                                        ; Slack   ; End Point TNS ;
++------------------------------------------------------------------------------+---------+---------------+
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; -0.979  ; -39.954       ;
+; MIPI_PIXEL_CLK                                                               ; 1.538   ; 0.000         ;
+; altera_reserved_tck                                                          ; 14.188  ; 0.000         ;
+; OSC_50_B3B                                                                   ; 17.112  ; 0.000         ;
+; OSC_50_B4A                                                                   ; 19.970  ; 0.000         ;
+; OSC_50_B4D                                                                   ; 19.970  ; 0.000         ;
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; 650.178 ; 0.000         ;
++------------------------------------------------------------------------------+---------+---------------+
 
 
-+---------------------------------------------+
-; Fast 900mV 85C Model Hold Summary           ;
-+---------------------+-------+---------------+
-; Clock               ; Slack ; End Point TNS ;
-+---------------------+-------+---------------+
-; altera_reserved_tck ; 0.032 ; 0.000         ;
-+---------------------+-------+---------------+
++------------------------------------------------------------------------------------------------------+
+; Fast 900mV 85C Model Hold Summary                                                                    ;
++------------------------------------------------------------------------------+-------+---------------+
+; Clock                                                                        ; Slack ; End Point TNS ;
++------------------------------------------------------------------------------+-------+---------------+
+; altera_reserved_tck                                                          ; 0.043 ; 0.000         ;
+; MIPI_PIXEL_CLK                                                               ; 0.058 ; 0.000         ;
+; OSC_50_B3B                                                                   ; 0.095 ; 0.000         ;
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.096 ; 0.000         ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.111 ; 0.000         ;
+; OSC_50_B4A                                                                   ; 1.250 ; 0.000         ;
+; OSC_50_B4D                                                                   ; 1.250 ; 0.000         ;
++------------------------------------------------------------------------------+-------+---------------+
 
 
-+----------------------------------------------+
-; Fast 900mV 85C Model Recovery Summary        ;
-+---------------------+--------+---------------+
-; Clock               ; Slack  ; End Point TNS ;
-+---------------------+--------+---------------+
-; altera_reserved_tck ; 31.516 ; 0.000         ;
-+---------------------+--------+---------------+
++-------------------------------------------------------------------------------------------------------+
+; Fast 900mV 85C Model Recovery Summary                                                                 ;
++------------------------------------------------------------------------------+--------+---------------+
+; Clock                                                                        ; Slack  ; End Point TNS ;
++------------------------------------------------------------------------------+--------+---------------+
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; -1.047 ; -13.512       ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 12.319 ; 0.000         ;
+; altera_reserved_tck                                                          ; 31.818 ; 0.000         ;
++------------------------------------------------------------------------------+--------+---------------+
 
 
-+---------------------------------------------+
-; Fast 900mV 85C Model Removal Summary        ;
-+---------------------+-------+---------------+
-; Clock               ; Slack ; End Point TNS ;
-+---------------------+-------+---------------+
-; altera_reserved_tck ; 0.232 ; 0.000         ;
-+---------------------+-------+---------------+
++------------------------------------------------------------------------------------------------------+
+; Fast 900mV 85C Model Removal Summary                                                                 ;
++------------------------------------------------------------------------------+-------+---------------+
+; Clock                                                                        ; Slack ; End Point TNS ;
++------------------------------------------------------------------------------+-------+---------------+
+; altera_reserved_tck                                                          ; 0.335 ; 0.000         ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.402 ; 0.000         ;
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.456 ; 0.000         ;
++------------------------------------------------------------------------------+-------+---------------+
 
 
-+--------------------------------------------------+
-; Fast 900mV 85C Model Minimum Pulse Width Summary ;
-+---------------------+--------+-------------------+
-; Clock               ; Slack  ; End Point TNS     ;
-+---------------------+--------+-------------------+
-; altera_reserved_tck ; 15.935 ; 0.000             ;
-+---------------------+--------+-------------------+
++--------------------------------------------------------------------------------------------------------+
+; Fast 900mV 85C Model Minimum Pulse Width Summary                                                       ;
++------------------------------------------------------------------------------+---------+---------------+
+; Clock                                                                        ; Slack   ; End Point TNS ;
++------------------------------------------------------------------------------+---------+---------------+
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; 0.612   ; 0.000         ;
+; pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; 0.641   ; 0.000         ;
+; MIPI_PIXEL_CLK                                                               ; 4.043   ; 0.000         ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 6.122   ; 0.000         ;
+; OSC_50_B4D                                                                   ; 9.560   ; 0.000         ;
+; OSC_50_B3B                                                                   ; 9.619   ; 0.000         ;
+; OSC_50_B4A                                                                   ; 9.956   ; 0.000         ;
+; altera_reserved_tck                                                          ; 15.925  ; 0.000         ;
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; 325.314 ; 0.000         ;
++------------------------------------------------------------------------------+---------+---------------+
 
 
 ----------------------------------------------
@@ -300,49 +408,73 @@ No synchronizer chains to report.
 No synchronizer chains to report.
 
 
-+----------------------------------------------+
-; Fast 900mV 0C Model Setup Summary            ;
-+---------------------+--------+---------------+
-; Clock               ; Slack  ; End Point TNS ;
-+---------------------+--------+---------------+
-; altera_reserved_tck ; 14.193 ; 0.000         ;
-+---------------------+--------+---------------+
++--------------------------------------------------------------------------------------------------------+
+; Fast 900mV 0C Model Setup Summary                                                                      ;
++------------------------------------------------------------------------------+---------+---------------+
+; Clock                                                                        ; Slack   ; End Point TNS ;
++------------------------------------------------------------------------------+---------+---------------+
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; -0.757  ; -30.930       ;
+; MIPI_PIXEL_CLK                                                               ; 1.701   ; 0.000         ;
+; altera_reserved_tck                                                          ; 14.323  ; 0.000         ;
+; OSC_50_B3B                                                                   ; 17.312  ; 0.000         ;
+; OSC_50_B4A                                                                   ; 19.970  ; 0.000         ;
+; OSC_50_B4D                                                                   ; 19.970  ; 0.000         ;
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; 650.295 ; 0.000         ;
++------------------------------------------------------------------------------+---------+---------------+
 
 
-+---------------------------------------------+
-; Fast 900mV 0C Model Hold Summary            ;
-+---------------------+-------+---------------+
-; Clock               ; Slack ; End Point TNS ;
-+---------------------+-------+---------------+
-; altera_reserved_tck ; 0.030 ; 0.000         ;
-+---------------------+-------+---------------+
++------------------------------------------------------------------------------------------------------+
+; Fast 900mV 0C Model Hold Summary                                                                     ;
++------------------------------------------------------------------------------+-------+---------------+
+; Clock                                                                        ; Slack ; End Point TNS ;
++------------------------------------------------------------------------------+-------+---------------+
+; altera_reserved_tck                                                          ; 0.038 ; 0.000         ;
+; MIPI_PIXEL_CLK                                                               ; 0.080 ; 0.000         ;
+; OSC_50_B3B                                                                   ; 0.108 ; 0.000         ;
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.139 ; 0.000         ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.143 ; 0.000         ;
+; OSC_50_B4A                                                                   ; 1.250 ; 0.000         ;
+; OSC_50_B4D                                                                   ; 1.250 ; 0.000         ;
++------------------------------------------------------------------------------+-------+---------------+
 
 
-+----------------------------------------------+
-; Fast 900mV 0C Model Recovery Summary         ;
-+---------------------+--------+---------------+
-; Clock               ; Slack  ; End Point TNS ;
-+---------------------+--------+---------------+
-; altera_reserved_tck ; 31.633 ; 0.000         ;
-+---------------------+--------+---------------+
++-------------------------------------------------------------------------------------------------------+
+; Fast 900mV 0C Model Recovery Summary                                                                  ;
++------------------------------------------------------------------------------+--------+---------------+
+; Clock                                                                        ; Slack  ; End Point TNS ;
++------------------------------------------------------------------------------+--------+---------------+
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; -0.856 ; -11.033       ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 12.426 ; 0.000         ;
+; altera_reserved_tck                                                          ; 31.912 ; 0.000         ;
++------------------------------------------------------------------------------+--------+---------------+
 
 
-+---------------------------------------------+
-; Fast 900mV 0C Model Removal Summary         ;
-+---------------------+-------+---------------+
-; Clock               ; Slack ; End Point TNS ;
-+---------------------+-------+---------------+
-; altera_reserved_tck ; 0.226 ; 0.000         ;
-+---------------------+-------+---------------+
++------------------------------------------------------------------------------------------------------+
+; Fast 900mV 0C Model Removal Summary                                                                  ;
++------------------------------------------------------------------------------+-------+---------------+
+; Clock                                                                        ; Slack ; End Point TNS ;
++------------------------------------------------------------------------------+-------+---------------+
+; altera_reserved_tck                                                          ; 0.314 ; 0.000         ;
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.351 ; 0.000         ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.417 ; 0.000         ;
++------------------------------------------------------------------------------+-------+---------------+
 
 
-+-------------------------------------------------+
-; Fast 900mV 0C Model Minimum Pulse Width Summary ;
-+---------------------+--------+------------------+
-; Clock               ; Slack  ; End Point TNS    ;
-+---------------------+--------+------------------+
-; altera_reserved_tck ; 15.945 ; 0.000            ;
-+---------------------+--------+------------------+
++--------------------------------------------------------------------------------------------------------+
+; Fast 900mV 0C Model Minimum Pulse Width Summary                                                        ;
++------------------------------------------------------------------------------+---------+---------------+
+; Clock                                                                        ; Slack   ; End Point TNS ;
++------------------------------------------------------------------------------+---------+---------------+
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; 0.612   ; 0.000         ;
+; pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; 0.641   ; 0.000         ;
+; MIPI_PIXEL_CLK                                                               ; 4.027   ; 0.000         ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 6.140   ; 0.000         ;
+; OSC_50_B4D                                                                   ; 9.577   ; 0.000         ;
+; OSC_50_B3B                                                                   ; 9.622   ; 0.000         ;
+; OSC_50_B4A                                                                   ; 9.940   ; 0.000         ;
+; altera_reserved_tck                                                          ; 15.927  ; 0.000         ;
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; 325.329 ; 0.000         ;
++------------------------------------------------------------------------------+---------+---------------+
 
 
 ---------------------------------------------
@@ -351,16 +483,32 @@ No synchronizer chains to report.
 No synchronizer chains to report.
 
 
-+----------------------------------------------------------------------------------+
-; Multicorner Timing Analysis Summary                                              ;
-+----------------------+--------+-------+----------+---------+---------------------+
-; Clock                ; Setup  ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
-+----------------------+--------+-------+----------+---------+---------------------+
-; Worst-case Slack     ; 12.160 ; 0.030 ; 30.558   ; 0.226   ; 15.935              ;
-;  altera_reserved_tck ; 12.160 ; 0.030 ; 30.558   ; 0.226   ; 15.935              ;
-; Design-wide TNS      ; 0.0    ; 0.0   ; 0.0      ; 0.0     ; 0.0                 ;
-;  altera_reserved_tck ; 0.000  ; 0.000 ; 0.000    ; 0.000   ; 0.000               ;
-+----------------------+--------+-------+----------+---------+---------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                                                                                        ;
++-------------------------------------------------------------------------------+---------+-------+----------+---------+---------------------+
+; Clock                                                                         ; Setup   ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
++-------------------------------------------------------------------------------+---------+-------+----------+---------+---------------------+
+; Worst-case Slack                                                              ; -1.514  ; 0.038 ; -1.717   ; 0.162   ; 0.612               ;
+;  MIPI_PIXEL_CLK                                                               ; 0.770   ; 0.058 ; N/A      ; N/A     ; 4.027               ;
+;  OSC_50_B3B                                                                   ; 16.089  ; 0.095 ; N/A      ; N/A     ; 9.218               ;
+;  OSC_50_B4A                                                                   ; 19.970  ; 1.250 ; N/A      ; N/A     ; 9.777               ;
+;  OSC_50_B4D                                                                   ; 19.970  ; 1.250 ; N/A      ; N/A     ; 9.560               ;
+;  altera_reserved_tck                                                          ; 12.458  ; 0.038 ; 31.159   ; 0.314   ; 15.925              ;
+;  pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; N/A     ; N/A   ; N/A      ; N/A     ; 0.641               ;
+;  pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; 649.691 ; 0.096 ; -1.717   ; 0.162   ; 325.098             ;
+;  pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; N/A     ; N/A   ; N/A      ; N/A     ; 0.612               ;
+;  pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; -1.514  ; 0.091 ; 11.797   ; 0.402   ; 6.043               ;
+; Design-wide TNS                                                               ; -60.67  ; 0.0   ; -22.296  ; 0.0     ; 0.0                 ;
+;  MIPI_PIXEL_CLK                                                               ; 0.000   ; 0.000 ; N/A      ; N/A     ; 0.000               ;
+;  OSC_50_B3B                                                                   ; 0.000   ; 0.000 ; N/A      ; N/A     ; 0.000               ;
+;  OSC_50_B4A                                                                   ; 0.000   ; 0.000 ; N/A      ; N/A     ; 0.000               ;
+;  OSC_50_B4D                                                                   ; 0.000   ; 0.000 ; N/A      ; N/A     ; 0.000               ;
+;  altera_reserved_tck                                                          ; 0.000   ; 0.000 ; 0.000    ; 0.000   ; 0.000               ;
+;  pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; N/A     ; N/A   ; N/A      ; N/A     ; 0.000               ;
+;  pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; 0.000   ; 0.000 ; -22.296  ; 0.000   ; 0.000               ;
+;  pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; N/A     ; N/A   ; N/A      ; N/A     ; 0.000               ;
+;  pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; -60.670 ; 0.000 ; 0.000    ; 0.000   ; 0.000               ;
++-------------------------------------------------------------------------------+---------+-------+----------+---------+---------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1050,43 +1198,65 @@ No synchronizer chains to report.
 +---------------------+---------------------------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
 
 
-+---------------------------------------------------------------------------------------+
-; Setup Transfers                                                                       ;
-+---------------------+---------------------+----------+----------+----------+----------+
-; From Clock          ; To Clock            ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
-+---------------------+---------------------+----------+----------+----------+----------+
-; altera_reserved_tck ; altera_reserved_tck ; 3604     ; 0        ; 92       ; 0        ;
-+---------------------+---------------------+----------+----------+----------+----------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Setup Transfers                                                                                                                                                                                           ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+------------+----------+----------+----------+
+; From Clock                                                                   ; To Clock                                                                     ; RR Paths   ; FR Paths ; RF Paths ; FF Paths ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+------------+----------+----------+----------+
+; altera_reserved_tck                                                          ; altera_reserved_tck                                                          ; 3611       ; 0        ; 92       ; 0        ;
+; MIPI_PIXEL_CLK                                                               ; MIPI_PIXEL_CLK                                                               ; 16464      ; 0        ; 0        ; 0        ;
+; MIPI_PIXEL_CLK_ext                                                           ; MIPI_PIXEL_CLK                                                               ; 10188      ; 0        ; 0        ; 0        ;
+; OSC_50_B3B                                                                   ; OSC_50_B3B                                                                   ; 6972       ; 0        ; 0        ; 0        ;
+; OSC_50_B4A                                                                   ; OSC_50_B4A                                                                   ; 1          ; 0        ; 0        ; 0        ;
+; OSC_50_B4D                                                                   ; OSC_50_B4D                                                                   ; 1          ; 0        ; 0        ; 0        ;
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; 0          ; 0        ; 0        ; 140      ;
+; altera_reserved_tck                                                          ; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; false path ; 0        ; 0        ; 0        ;
+; OSC_50_B3B                                                                   ; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 1776       ; 0        ; 0        ; 0        ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 114096     ; 0        ; 0        ; 0        ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+------------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
 
-+---------------------------------------------------------------------------------------+
-; Hold Transfers                                                                        ;
-+---------------------+---------------------+----------+----------+----------+----------+
-; From Clock          ; To Clock            ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
-+---------------------+---------------------+----------+----------+----------+----------+
-; altera_reserved_tck ; altera_reserved_tck ; 3604     ; 0        ; 92       ; 0        ;
-+---------------------+---------------------+----------+----------+----------+----------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Hold Transfers                                                                                                                                                                                            ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+------------+----------+----------+----------+
+; From Clock                                                                   ; To Clock                                                                     ; RR Paths   ; FR Paths ; RF Paths ; FF Paths ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+------------+----------+----------+----------+
+; altera_reserved_tck                                                          ; altera_reserved_tck                                                          ; 3611       ; 0        ; 92       ; 0        ;
+; MIPI_PIXEL_CLK                                                               ; MIPI_PIXEL_CLK                                                               ; 16464      ; 0        ; 0        ; 0        ;
+; MIPI_PIXEL_CLK_ext                                                           ; MIPI_PIXEL_CLK                                                               ; 10188      ; 0        ; 0        ; 0        ;
+; OSC_50_B3B                                                                   ; OSC_50_B3B                                                                   ; 6972       ; 0        ; 0        ; 0        ;
+; OSC_50_B4A                                                                   ; OSC_50_B4A                                                                   ; 1          ; 0        ; 0        ; 0        ;
+; OSC_50_B4D                                                                   ; OSC_50_B4D                                                                   ; 1          ; 0        ; 0        ; 0        ;
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; 0          ; 0        ; 0        ; 140      ;
+; altera_reserved_tck                                                          ; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; false path ; 0        ; 0        ; 0        ;
+; OSC_50_B3B                                                                   ; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 1776       ; 0        ; 0        ; 0        ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 114096     ; 0        ; 0        ; 0        ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+------------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
 
-+---------------------------------------------------------------------------------------+
-; Recovery Transfers                                                                    ;
-+---------------------+---------------------+----------+----------+----------+----------+
-; From Clock          ; To Clock            ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
-+---------------------+---------------------+----------+----------+----------+----------+
-; altera_reserved_tck ; altera_reserved_tck ; 134      ; 0        ; 0        ; 0        ;
-+---------------------+---------------------+----------+----------+----------+----------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Recovery Transfers                                                                                                                                                                                      ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+----------+----------+----------+----------+
+; From Clock                                                                   ; To Clock                                                                     ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+----------+----------+----------+----------+
+; altera_reserved_tck                                                          ; altera_reserved_tck                                                          ; 135      ; 0        ; 0        ; 0        ;
+; OSC_50_B3B                                                                   ; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; 0        ; 0        ; 13       ; 0        ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 70       ; 0        ; 0        ; 0        ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+----------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
 
-+---------------------------------------------------------------------------------------+
-; Removal Transfers                                                                     ;
-+---------------------+---------------------+----------+----------+----------+----------+
-; From Clock          ; To Clock            ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
-+---------------------+---------------------+----------+----------+----------+----------+
-; altera_reserved_tck ; altera_reserved_tck ; 134      ; 0        ; 0        ; 0        ;
-+---------------------+---------------------+----------+----------+----------+----------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Removal Transfers                                                                                                                                                                                       ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+----------+----------+----------+----------+
+; From Clock                                                                   ; To Clock                                                                     ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+----------+----------+----------+----------+
+; altera_reserved_tck                                                          ; altera_reserved_tck                                                          ; 135      ; 0        ; 0        ; 0        ;
+; OSC_50_B3B                                                                   ; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; 0        ; 0        ; 13       ; 0        ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 70       ; 0        ; 0        ; 0        ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+----------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
 
 
@@ -1102,40 +1272,50 @@ No dedicated SERDES Transmitter circuitry present in device or used in design
 No non-DPA dedicated SERDES Receiver circuitry present in device or used in design
 
 
-+-------------------------------------------------+
-; Unconstrained Paths Summary                     ;
-+---------------------------------+-------+-------+
-; Property                        ; Setup ; Hold  ;
-+---------------------------------+-------+-------+
-; Illegal Clocks                  ; 0     ; 0     ;
-; Unconstrained Clocks            ; 13    ; 13    ;
-; Unconstrained Input Ports       ; 24    ; 24    ;
-; Unconstrained Input Port Paths  ; 10558 ; 10558 ;
-; Unconstrained Output Ports      ; 48    ; 48    ;
-; Unconstrained Output Port Paths ; 86    ; 86    ;
-+---------------------------------+-------+-------+
++------------------------------------------------+
+; Unconstrained Paths Summary                    ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 9     ; 9    ;
+; Unconstrained Input Ports       ; 10    ; 10   ;
+; Unconstrained Input Port Paths  ; 394   ; 394  ;
+; Unconstrained Output Ports      ; 48    ; 48   ;
+; Unconstrained Output Port Paths ; 86    ; 86   ;
++---------------------------------+-------+------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------+
-; Clock Status Summary                                                                                                    ;
-+----------------------------------------------------------------------------+---------------------+------+---------------+
-; Target                                                                     ; Clock               ; Type ; Status        ;
-+----------------------------------------------------------------------------+---------------------+------+---------------+
-; FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE|MODIFY_SYNC:vs|MS                        ;                     ; Base ; Unconstrained ;
-; FOCUS_ADJ:adl|I2C_DELAY:i2c|READY                                          ;                     ; Base ; Unconstrained ;
-; FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|V_C                                    ;                     ; Base ; Unconstrained ;
-; FOCUS_ADJ:adl|VCM_I2C:i2c2|CLOCKMEM:c1|CK_1HZ                              ;                     ; Base ; Unconstrained ;
-; HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|lrclk                                   ;                     ; Base ; Unconstrained ;
-; HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|mI2C_CTRL_CLK        ;                     ; Base ; Unconstrained ;
-; MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|CLOCKMEM:c1|CK_1HZ ;                     ; Base ; Unconstrained ;
-; MIPI_PIXEL_CLK                                                             ;                     ; Base ; Unconstrained ;
-; OSC_50_B3B                                                                 ;                     ; Base ; Unconstrained ;
-; OSC_50_B4A                                                                 ;                     ; Base ; Unconstrained ;
-; OSC_50_B4D                                                                 ;                     ; Base ; Unconstrained ;
-; VGA_Controller:u1|oVGA_H_SYNC                                              ;                     ; Base ; Unconstrained ;
-; VGA_Controller:u1|oVGA_V_SYNC                                              ;                     ; Base ; Unconstrained ;
-; altera_reserved_tck                                                        ; altera_reserved_tck ; Base ; Constrained   ;
-+----------------------------------------------------------------------------+---------------------+------+---------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clock Status Summary                                                                                                                                                                    ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+-----------+---------------+
+; Target                                                                       ; Clock                                                                        ; Type      ; Status        ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+-----------+---------------+
+;                                                                              ; MIPI_PIXEL_CLK_ext                                                           ; Virtual   ; Constrained   ;
+; FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE|MODIFY_SYNC:vs|MS                          ;                                                                              ; Base      ; Unconstrained ;
+; FOCUS_ADJ:adl|I2C_DELAY:i2c|READY                                            ;                                                                              ; Base      ; Unconstrained ;
+; FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|V_C                                      ;                                                                              ; Base      ; Unconstrained ;
+; FOCUS_ADJ:adl|VCM_I2C:i2c2|CLOCKMEM:c1|CK_1HZ                                ;                                                                              ; Base      ; Unconstrained ;
+; HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|lrclk                                     ;                                                                              ; Base      ; Unconstrained ;
+; HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|mI2C_CTRL_CLK          ;                                                                              ; Base      ; Unconstrained ;
+; MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|CLOCKMEM:c1|CK_1HZ   ;                                                                              ; Base      ; Unconstrained ;
+; MIPI_PIXEL_CLK                                                               ; MIPI_PIXEL_CLK                                                               ; Base      ; Constrained   ;
+; OSC_50_B3B                                                                   ; OSC_50_B3B                                                                   ; Base      ; Constrained   ;
+; OSC_50_B4A                                                                   ; OSC_50_B4A                                                                   ; Base      ; Constrained   ;
+; OSC_50_B4D                                                                   ; OSC_50_B4D                                                                   ; Base      ; Constrained   ;
+; OSC_50_B7A                                                                   ; OSC_50_B7A                                                                   ; Base      ; Constrained   ;
+; OSC_50_B7D                                                                   ; OSC_50_B7D                                                                   ; Base      ; Constrained   ;
+; OSC_50_B8A                                                                   ; OSC_50_B8A                                                                   ; Base      ; Constrained   ;
+; OSC_50_B8D                                                                   ; OSC_50_B8D                                                                   ; Base      ; Constrained   ;
+; VGA_Controller:u1|oVGA_H_SYNC                                                ;                                                                              ; Base      ; Unconstrained ;
+; VGA_Controller:u1|oVGA_V_SYNC                                                ;                                                                              ; Base      ; Unconstrained ;
+; altera_reserved_tck                                                          ; altera_reserved_tck                                                          ; Base      ; Constrained   ;
+; pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; Generated ; Constrained   ;
+; pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; Generated ; Constrained   ;
+; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk ; Generated ; Constrained   ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]   ; Generated ; Constrained   ;
+; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; Generated ; Constrained   ;
++------------------------------------------------------------------------------+------------------------------------------------------------------------------+-----------+---------------+
 
 
 +------------------------------------------------------------------------------------------------------------+
@@ -1150,20 +1330,6 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; HDMI_I2C_SDA        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HDMI_TX_INT         ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; MIPI_I2C_SDA        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_D[0]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_D[1]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_D[2]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_D[3]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_D[4]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_D[5]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_D[6]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_D[7]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_D[8]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_D[9]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_HS       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_VS       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; OSC_50_B4A          ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; OSC_50_B4D          ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; SW[3]               ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; altera_reserved_tdi ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; altera_reserved_tms ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
@@ -1238,20 +1404,6 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; HDMI_I2C_SDA        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; HDMI_TX_INT         ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; MIPI_I2C_SDA        ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_D[0]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_D[1]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_D[2]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_D[3]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_D[4]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_D[5]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_D[6]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_D[7]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_D[8]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_D[9]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_HS       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; MIPI_PIXEL_VS       ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; OSC_50_B4A          ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
-; OSC_50_B4D          ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; SW[3]               ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; altera_reserved_tdi ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; altera_reserved_tms ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
@@ -1320,9 +1472,13 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Mon Nov 30 22:49:21 2020
+    Info: Processing started: Tue Dec 01 21:14:36 2020
 Info: Command: quartus_sta TR5_D8M_HDMI -c TR5_D8M_HDMI
 Info: qsta_default_script.tcl version: #1
+Warning (20013): Ignored 3 assignments for entity "pll_vga" -- entity does not exist in design
+    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_NAME altera_pll -entity pll_vga -sip TR5_D8M_FMC_RTL/V/pll_vga.sip -library lib_pll_vga was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_VERSION 16.0 -entity pll_vga -sip TR5_D8M_FMC_RTL/V/pll_vga.sip -library lib_pll_vga was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_ENV mwpim -entity pll_vga -sip TR5_D8M_FMC_RTL/V/pll_vga.sip -library lib_pll_vga was ignored
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (21077): Low junction temperature is 0 degrees C
@@ -1333,19 +1489,36 @@ Info (332164): Evaluating HDL-embedded SDC commands
         Info (332166): create_clock -name altera_reserved_tck [get_ports {altera_reserved_tck}] -period 30MHz   
         Info (332166): if { [string equal quartus_fit $::TimeQuestInfo(nameofexecutable)] } { set_max_delay -to [get_ports { altera_reserved_tdo } ] 0 }
         Info (332166): set_clock_groups -asynchronous -group {altera_reserved_tck}
-Critical Warning (332012): Synopsys Design Constraints File file not found: 'TR5_D8M_HDMI.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
-Warning (332060): Node: OSC_50_B4D was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register FOCUS_ADJ:adl|oB[0] is being clocked by OSC_50_B4D
+Info (332104): Reading SDC File: 'TR5_D8M_HDMI.sdc'
+Warning (332174): Ignored filter at TR5_D8M_HDMI.sdc(19): CLK_50 could not be matched with a port File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.sdc Line: 19
+Warning (332049): Ignored create_clock at TR5_D8M_HDMI.sdc(19): Argument <targets> is an empty collection File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.sdc Line: 19
+    Info (332050): create_clock -period "50.000000 MHz" [get_ports CLK_50 ] File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.sdc Line: 19
+Warning (332174): Ignored filter at TR5_D8M_HDMI.sdc(20): CLK_100 could not be matched with a port File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.sdc Line: 20
+Warning (332049): Ignored create_clock at TR5_D8M_HDMI.sdc(20): Argument <targets> is an empty collection File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.sdc Line: 20
+    Info (332050): create_clock -period "100.000000 MHz" [get_ports  CLK_100] File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.sdc Line: 20
+Warning (332174): Ignored filter at TR5_D8M_HDMI.sdc(21): CLKUSR could not be matched with a port File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.sdc Line: 21
+Warning (332049): Ignored create_clock at TR5_D8M_HDMI.sdc(21): Argument <targets> is an empty collection File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.sdc Line: 21
+    Info (332050): create_clock -period "100.000000 MHz" [get_ports  CLKUSR ] File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.sdc Line: 21
+Warning (332174): Ignored filter at TR5_D8M_HDMI.sdc(27): pll_vg|pll_vga_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk could not be matched with a pin File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.sdc Line: 27
+Warning (332049): Ignored create_generated_clock at TR5_D8M_HDMI.sdc(27): Argument -source is an empty collection File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.sdc Line: 27
+    Info (332050): create_generated_clock -source [get_pins {pll_vg|pll_vga_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk}] \
+                      -name HDMI_TX_CLK_ext [get_ports {HDMI_TX_CLK}] File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.sdc Line: 27
+Info (332110): Deriving PLL clocks
+    Info (332110): create_generated_clock -source {pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|refclkin} -divide_by 5 -multiply_by 78 -duty_cycle 50.00 -name {pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]} {pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]}
+    Info (332110): create_generated_clock -source {pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|vco1ph[0]} -divide_by 39 -duty_cycle 50.00 -name {pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk} {pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk}
+    Info (332110): create_generated_clock -source {pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|vco1ph[0]} -divide_by 508 -duty_cycle 50.00 -name {pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk} {pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk}
+    Info (332110): create_generated_clock -source {pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|refclkin} -divide_by 6 -multiply_by 98 -duty_cycle 50.00 -name {pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]} {pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]}
+    Info (332110): create_generated_clock -source {pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|vco1ph[0]} -divide_by 11 -duty_cycle 50.00 -name {pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk} {pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk}
+Info (332151): Clock uncertainty is not calculated until you update the timing netlist.
+Warning (332174): Ignored filter at TR5_D8M_HDMI.sdc(65): HDMI_TX_CLK_ext could not be matched with a clock File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.sdc Line: 65
+Warning (332049): Ignored set_output_delay at TR5_D8M_HDMI.sdc(65): Argument -clock is not an object ID File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.sdc Line: 65
+    Info (332050): set_output_delay -max  1.0 -clock  HDMI_TX_CLK_ext  [get_ports {HDMI_TX_DE HDMI_TX_VS HDMI_TX_HS HDMI_TX_D[*]}] File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.sdc Line: 65
+Warning (332049): Ignored set_output_delay at TR5_D8M_HDMI.sdc(66): Argument -clock is not an object ID File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.sdc Line: 66
+    Info (332050): set_output_delay -min -0.7 -clock  HDMI_TX_CLK_ext  [get_ports {HDMI_TX_DE HDMI_TX_VS HDMI_TX_HS HDMI_TX_D[*]}] File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.sdc Line: 66
 Warning (332060): Node: VGA_Controller:u1|oVGA_H_SYNC was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register RAW2RGB_J:u4|Line_Buffer_J:u0|WR[1] is being clocked by VGA_Controller:u1|oVGA_H_SYNC
-Warning (332060): Node: MIPI_PIXEL_CLK was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register ON_CHIP_FRAM:fra|FRAM_BUFF:GG|altsyncram:altsyncram_component|altsyncram_feo2:auto_generated|ram_block1a247~porta_datain_reg6 is being clocked by MIPI_PIXEL_CLK
+    Info (13166): Register RAW2RGB_J:u4|Line_Buffer_J:u0|WR[0] is being clocked by VGA_Controller:u1|oVGA_H_SYNC
 Warning (332060): Node: MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|CLOCKMEM:c1|CK_1HZ was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Register MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv|DELY[9] is being clocked by MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|CLOCKMEM:c1|CK_1HZ
-Warning (332060): Node: OSC_50_B3B was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|CLOCKMEM:c1|CK_1HZ is being clocked by OSC_50_B3B
-Warning (332060): Node: OSC_50_B4A was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|Data_Count[0] is being clocked by OSC_50_B4A
 Warning (332060): Node: VGA_Controller:u1|oVGA_V_SYNC was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Register FOCUS_ADJ:adl|I2C_DELAY:i2c|READY is being clocked by VGA_Controller:u1|oVGA_V_SYNC
 Warning (332060): Node: FOCUS_ADJ:adl|VCM_I2C:i2c2|CLOCKMEM:c1|CK_1HZ was determined to be a clock but was found without an associated clock assignment.
@@ -1353,55 +1526,72 @@ Warning (332060): Node: FOCUS_ADJ:adl|VCM_I2C:i2c2|CLOCKMEM:c1|CK_1HZ was determ
 Warning (332060): Node: FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|V_C was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Latch FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[10]~9 is being clocked by FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|V_C
 Warning (332060): Node: FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE|MODIFY_SYNC:vs|MS was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|GO_F is being clocked by FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE|MODIFY_SYNC:vs|MS
+    Info (13166): Register FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|VCM_END is being clocked by FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE|MODIFY_SYNC:vs|MS
 Warning (332060): Node: FOCUS_ADJ:adl|I2C_DELAY:i2c|READY was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Latch FOCUS_ADJ:adl|VCM_I2C:i2c2|rTR_IN~1 is being clocked by FOCUS_ADJ:adl|I2C_DELAY:i2c|READY
 Warning (332060): Node: HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|mI2C_CTRL_CLK was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Register HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|mI2C_DATA[14] is being clocked by HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|mI2C_CTRL_CLK
 Warning (332060): Node: HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|lrclk was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Register HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|SIN_Cont[5] is being clocked by HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|lrclk
-Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
+Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
+    Info (332098): From: pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|refclkin  to: pll_test:pll_ref|pll_test_0002:pll_test_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLLFBCLKID
+    Info (332098): From: pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|refclkin  to: pll_video:pll_vg|pll_video_0002:pll_video_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLLFBCLKID
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
-Warning (332056): PLL cross checking found inconsistent PLL clock settings:
-    Warning (332056): Node: pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
-    Warning (332056): Node: pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
 Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
 Info: Analyzing Slow 900mV 85C Model
-Info (332146): Worst-case setup slack is 12.160
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
+Info (332146): Worst-case setup slack is -1.514
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    12.160               0.000 altera_reserved_tck 
-Info (332146): Worst-case hold slack is 0.073
+    Info (332119):    -1.514             -60.670 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.770               0.000 MIPI_PIXEL_CLK 
+    Info (332119):    12.458               0.000 altera_reserved_tck 
+    Info (332119):    16.089               0.000 OSC_50_B3B 
+    Info (332119):    19.970               0.000 OSC_50_B4A 
+    Info (332119):    19.970               0.000 OSC_50_B4D 
+    Info (332119):   649.691               0.000 pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
+Info (332146): Worst-case hold slack is 0.089
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.073               0.000 altera_reserved_tck 
-Info (332146): Worst-case recovery slack is 30.558
+    Info (332119):     0.089               0.000 altera_reserved_tck 
+    Info (332119):     0.091               0.000 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.113               0.000 pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.124               0.000 MIPI_PIXEL_CLK 
+    Info (332119):     0.157               0.000 OSC_50_B3B 
+    Info (332119):     1.250               0.000 OSC_50_B4A 
+    Info (332119):     1.250               0.000 OSC_50_B4D 
+Info (332146): Worst-case recovery slack is -1.717
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    30.558               0.000 altera_reserved_tck 
-Info (332146): Worst-case removal slack is 0.307
+    Info (332119):    -1.717             -22.296 pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):    11.797               0.000 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):    31.159               0.000 altera_reserved_tck 
+Info (332146): Worst-case removal slack is 0.351
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.307               0.000 altera_reserved_tck 
-Info (332146): Worst-case minimum pulse width slack is 16.041
+    Info (332119):     0.351               0.000 pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.528               0.000 altera_reserved_tck 
+    Info (332119):     0.556               0.000 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+Info (332146): Worst-case minimum pulse width slack is 0.612
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    16.041               0.000 altera_reserved_tck 
+    Info (332119):     0.612               0.000 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
+    Info (332119):     0.641               0.000 pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
+    Info (332119):     4.305               0.000 MIPI_PIXEL_CLK 
+    Info (332119):     6.054               0.000 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     9.263               0.000 OSC_50_B3B 
+    Info (332119):     9.834               0.000 OSC_50_B4D 
+    Info (332119):     9.837               0.000 OSC_50_B4A 
+    Info (332119):    16.020               0.000 altera_reserved_tck 
+    Info (332119):   325.104               0.000 pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
 Info: Analyzing Slow 900mV 0C Model
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Warning (332060): Node: OSC_50_B4D was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register FOCUS_ADJ:adl|oB[0] is being clocked by OSC_50_B4D
 Warning (332060): Node: VGA_Controller:u1|oVGA_H_SYNC was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register RAW2RGB_J:u4|Line_Buffer_J:u0|WR[1] is being clocked by VGA_Controller:u1|oVGA_H_SYNC
-Warning (332060): Node: MIPI_PIXEL_CLK was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register ON_CHIP_FRAM:fra|FRAM_BUFF:GG|altsyncram:altsyncram_component|altsyncram_feo2:auto_generated|ram_block1a247~porta_datain_reg6 is being clocked by MIPI_PIXEL_CLK
+    Info (13166): Register RAW2RGB_J:u4|Line_Buffer_J:u0|WR[0] is being clocked by VGA_Controller:u1|oVGA_H_SYNC
 Warning (332060): Node: MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|CLOCKMEM:c1|CK_1HZ was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Register MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv|DELY[9] is being clocked by MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|CLOCKMEM:c1|CK_1HZ
-Warning (332060): Node: OSC_50_B3B was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|CLOCKMEM:c1|CK_1HZ is being clocked by OSC_50_B3B
-Warning (332060): Node: OSC_50_B4A was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|Data_Count[0] is being clocked by OSC_50_B4A
 Warning (332060): Node: VGA_Controller:u1|oVGA_V_SYNC was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Register FOCUS_ADJ:adl|I2C_DELAY:i2c|READY is being clocked by VGA_Controller:u1|oVGA_V_SYNC
 Warning (332060): Node: FOCUS_ADJ:adl|VCM_I2C:i2c2|CLOCKMEM:c1|CK_1HZ was determined to be a clock but was found without an associated clock assignment.
@@ -1409,52 +1599,70 @@ Warning (332060): Node: FOCUS_ADJ:adl|VCM_I2C:i2c2|CLOCKMEM:c1|CK_1HZ was determ
 Warning (332060): Node: FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|V_C was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Latch FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[10]~9 is being clocked by FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|V_C
 Warning (332060): Node: FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE|MODIFY_SYNC:vs|MS was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|GO_F is being clocked by FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE|MODIFY_SYNC:vs|MS
+    Info (13166): Register FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|VCM_END is being clocked by FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE|MODIFY_SYNC:vs|MS
 Warning (332060): Node: FOCUS_ADJ:adl|I2C_DELAY:i2c|READY was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Latch FOCUS_ADJ:adl|VCM_I2C:i2c2|rTR_IN~1 is being clocked by FOCUS_ADJ:adl|I2C_DELAY:i2c|READY
 Warning (332060): Node: HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|mI2C_CTRL_CLK was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Register HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|mI2C_DATA[14] is being clocked by HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|mI2C_CTRL_CLK
 Warning (332060): Node: HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|lrclk was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Register HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|SIN_Cont[5] is being clocked by HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|lrclk
+Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
+    Info (332098): From: pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|refclkin  to: pll_test:pll_ref|pll_test_0002:pll_test_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLLFBCLKID
+    Info (332098): From: pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|refclkin  to: pll_video:pll_vg|pll_video_0002:pll_video_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLLFBCLKID
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
-Warning (332056): PLL cross checking found inconsistent PLL clock settings:
-    Warning (332056): Node: pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
-    Warning (332056): Node: pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
-Info (332146): Worst-case setup slack is 12.323
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
+Info (332146): Worst-case setup slack is -1.199
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    12.323               0.000 altera_reserved_tck 
-Info (332146): Worst-case hold slack is 0.075
+    Info (332119):    -1.199             -47.338 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     1.300               0.000 MIPI_PIXEL_CLK 
+    Info (332119):    12.599               0.000 altera_reserved_tck 
+    Info (332119):    16.376               0.000 OSC_50_B3B 
+    Info (332119):    19.970               0.000 OSC_50_B4A 
+    Info (332119):    19.970               0.000 OSC_50_B4D 
+    Info (332119):   649.781               0.000 pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
+Info (332146): Worst-case hold slack is 0.091
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.075               0.000 altera_reserved_tck 
-Info (332146): Worst-case recovery slack is 30.758
+    Info (332119):     0.091               0.000 altera_reserved_tck 
+    Info (332119):     0.130               0.000 MIPI_PIXEL_CLK 
+    Info (332119):     0.170               0.000 pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.178               0.000 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.214               0.000 OSC_50_B3B 
+    Info (332119):     1.250               0.000 OSC_50_B4A 
+    Info (332119):     1.250               0.000 OSC_50_B4D 
+Info (332146): Worst-case recovery slack is -1.276
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    30.758               0.000 altera_reserved_tck 
-Info (332146): Worst-case removal slack is 0.328
+    Info (332119):    -1.276             -16.481 pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):    11.964               0.000 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):    31.272               0.000 altera_reserved_tck 
+Info (332146): Worst-case removal slack is 0.162
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.328               0.000 altera_reserved_tck 
-Info (332146): Worst-case minimum pulse width slack is 16.137
+    Info (332119):     0.162               0.000 pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.526               0.000 altera_reserved_tck 
+    Info (332119):     0.584               0.000 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+Info (332146): Worst-case minimum pulse width slack is 0.612
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    16.137               0.000 altera_reserved_tck 
+    Info (332119):     0.612               0.000 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
+    Info (332119):     0.641               0.000 pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
+    Info (332119):     4.431               0.000 MIPI_PIXEL_CLK 
+    Info (332119):     6.043               0.000 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     9.218               0.000 OSC_50_B3B 
+    Info (332119):     9.777               0.000 OSC_50_B4A 
+    Info (332119):     9.934               0.000 OSC_50_B4D 
+    Info (332119):    16.119               0.000 altera_reserved_tck 
+    Info (332119):   325.098               0.000 pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
 Info: Analyzing Fast 900mV 85C Model
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Warning (332060): Node: OSC_50_B4D was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register FOCUS_ADJ:adl|oB[0] is being clocked by OSC_50_B4D
 Warning (332060): Node: VGA_Controller:u1|oVGA_H_SYNC was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register RAW2RGB_J:u4|Line_Buffer_J:u0|WR[1] is being clocked by VGA_Controller:u1|oVGA_H_SYNC
-Warning (332060): Node: MIPI_PIXEL_CLK was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register ON_CHIP_FRAM:fra|FRAM_BUFF:GG|altsyncram:altsyncram_component|altsyncram_feo2:auto_generated|ram_block1a247~porta_datain_reg6 is being clocked by MIPI_PIXEL_CLK
+    Info (13166): Register RAW2RGB_J:u4|Line_Buffer_J:u0|WR[0] is being clocked by VGA_Controller:u1|oVGA_H_SYNC
 Warning (332060): Node: MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|CLOCKMEM:c1|CK_1HZ was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Register MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv|DELY[9] is being clocked by MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|CLOCKMEM:c1|CK_1HZ
-Warning (332060): Node: OSC_50_B3B was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|CLOCKMEM:c1|CK_1HZ is being clocked by OSC_50_B3B
-Warning (332060): Node: OSC_50_B4A was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|Data_Count[0] is being clocked by OSC_50_B4A
 Warning (332060): Node: VGA_Controller:u1|oVGA_V_SYNC was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Register FOCUS_ADJ:adl|I2C_DELAY:i2c|READY is being clocked by VGA_Controller:u1|oVGA_V_SYNC
 Warning (332060): Node: FOCUS_ADJ:adl|VCM_I2C:i2c2|CLOCKMEM:c1|CK_1HZ was determined to be a clock but was found without an associated clock assignment.
@@ -1462,50 +1670,68 @@ Warning (332060): Node: FOCUS_ADJ:adl|VCM_I2C:i2c2|CLOCKMEM:c1|CK_1HZ was determ
 Warning (332060): Node: FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|V_C was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Latch FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[10]~9 is being clocked by FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|V_C
 Warning (332060): Node: FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE|MODIFY_SYNC:vs|MS was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|GO_F is being clocked by FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE|MODIFY_SYNC:vs|MS
+    Info (13166): Register FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|VCM_END is being clocked by FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE|MODIFY_SYNC:vs|MS
 Warning (332060): Node: FOCUS_ADJ:adl|I2C_DELAY:i2c|READY was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Latch FOCUS_ADJ:adl|VCM_I2C:i2c2|rTR_IN~1 is being clocked by FOCUS_ADJ:adl|I2C_DELAY:i2c|READY
 Warning (332060): Node: HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|mI2C_CTRL_CLK was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Register HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|mI2C_DATA[14] is being clocked by HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|mI2C_CTRL_CLK
 Warning (332060): Node: HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|lrclk was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Register HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|SIN_Cont[5] is being clocked by HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|lrclk
+Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
+    Info (332098): From: pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|refclkin  to: pll_test:pll_ref|pll_test_0002:pll_test_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLLFBCLKID
+    Info (332098): From: pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|refclkin  to: pll_video:pll_vg|pll_video_0002:pll_video_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLLFBCLKID
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
-Warning (332056): PLL cross checking found inconsistent PLL clock settings:
-    Warning (332056): Node: pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
-    Warning (332056): Node: pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
-Info (332146): Worst-case setup slack is 14.017
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
+Info (332146): Worst-case setup slack is -0.979
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    14.017               0.000 altera_reserved_tck 
-Info (332146): Worst-case hold slack is 0.032
+    Info (332119):    -0.979             -39.954 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     1.538               0.000 MIPI_PIXEL_CLK 
+    Info (332119):    14.188               0.000 altera_reserved_tck 
+    Info (332119):    17.112               0.000 OSC_50_B3B 
+    Info (332119):    19.970               0.000 OSC_50_B4A 
+    Info (332119):    19.970               0.000 OSC_50_B4D 
+    Info (332119):   650.178               0.000 pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
+Info (332146): Worst-case hold slack is 0.043
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.032               0.000 altera_reserved_tck 
-Info (332146): Worst-case recovery slack is 31.516
+    Info (332119):     0.043               0.000 altera_reserved_tck 
+    Info (332119):     0.058               0.000 MIPI_PIXEL_CLK 
+    Info (332119):     0.095               0.000 OSC_50_B3B 
+    Info (332119):     0.096               0.000 pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.111               0.000 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     1.250               0.000 OSC_50_B4A 
+    Info (332119):     1.250               0.000 OSC_50_B4D 
+Info (332146): Worst-case recovery slack is -1.047
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    31.516               0.000 altera_reserved_tck 
-Info (332146): Worst-case removal slack is 0.232
+    Info (332119):    -1.047             -13.512 pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):    12.319               0.000 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):    31.818               0.000 altera_reserved_tck 
+Info (332146): Worst-case removal slack is 0.335
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.232               0.000 altera_reserved_tck 
-Info (332146): Worst-case minimum pulse width slack is 15.935
+    Info (332119):     0.335               0.000 altera_reserved_tck 
+    Info (332119):     0.402               0.000 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.456               0.000 pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
+Info (332146): Worst-case minimum pulse width slack is 0.612
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    15.935               0.000 altera_reserved_tck 
+    Info (332119):     0.612               0.000 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
+    Info (332119):     0.641               0.000 pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
+    Info (332119):     4.043               0.000 MIPI_PIXEL_CLK 
+    Info (332119):     6.122               0.000 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     9.560               0.000 OSC_50_B4D 
+    Info (332119):     9.619               0.000 OSC_50_B3B 
+    Info (332119):     9.956               0.000 OSC_50_B4A 
+    Info (332119):    15.925               0.000 altera_reserved_tck 
+    Info (332119):   325.314               0.000 pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
 Info: Analyzing Fast 900mV 0C Model
-Warning (332060): Node: OSC_50_B4D was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register FOCUS_ADJ:adl|oB[0] is being clocked by OSC_50_B4D
 Warning (332060): Node: VGA_Controller:u1|oVGA_H_SYNC was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register RAW2RGB_J:u4|Line_Buffer_J:u0|WR[1] is being clocked by VGA_Controller:u1|oVGA_H_SYNC
-Warning (332060): Node: MIPI_PIXEL_CLK was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register ON_CHIP_FRAM:fra|FRAM_BUFF:GG|altsyncram:altsyncram_component|altsyncram_feo2:auto_generated|ram_block1a247~porta_datain_reg6 is being clocked by MIPI_PIXEL_CLK
+    Info (13166): Register RAW2RGB_J:u4|Line_Buffer_J:u0|WR[0] is being clocked by VGA_Controller:u1|oVGA_H_SYNC
 Warning (332060): Node: MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|CLOCKMEM:c1|CK_1HZ was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Register MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv|DELY[9] is being clocked by MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|CLOCKMEM:c1|CK_1HZ
-Warning (332060): Node: OSC_50_B3B was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|CLOCKMEM:c1|CK_1HZ is being clocked by OSC_50_B3B
-Warning (332060): Node: OSC_50_B4A was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|Data_Count[0] is being clocked by OSC_50_B4A
 Warning (332060): Node: VGA_Controller:u1|oVGA_V_SYNC was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Register FOCUS_ADJ:adl|I2C_DELAY:i2c|READY is being clocked by VGA_Controller:u1|oVGA_V_SYNC
 Warning (332060): Node: FOCUS_ADJ:adl|VCM_I2C:i2c2|CLOCKMEM:c1|CK_1HZ was determined to be a clock but was found without an associated clock assignment.
@@ -1513,43 +1739,69 @@ Warning (332060): Node: FOCUS_ADJ:adl|VCM_I2C:i2c2|CLOCKMEM:c1|CK_1HZ was determ
 Warning (332060): Node: FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|V_C was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Latch FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[10]~9 is being clocked by FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|V_C
 Warning (332060): Node: FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE|MODIFY_SYNC:vs|MS was determined to be a clock but was found without an associated clock assignment.
-    Info (13166): Register FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|GO_F is being clocked by FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE|MODIFY_SYNC:vs|MS
+    Info (13166): Register FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|VCM_END is being clocked by FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE|MODIFY_SYNC:vs|MS
 Warning (332060): Node: FOCUS_ADJ:adl|I2C_DELAY:i2c|READY was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Latch FOCUS_ADJ:adl|VCM_I2C:i2c2|rTR_IN~1 is being clocked by FOCUS_ADJ:adl|I2C_DELAY:i2c|READY
 Warning (332060): Node: HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|mI2C_CTRL_CLK was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Register HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|mI2C_DATA[14] is being clocked by HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|mI2C_CTRL_CLK
 Warning (332060): Node: HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|lrclk was determined to be a clock but was found without an associated clock assignment.
     Info (13166): Register HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|SIN_Cont[5] is being clocked by HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|lrclk
+Info (332097): The following timing edges are non-unate.  The Timing Analyzer will assume pos-unate behavior for these edges in the clock network.
+    Info (332098): From: pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|refclkin  to: pll_test:pll_ref|pll_test_0002:pll_test_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLLFBCLKID
+    Info (332098): From: pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|refclkin  to: pll_video:pll_vg|pll_video_0002:pll_video_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLLFBCLKID
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
-Warning (332056): PLL cross checking found inconsistent PLL clock settings:
-    Warning (332056): Node: pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
-    Warning (332056): Node: pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] was found missing 1 generated clock that corresponds to a base clock with a period of: 20.000
-Info (332146): Worst-case setup slack is 14.193
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
+Info (332146): Worst-case setup slack is -0.757
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    14.193               0.000 altera_reserved_tck 
-Info (332146): Worst-case hold slack is 0.030
+    Info (332119):    -0.757             -30.930 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     1.701               0.000 MIPI_PIXEL_CLK 
+    Info (332119):    14.323               0.000 altera_reserved_tck 
+    Info (332119):    17.312               0.000 OSC_50_B3B 
+    Info (332119):    19.970               0.000 OSC_50_B4A 
+    Info (332119):    19.970               0.000 OSC_50_B4D 
+    Info (332119):   650.295               0.000 pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
+Info (332146): Worst-case hold slack is 0.038
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.030               0.000 altera_reserved_tck 
-Info (332146): Worst-case recovery slack is 31.633
+    Info (332119):     0.038               0.000 altera_reserved_tck 
+    Info (332119):     0.080               0.000 MIPI_PIXEL_CLK 
+    Info (332119):     0.108               0.000 OSC_50_B3B 
+    Info (332119):     0.139               0.000 pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.143               0.000 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     1.250               0.000 OSC_50_B4A 
+    Info (332119):     1.250               0.000 OSC_50_B4D 
+Info (332146): Worst-case recovery slack is -0.856
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    31.633               0.000 altera_reserved_tck 
-Info (332146): Worst-case removal slack is 0.226
+    Info (332119):    -0.856             -11.033 pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):    12.426               0.000 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):    31.912               0.000 altera_reserved_tck 
+Info (332146): Worst-case removal slack is 0.314
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.226               0.000 altera_reserved_tck 
-Info (332146): Worst-case minimum pulse width slack is 15.945
+    Info (332119):     0.314               0.000 altera_reserved_tck 
+    Info (332119):     0.351               0.000 pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.417               0.000 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+Info (332146): Worst-case minimum pulse width slack is 0.612
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    15.945               0.000 altera_reserved_tck 
+    Info (332119):     0.612               0.000 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
+    Info (332119):     0.641               0.000 pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
+    Info (332119):     4.027               0.000 MIPI_PIXEL_CLK 
+    Info (332119):     6.140               0.000 pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     9.577               0.000 OSC_50_B4D 
+    Info (332119):     9.622               0.000 OSC_50_B3B 
+    Info (332119):     9.940               0.000 OSC_50_B4A 
+    Info (332119):    15.927               0.000 altera_reserved_tck 
+    Info (332119):   325.329               0.000 pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
-Info: Quartus Prime Timing Analyzer was successful. 0 errors, 67 warnings
-    Info: Peak virtual memory: 5736 megabytes
-    Info: Processing ended: Mon Nov 30 22:49:37 2020
-    Info: Elapsed time: 00:00:16
-    Info: Total CPU time (on all processors): 00:00:20
+Info: Quartus Prime Timing Analyzer was successful. 0 errors, 57 warnings
+    Info: Peak virtual memory: 5751 megabytes
+    Info: Processing ended: Tue Dec 01 21:14:55 2020
+    Info: Elapsed time: 00:00:19
+    Info: Total CPU time (on all processors): 00:00:23
 
 

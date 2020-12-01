@@ -1,5 +1,5 @@
 Analysis & Synthesis report for D8M_FMC
-Mon Nov 30 22:56:08 2020
+Tue Dec 01 20:53:55 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -119,7 +119,7 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Nov 30 22:56:08 2020           ;
+; Analysis & Synthesis Status     ; Successful - Tue Dec 01 20:53:55 2020           ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                   ; D8M_FMC                                         ;
 ; Top-level Entity Name           ; D8M_FMC                                         ;
@@ -2518,7 +2518,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:36     ;
+; Top            ; 00:00:39     ;
 +----------------+--------------+
 
 
@@ -2528,10 +2528,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Mon Nov 30 22:54:59 2020
+    Info: Processing started: Tue Dec 01 20:52:40 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off D8M_FMC -c D8M_FMC
-Warning (125092): Tcl Script File V/pll_vga.qip not found
-    Info (125063): set_global_assignment -name QIP_FILE V/pll_vga.qip
 Info (16303): Aggressive Performance optimization mode selected -- timing performance will be prioritized at the potential cost of increased logic area and compilation time
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -2544,7 +2542,6 @@ Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/g
     Info (12023): Found entity 1: G_GAIN File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/G_GAIN.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/b_gain.v
     Info (12023): Found entity 1: B_GAIN File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/B_GAIN.v Line: 40
-Warning (12019): Can't analyze file -- file A10GFP_D8M_FMC_RTL.v is missing
 Info (12021): Found 1 design units, including 1 entities, in source file v/i2c_write_wdata.v
     Info (12023): Found entity 1: I2C_WRITE_WDATA File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_WRITE_WDATA.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v/i2c_write_ptr.v
@@ -3067,7 +3064,7 @@ Warning (10230): Verilog HDL assignment warning at AUDIO_IF.v(113): truncated va
 Warning (10230): Verilog HDL assignment warning at AUDIO_IF.v(129): truncated value with size 32 to match size of target (7) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/AUDIO_IF.v Line: 129
 Warning (10230): Verilog HDL assignment warning at AUDIO_IF.v(155): truncated value with size 32 to match size of target (6) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/AUDIO_IF.v Line: 155
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2020.11.30.22:55:19 Progress: Loading sld86241617/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2020.12.01.20:53:01 Progress: Loading sld86241617/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -3221,11 +3218,11 @@ Info (21057): Implemented 6001 device resources after synthesis - the final reso
     Info (21064): Implemented 600 RAM segments
     Info (21065): Implemented 3 PLLs
     Info (21062): Implemented 14 DSP elements
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 210 warnings
-    Info: Peak virtual memory: 5092 megabytes
-    Info: Processing ended: Mon Nov 30 22:56:09 2020
-    Info: Elapsed time: 00:01:10
-    Info: Total CPU time (on all processors): 00:01:31
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 208 warnings
+    Info: Peak virtual memory: 5078 megabytes
+    Info: Processing ended: Tue Dec 01 20:53:55 2020
+    Info: Elapsed time: 00:01:15
+    Info: Total CPU time (on all processors): 00:01:36
 
 
 +------------------------------------------+

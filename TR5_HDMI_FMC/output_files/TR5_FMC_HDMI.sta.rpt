@@ -1,5 +1,5 @@
 Timing Analyzer report for TR5_FMC_HDMI
-Thu Nov 12 23:43:08 2020
+Tue Dec 01 21:33:49 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -102,14 +102,14 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.34        ;
+; Average used               ; 1.35        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;  13.0%      ;
-;     Processor 3            ;  11.0%      ;
-;     Processor 4            ;   9.8%      ;
+;     Processor 2            ;  13.4%      ;
+;     Processor 3            ;  11.2%      ;
+;     Processor 4            ;  10.2%      ;
 +----------------------------+-------------+
 
 
@@ -118,9 +118,9 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------+--------+--------------------------+
 ; SDC File Path                                               ; Status ; Read at                  ;
 +-------------------------------------------------------------+--------+--------------------------+
-; TR5_QSYS/synthesis/submodules/altera_reset_controller.sdc   ; OK     ; Thu Nov 12 23:42:54 2020 ;
-; TR5_QSYS/synthesis/submodules/TR5_QSYS_nios2_gen2_0_cpu.sdc ; OK     ; Thu Nov 12 23:42:54 2020 ;
-; TR5_FMC_HDMI.SDC                                            ; OK     ; Thu Nov 12 23:42:54 2020 ;
+; TR5_QSYS/synthesis/submodules/altera_reset_controller.sdc   ; OK     ; Tue Dec 01 21:33:38 2020 ;
+; TR5_QSYS/synthesis/submodules/TR5_QSYS_nios2_gen2_0_cpu.sdc ; OK     ; Tue Dec 01 21:33:38 2020 ;
+; TR5_FMC_HDMI.SDC                                            ; OK     ; Tue Dec 01 21:33:38 2020 ;
 +-------------------------------------------------------------+--------+--------------------------+
 
 
@@ -1211,7 +1211,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Thu Nov 12 23:42:50 2020
+    Info: Processing started: Tue Dec 01 21:33:34 2020
 Info: Command: quartus_sta TR5_FMC_HDMI -c TR5_FMC_HDMI
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -1591,8 +1591,8 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 3 warnings
     Info: Peak virtual memory: 5661 megabytes
-    Info: Processing ended: Thu Nov 12 23:43:08 2020
-    Info: Elapsed time: 00:00:18
-    Info: Total CPU time (on all processors): 00:00:18
+    Info: Processing ended: Tue Dec 01 21:33:49 2020
+    Info: Elapsed time: 00:00:15
+    Info: Total CPU time (on all processors): 00:00:17
 
 

@@ -1019,9 +1019,6 @@ set_global_assignment -name VERILOG_FILE V_D8M/R_GAIN.v
 set_global_assignment -name VERILOG_FILE V_D8M/G_GAIN.v
 set_global_assignment -name VERILOG_FILE V_D8M/B_GAIN.v
 set_global_assignment -name SOURCE_FILE VGA_Controller/VGA_Param.h
-set_global_assignment -name SDC_FILE A10GFP_D8M_FMC_RTL.sdc
-set_global_assignment -name VERILOG_FILE A10GFP_D8M_FMC_RTL.v
-set_global_assignment -name QSYS_FILE V/pll_test.qsys
 set_global_assignment -name VERILOG_FILE V/I2C_WRITE_WDATA.v
 set_global_assignment -name VERILOG_FILE V/I2C_WRITE_PTR.v
 set_global_assignment -name VERILOG_FILE V/I2C_RESET_DELAY.v
@@ -1060,7 +1057,6 @@ set_global_assignment -name VERILOG_FILE V_HDMI_TX_Reconfig/AUDIO_IF.v
 set_global_assignment -name VERILOG_FILE V_HDMI_TX_Reconfig/HDMI_TX_AD7513.v
 set_global_assignment -name QIP_FILE V/pll_test.qip
 set_global_assignment -name SIP_FILE V/pll_test.sip
-set_global_assignment -name QIP_FILE V/pll_vga.qip
 set_global_assignment -name SIP_FILE V/pll_vga.sip
 set_global_assignment -name QIP_FILE V_Auto/SHI.qip
 set_global_assignment -name QIP_FILE V/pll_video.qip

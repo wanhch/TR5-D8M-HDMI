@@ -90,7 +90,7 @@ wire        reset_n;
 //=======================================================
 assign           ADV7619_CS_n = 1'b0;
 assign           reset_n = 1'b1;
-|TR5_FMC_HDMI
+//|TR5_FMC_HDMI
 
 
 TR5_QSYS u0 (

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for TR5_D8M_HDMI
-Mon Nov 30 22:45:40 2020
+Tue Dec 01 21:09:32 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -119,13 +119,13 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Nov 30 22:45:40 2020           ;
+; Analysis & Synthesis Status     ; Successful - Tue Dec 01 21:09:32 2020           ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                   ; TR5_D8M_HDMI                                    ;
 ; Top-level Entity Name           ; TR5_D8M_HDMI                                    ;
 ; Family                          ; Stratix V                                       ;
 ; Logic utilization (in ALMs)     ; N/A                                             ;
-; Total registers                 ; 1812                                            ;
+; Total registers                 ; 1811                                            ;
 ; Total pins                      ; 146                                             ;
 ; Total virtual pins              ; 0                                               ;
 ; Total block memory bits         ; 9,277,440                                       ;
@@ -245,9 +245,9 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.1%      ;
-;     Processor 3            ;   0.1%      ;
-;     Processor 4            ;   0.1%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processor 3            ;   0.0%      ;
+;     Processor 4            ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -256,7 +256,6 @@ refer to the applicable agreement for further details.
 +--------------------------------------------------------------------+-----------------+----------------------------------------------+----------------------------------------------------------------------------------------------+-------------+
 ; File Name with User-Entered Path                                   ; Used in Netlist ; File Type                                    ; File Name with Absolute Path                                                                 ; Library     ;
 +--------------------------------------------------------------------+-----------------+----------------------------------------------+----------------------------------------------------------------------------------------------+-------------+
-; TR5_D8M_HDMI.v                                                     ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v                                                       ;             ;
 ; TR5_D8M_FMC_RTL/VGA_Controller/VGA_Param.h                         ; yes             ; User File                                    ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Param.h                           ;             ;
 ; TR5_D8M_FMC_RTL/VGA_Controller/VGA_Controller.v                    ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Controller.v                      ;             ;
 ; TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_HDMI_Config.v               ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_HDMI_Config.v                 ;             ;
@@ -299,6 +298,7 @@ refer to the applicable agreement for further details.
 ; TR5_D8M_FMC_RTL/V/I2C_WRITE_PTR.v                                  ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_WRITE_PTR.v                                    ;             ;
 ; TR5_D8M_FMC_RTL/V/I2C_RESET_DELAY.v                                ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_RESET_DELAY.v                                  ;             ;
 ; TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v                                  ; yes             ; User Verilog HDL File                        ; D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v                                    ;             ;
+; tr5_d8m_hdmi.v                                                     ; yes             ; Auto-Found Verilog HDL File                  ; D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v                                                       ;             ;
 ; lpm_constant.tdf                                                   ; yes             ; Megafunction                                 ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/lpm_constant.tdf                  ;             ;
 ; db/lpm_constant_sc8.tdf                                            ; yes             ; Auto-Generated Megafunction                  ; D:/Desktop/TR5_D8M_HDMI/db/lpm_constant_sc8.tdf                                              ;             ;
 ; sld_mod_ram_rom.vhd                                                ; yes             ; Encrypted Megafunction                       ; d:/software/intelfpga/18.1/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd               ;             ;
@@ -342,14 +342,14 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+---------------------------------------------------------------------------------------+
 ; Estimate of Logic utilization (ALMs needed) ; 2572                                                                                  ;
 ;                                             ;                                                                                       ;
-; Combinational ALUT usage for logic          ; 3957                                                                                  ;
-;     -- 7 input functions                    ; 36                                                                                    ;
-;     -- 6 input functions                    ; 959                                                                                   ;
-;     -- 5 input functions                    ; 570                                                                                   ;
-;     -- 4 input functions                    ; 515                                                                                   ;
-;     -- <=3 input functions                  ; 1877                                                                                  ;
+; Combinational ALUT usage for logic          ; 3972                                                                                  ;
+;     -- 7 input functions                    ; 39                                                                                    ;
+;     -- 6 input functions                    ; 941                                                                                   ;
+;     -- 5 input functions                    ; 586                                                                                   ;
+;     -- 4 input functions                    ; 518                                                                                   ;
+;     -- <=3 input functions                  ; 1888                                                                                  ;
 ;                                             ;                                                                                       ;
-; Dedicated logic registers                   ; 1812                                                                                  ;
+; Dedicated logic registers                   ; 1811                                                                                  ;
 ;                                             ;                                                                                       ;
 ; I/O pins                                    ; 146                                                                                   ;
 ; Total MLAB memory bits                      ; 0                                                                                     ;
@@ -362,8 +362,8 @@ refer to the applicable agreement for further details.
 ;                                             ;                                                                                       ;
 ; Maximum fan-out node                        ; pll_video:pll_vg|pll_video_0002:pll_video_inst|altera_pll:altera_pll_i|outclk_wire[0] ;
 ; Maximum fan-out                             ; 1125                                                                                  ;
-; Total fan-out                               ; 42381                                                                                 ;
-; Average fan-out                             ; 6.30                                                                                  ;
+; Total fan-out                               ; 42412                                                                                 ;
+; Average fan-out                             ; 6.29                                                                                  ;
 +---------------------------------------------+---------------------------------------------------------------------------------------+
 
 
@@ -372,21 +372,21 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+--------------+
 ; Compilation Hierarchy Node                                                                                                              ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                                                                                                                                                                      ; Entity Name                       ; Library Name ;
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+--------------+
-; |TR5_D8M_HDMI                                                                                                                           ; 3957 (9)            ; 1812 (0)                  ; 9277440           ; 14         ; 146  ; 0            ; |TR5_D8M_HDMI                                                                                                                                                                                                                                                                                                                                            ; TR5_D8M_HDMI                      ; work         ;
+; |TR5_D8M_HDMI                                                                                                                           ; 3972 (9)            ; 1811 (0)                  ; 9277440           ; 14         ; 146  ; 0            ; |TR5_D8M_HDMI                                                                                                                                                                                                                                                                                                                                            ; TR5_D8M_HDMI                      ; work         ;
 ;    |AUTO_FOCUS_ON:u9|                                                                                                                   ; 40 (40)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|AUTO_FOCUS_ON:u9                                                                                                                                                                                                                                                                                                                           ; AUTO_FOCUS_ON                     ; work         ;
 ;    |CLOCKMEM:ck1|                                                                                                                       ; 41 (41)             ; 33 (33)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|CLOCKMEM:ck1                                                                                                                                                                                                                                                                                                                               ; CLOCKMEM                          ; work         ;
-;    |FOCUS_ADJ:adl|                                                                                                                      ; 831 (17)            ; 586 (24)                  ; 0                 ; 2          ; 0    ; 0            ; |TR5_D8M_HDMI|FOCUS_ADJ:adl                                                                                                                                                                                                                                                                                                                              ; FOCUS_ADJ                         ; work         ;
+;    |FOCUS_ADJ:adl|                                                                                                                      ; 850 (17)            ; 586 (24)                  ; 0                 ; 2          ; 0    ; 0            ; |TR5_D8M_HDMI|FOCUS_ADJ:adl                                                                                                                                                                                                                                                                                                                              ; FOCUS_ADJ                         ; work         ;
 ;       |AUTO_SYNC_MODIFY:RE|                                                                                                             ; 56 (0)              ; 100 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE                                                                                                                                                                                                                                                                                                          ; AUTO_SYNC_MODIFY                  ; work         ;
 ;          |MODIFY_SYNC:hs|                                                                                                               ; 28 (28)             ; 50 (50)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE|MODIFY_SYNC:hs                                                                                                                                                                                                                                                                                           ; MODIFY_SYNC                       ; work         ;
 ;          |MODIFY_SYNC:vs|                                                                                                               ; 28 (28)             ; 50 (50)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE|MODIFY_SYNC:vs                                                                                                                                                                                                                                                                                           ; MODIFY_SYNC                       ; work         ;
 ;       |I2C_DELAY:i2c|                                                                                                                   ; 38 (38)             ; 33 (33)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|FOCUS_ADJ:adl|I2C_DELAY:i2c                                                                                                                                                                                                                                                                                                                ; I2C_DELAY                         ; work         ;
-;       |LCD_COUNTER:cv1|                                                                                                                 ; 164 (164)           ; 67 (67)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|FOCUS_ADJ:adl|LCD_COUNTER:cv1                                                                                                                                                                                                                                                                                                              ; LCD_COUNTER                       ; work         ;
-;       |VCM_CTRL_P:pp|                                                                                                                   ; 194 (89)            ; 157 (132)                 ; 0                 ; 2          ; 0    ; 0            ; |TR5_D8M_HDMI|FOCUS_ADJ:adl|VCM_CTRL_P:pp                                                                                                                                                                                                                                                                                                                ; VCM_CTRL_P                        ; work         ;
+;       |LCD_COUNTER:cv1|                                                                                                                 ; 165 (165)           ; 67 (67)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|FOCUS_ADJ:adl|LCD_COUNTER:cv1                                                                                                                                                                                                                                                                                                              ; LCD_COUNTER                       ; work         ;
+;       |VCM_CTRL_P:pp|                                                                                                                   ; 196 (91)            ; 157 (132)                 ; 0                 ; 2          ; 0    ; 0            ; |TR5_D8M_HDMI|FOCUS_ADJ:adl|VCM_CTRL_P:pp                                                                                                                                                                                                                                                                                                                ; VCM_CTRL_P                        ; work         ;
 ;          |F_VCM:f|                                                                                                                      ; 105 (105)           ; 25 (25)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f                                                                                                                                                                                                                                                                                                        ; F_VCM                             ; work         ;
-;       |VCM_I2C:i2c2|                                                                                                                    ; 362 (138)           ; 205 (68)                  ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|FOCUS_ADJ:adl|VCM_I2C:i2c2                                                                                                                                                                                                                                                                                                                 ; VCM_I2C                           ; work         ;
+;       |VCM_I2C:i2c2|                                                                                                                    ; 378 (148)           ; 205 (68)                  ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|FOCUS_ADJ:adl|VCM_I2C:i2c2                                                                                                                                                                                                                                                                                                                 ; VCM_I2C                           ; work         ;
 ;          |CLOCKMEM:c1|                                                                                                                  ; 40 (40)             ; 33 (33)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|FOCUS_ADJ:adl|VCM_I2C:i2c2|CLOCKMEM:c1                                                                                                                                                                                                                                                                                                     ; CLOCKMEM                          ; work         ;
 ;          |I2C_READ_DATA:rd|                                                                                                             ; 69 (69)             ; 41 (41)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|FOCUS_ADJ:adl|VCM_I2C:i2c2|I2C_READ_DATA:rd                                                                                                                                                                                                                                                                                                ; I2C_READ_DATA                     ; work         ;
-;          |I2C_WRITE_PTR:wpt|                                                                                                            ; 65 (65)             ; 35 (35)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|FOCUS_ADJ:adl|VCM_I2C:i2c2|I2C_WRITE_PTR:wpt                                                                                                                                                                                                                                                                                               ; I2C_WRITE_PTR                     ; work         ;
+;          |I2C_WRITE_PTR:wpt|                                                                                                            ; 71 (71)             ; 35 (35)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|FOCUS_ADJ:adl|VCM_I2C:i2c2|I2C_WRITE_PTR:wpt                                                                                                                                                                                                                                                                                               ; I2C_WRITE_PTR                     ; work         ;
 ;          |I2C_WRITE_WDATA:wrd|                                                                                                          ; 50 (50)             ; 28 (28)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|FOCUS_ADJ:adl|VCM_I2C:i2c2|I2C_WRITE_WDATA:wrd                                                                                                                                                                                                                                                                                             ; I2C_WRITE_WDATA                   ; work         ;
 ;    |GAMMA_CORRECT:ui|                                                                                                                   ; 90 (0)              ; 113 (0)                   ; 0                 ; 12         ; 0    ; 0            ; |TR5_D8M_HDMI|GAMMA_CORRECT:ui                                                                                                                                                                                                                                                                                                                           ; GAMMA_CORRECT                     ; work         ;
 ;       |BEZIER_CURVE:bb|                                                                                                                 ; 8 (8)               ; 17 (17)                   ; 0                 ; 4          ; 0    ; 0            ; |TR5_D8M_HDMI|GAMMA_CORRECT:ui|BEZIER_CURVE:bb                                                                                                                                                                                                                                                                                                           ; BEZIER_CURVE                      ; work         ;
@@ -402,16 +402,16 @@ refer to the applicable agreement for further details.
 ;             |lpm_constant_1g8:ag|                                                                                                       ; 28 (0)              ; 31 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|GAMMA_CORRECT:ui|P2:pp22|lpm_constant:LPM_CONSTANT_component|lpm_constant_1g8:ag                                                                                                                                                                                                                                                           ; lpm_constant_1g8                  ; work         ;
 ;                |sld_mod_ram_rom:mgl_prim1|                                                                                              ; 28 (14)             ; 31 (23)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|GAMMA_CORRECT:ui|P2:pp22|lpm_constant:LPM_CONSTANT_component|lpm_constant_1g8:ag|sld_mod_ram_rom:mgl_prim1                                                                                                                                                                                                                                 ; sld_mod_ram_rom                   ; work         ;
 ;                   |sld_rom_sr:\constant_logic_gen:name_gen:info_rom_sr|                                                                 ; 14 (14)             ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|GAMMA_CORRECT:ui|P2:pp22|lpm_constant:LPM_CONSTANT_component|lpm_constant_1g8:ag|sld_mod_ram_rom:mgl_prim1|sld_rom_sr:\constant_logic_gen:name_gen:info_rom_sr                                                                                                                                                                             ; sld_rom_sr                        ; work         ;
-;    |HDMI_TX_AD7513:hdmi|                                                                                                                ; 128 (0)             ; 89 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|HDMI_TX_AD7513:hdmi                                                                                                                                                                                                                                                                                                                        ; HDMI_TX_AD7513                    ; work         ;
+;    |HDMI_TX_AD7513:hdmi|                                                                                                                ; 130 (0)             ; 89 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|HDMI_TX_AD7513:hdmi                                                                                                                                                                                                                                                                                                                        ; HDMI_TX_AD7513                    ; work         ;
 ;       |AUDIO_IF:u_AVG|                                                                                                                  ; 36 (36)             ; 19 (19)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG                                                                                                                                                                                                                                                                                                         ; AUDIO_IF                          ; work         ;
-;       |I2C_HDMI_Config:u_I2C_HDMI_Config|                                                                                               ; 92 (50)             ; 70 (42)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config                                                                                                                                                                                                                                                                                      ; I2C_HDMI_Config                   ; work         ;
-;          |I2C_Controller:u0|                                                                                                            ; 42 (42)             ; 28 (28)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|I2C_Controller:u0                                                                                                                                                                                                                                                                    ; I2C_Controller                    ; work         ;
-;    |MIPI_BRIDGE_CAMERA_Config:cfin|                                                                                                     ; 2065 (1)            ; 586 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|MIPI_BRIDGE_CAMERA_Config:cfin                                                                                                                                                                                                                                                                                                             ; MIPI_BRIDGE_CAMERA_Config         ; work         ;
+;       |I2C_HDMI_Config:u_I2C_HDMI_Config|                                                                                               ; 94 (50)             ; 70 (42)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config                                                                                                                                                                                                                                                                                      ; I2C_HDMI_Config                   ; work         ;
+;          |I2C_Controller:u0|                                                                                                            ; 44 (44)             ; 28 (28)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|I2C_Controller:u0                                                                                                                                                                                                                                                                    ; I2C_Controller                    ; work         ;
+;    |MIPI_BRIDGE_CAMERA_Config:cfin|                                                                                                     ; 2059 (1)            ; 585 (0)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|MIPI_BRIDGE_CAMERA_Config:cfin                                                                                                                                                                                                                                                                                                             ; MIPI_BRIDGE_CAMERA_Config         ; work         ;
 ;       |MIPI_BRIDGE_CONFIG:mpiv|                                                                                                         ; 385 (192)           ; 198 (94)                  ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv                                                                                                                                                                                                                                                                                     ; MIPI_BRIDGE_CONFIG                ; work         ;
 ;          |I2C_READ_DATA:rd|                                                                                                             ; 67 (67)             ; 41 (41)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv|I2C_READ_DATA:rd                                                                                                                                                                                                                                                                    ; I2C_READ_DATA                     ; work         ;
 ;          |I2C_WRITE_PTR:wpt|                                                                                                            ; 71 (71)             ; 35 (35)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv|I2C_WRITE_PTR:wpt                                                                                                                                                                                                                                                                   ; I2C_WRITE_PTR                     ; work         ;
 ;          |I2C_WRITE_WDATA:wrd|                                                                                                          ; 55 (55)             ; 28 (28)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv|I2C_WRITE_WDATA:wrd                                                                                                                                                                                                                                                                 ; I2C_WRITE_WDATA                   ; work         ;
-;       |MIPI_CAMERA_CONFIG:camiv|                                                                                                        ; 1679 (1361)         ; 388 (126)                 ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv                                                                                                                                                                                                                                                                                    ; MIPI_CAMERA_CONFIG                ; work         ;
+;       |MIPI_CAMERA_CONFIG:camiv|                                                                                                        ; 1673 (1355)         ; 387 (125)                 ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv                                                                                                                                                                                                                                                                                    ; MIPI_CAMERA_CONFIG                ; work         ;
 ;          |B_GAIN:b2|                                                                                                                    ; 25 (0)              ; 39 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|B_GAIN:b2                                                                                                                                                                                                                                                                          ; B_GAIN                            ; work         ;
 ;             |lpm_constant:LPM_CONSTANT_component|                                                                                       ; 25 (0)              ; 39 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|B_GAIN:b2|lpm_constant:LPM_CONSTANT_component                                                                                                                                                                                                                                      ; lpm_constant                      ; work         ;
 ;                |lpm_constant_na8:ag|                                                                                                    ; 25 (0)              ; 39 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|B_GAIN:b2|lpm_constant:LPM_CONSTANT_component|lpm_constant_na8:ag                                                                                                                                                                                                                  ; lpm_constant_na8                  ; work         ;
@@ -441,7 +441,7 @@ refer to the applicable agreement for further details.
 ;                |mux_vjb:mux5|                                                                                                           ; 202 (202)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|ON_CHIP_FRAM:fra|FRAM_BUFF:GG|altsyncram:altsyncram_component|altsyncram_feo2:auto_generated|mux_vjb:mux5                                                                                                                                                                                                                                  ; mux_vjb                           ; work         ;
 ;       |FRM_COUNTER:rrr|                                                                                                                 ; 21 (21)             ; 21 (21)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|ON_CHIP_FRAM:fra|FRM_COUNTER:rrr                                                                                                                                                                                                                                                                                                           ; FRM_COUNTER                       ; work         ;
 ;       |FRM_COUNTER:wrw|                                                                                                                 ; 22 (22)             ; 21 (21)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|ON_CHIP_FRAM:fra|FRM_COUNTER:wrw                                                                                                                                                                                                                                                                                                           ; FRM_COUNTER                       ; work         ;
-;    |RAW2RGB_J:u4|                                                                                                                       ; 87 (25)             ; 69 (23)                   ; 61440             ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|RAW2RGB_J:u4                                                                                                                                                                                                                                                                                                                               ; RAW2RGB_J                         ; work         ;
+;    |RAW2RGB_J:u4|                                                                                                                       ; 85 (23)             ; 69 (23)                   ; 61440             ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|RAW2RGB_J:u4                                                                                                                                                                                                                                                                                                                               ; RAW2RGB_J                         ; work         ;
 ;       |Line_Buffer_J:u0|                                                                                                                ; 25 (25)             ; 2 (2)                     ; 61440             ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|RAW2RGB_J:u4|Line_Buffer_J:u0                                                                                                                                                                                                                                                                                                              ; Line_Buffer_J                     ; work         ;
 ;          |int_line:d1|                                                                                                                  ; 0 (0)               ; 0 (0)                     ; 20480             ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|RAW2RGB_J:u4|Line_Buffer_J:u0|int_line:d1                                                                                                                                                                                                                                                                                                  ; int_line                          ; work         ;
 ;             |altsyncram:altsyncram_component|                                                                                           ; 0 (0)               ; 0 (0)                     ; 20480             ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|RAW2RGB_J:u4|Line_Buffer_J:u0|int_line:d1|altsyncram:altsyncram_component                                                                                                                                                                                                                                                                  ; altsyncram                        ; work         ;
@@ -454,7 +454,7 @@ refer to the applicable agreement for further details.
 ;                |altsyncram_u2v1:auto_generated|                                                                                         ; 0 (0)               ; 0 (0)                     ; 20480             ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|RAW2RGB_J:u4|Line_Buffer_J:u0|int_line:d3|altsyncram:altsyncram_component|altsyncram_u2v1:auto_generated                                                                                                                                                                                                                                   ; altsyncram_u2v1                   ; work         ;
 ;       |RAW_RGB_BIN:bin|                                                                                                                 ; 37 (37)             ; 44 (44)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|RAW2RGB_J:u4|RAW_RGB_BIN:bin                                                                                                                                                                                                                                                                                                               ; RAW_RGB_BIN                       ; work         ;
 ;    |RESET_DELAY:dl|                                                                                                                     ; 39 (39)             ; 33 (33)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|RESET_DELAY:dl                                                                                                                                                                                                                                                                                                                             ; RESET_DELAY                       ; work         ;
-;    |VGA_Controller:u1|                                                                                                                  ; 46 (46)             ; 55 (55)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|VGA_Controller:u1                                                                                                                                                                                                                                                                                                                          ; VGA_Controller                    ; work         ;
+;    |VGA_Controller:u1|                                                                                                                  ; 48 (48)             ; 55 (55)                   ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|VGA_Controller:u1                                                                                                                                                                                                                                                                                                                          ; VGA_Controller                    ; work         ;
 ;    |pll_test:pll_ref|                                                                                                                   ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|pll_test:pll_ref                                                                                                                                                                                                                                                                                                                           ; pll_test                          ; pll_test     ;
 ;       |pll_test_0002:pll_test_inst|                                                                                                     ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|pll_test:pll_ref|pll_test_0002:pll_test_inst                                                                                                                                                                                                                                                                                               ; pll_test_0002                     ; pll_test     ;
 ;          |altera_pll:altera_pll_i|                                                                                                      ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |TR5_D8M_HDMI|pll_test:pll_ref|pll_test_0002:pll_test_inst|altera_pll:altera_pll_i                                                                                                                                                                                                                                                                       ; altera_pll                        ; work         ;
@@ -499,17 +499,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis IP Cores Summary                                                                                                                                                                                                                                                                                                                               ;
-+--------+--------------+---------+--------------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
-; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                                                                                                                                                                                                                                                                   ; IP Include File ;
-+--------+--------------+---------+--------------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
-; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |TR5_D8M_HDMI|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric                                                                                 ;                 ;
-; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |TR5_D8M_HDMI|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab                                             ;                 ;
-; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |TR5_D8M_HDMI|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_presplit:presplit   ;                 ;
-; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |TR5_D8M_HDMI|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_sldfabric:sldfabric ;                 ;
-; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |TR5_D8M_HDMI|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_splitter:splitter   ;                 ;
-+--------+--------------+---------+--------------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                                                                                                                                                                                                                                             ;
++--------+--------------+---------+--------------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                                                                                                                                                                                                                                                                   ; IP Include File               ;
++--------+--------------+---------+--------------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
+; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |TR5_D8M_HDMI|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric                                                                                 ;                               ;
+; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |TR5_D8M_HDMI|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab                                             ;                               ;
+; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |TR5_D8M_HDMI|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_presplit:presplit   ;                               ;
+; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |TR5_D8M_HDMI|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_sldfabric:sldfabric ;                               ;
+; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |TR5_D8M_HDMI|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_splitter:splitter   ;                               ;
+; Altera ; altera_pll   ; 18.1    ; N/A          ; N/A          ; |TR5_D8M_HDMI|pll_test:pll_ref                                                                                                                                                                                                                                                    ; TR5_D8M_FMC_RTL/V/pll_test.v  ;
+; Altera ; altera_pll   ; 18.1    ; N/A          ; N/A          ; |TR5_D8M_HDMI|pll_video:pll_vg                                                                                                                                                                                                                                                    ; TR5_D8M_FMC_RTL/V/pll_video.v ;
++--------+--------------+---------+--------------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------+
 
 
 Encoding Type:  One-Hot
@@ -545,7 +547,7 @@ Encoding Type:  One-Hot
 ; HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|I2C_Controller:u0|SD[18,19]      ; Stuck at GND due to stuck port data_in                                                          ;
 ; HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|I2C_Controller:u0|SD[17]         ; Stuck at VCC due to stuck port data_in                                                          ;
 ; HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|I2C_Controller:u0|SD[16]         ; Stuck at GND due to stuck port data_in                                                          ;
-; HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|i2s[1..3]                                           ; Merged with HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|i2s[0]                                           ;
+; HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|i2s[0..2]                                           ; Merged with HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|i2s[3]                                           ;
 ; MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|ST[7]                          ; Merged with MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|ST[6]                       ;
 ; MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv|REG16_DATA16[23..31]            ; Merged with MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv|REG16_DATA16[16]             ;
 ; MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv|REG16_DATA16[7,13,14]           ; Merged with MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv|REG16_DATA16[11]             ;
@@ -618,12 +620,12 @@ Encoding Type:  One-Hot
 ; FOCUS_ADJ:adl|VCM_I2C:i2c2|I2C_WRITE_WDATA:wrd|DELY[0..7]                              ; Stuck at GND due to stuck port clock                                                            ;
 ; MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv|I2C_WRITE_WDATA:wrd|DELY[0..7]  ; Stuck at GND due to stuck port clock                                                            ;
 ; MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|ST[6]                          ; Stuck at GND due to stuck port data_in                                                          ;
+; MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|SLAVE_ADDR[4,5]                ; Merged with MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|POINTER[15]                 ;
 ; HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|mSetup_ST~9                      ; Lost fanout                                                                                     ;
 ; HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|mSetup_ST~10                     ; Lost fanout                                                                                     ;
-; MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|SLAVE_ADDR[4]                  ; Merged with MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|POINTER[15]                 ;
 ; HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|sclk_Count[4,5]                                     ; Stuck at GND due to stuck port data_in                                                          ;
 ; HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|LUT_INDEX[5]                     ; Stuck at GND due to stuck port data_in                                                          ;
-; Total Number of Removed Registers = 241                                                ;                                                                                                 ;
+; Total Number of Removed Registers = 242                                                ;                                                                                                 ;
 +----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
 
 
@@ -694,12 +696,12 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 1812  ;
+; Total registers                              ; 1811  ;
 ; Number of registers using Synchronous Clear  ; 696   ;
 ; Number of registers using Synchronous Load   ; 262   ;
 ; Number of registers using Asynchronous Clear ; 695   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 1105  ;
+; Number of registers using Clock Enable       ; 1103  ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -729,10 +731,10 @@ Encoding Type:  One-Hot
 ; MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|I2C_READ_DATA:rd|SDAO                                                                                                                                                                                                                                                   ; 3       ;
 ; HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|I2C_Controller:u0|SCLK                                                                                                                                                                                                                                                    ; 2       ;
 ; HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|I2C_Controller:u0|SD_COUNTER[5]                                                                                                                                                                                                                                           ; 17      ;
-; HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|I2C_Controller:u0|SD_COUNTER[4]                                                                                                                                                                                                                                           ; 17      ;
+; HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|I2C_Controller:u0|SD_COUNTER[4]                                                                                                                                                                                                                                           ; 19      ;
 ; HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|I2C_Controller:u0|SD_COUNTER[3]                                                                                                                                                                                                                                           ; 24      ;
-; HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|I2C_Controller:u0|SD_COUNTER[2]                                                                                                                                                                                                                                           ; 20      ;
-; HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|I2C_Controller:u0|SD_COUNTER[1]                                                                                                                                                                                                                                           ; 18      ;
+; HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|I2C_Controller:u0|SD_COUNTER[2]                                                                                                                                                                                                                                           ; 21      ;
+; HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|I2C_Controller:u0|SD_COUNTER[1]                                                                                                                                                                                                                                           ; 19      ;
 ; HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|I2C_Controller:u0|SD_COUNTER[0]                                                                                                                                                                                                                                           ; 24      ;
 ; HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|I2C_Controller:u0|SDO                                                                                                                                                                                                                                                     ; 2       ;
 ; MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv|I2C_WRITE_WDATA:wrd|SCLO                                                                                                                                                                                                                                                 ; 2       ;
@@ -751,9 +753,9 @@ Encoding Type:  One-Hot
 ; FOCUS_ADJ:adl|VCM_I2C:i2c2|W_POINTER_GO                                                                                                                                                                                                                                                                                         ; 6       ;
 ; FOCUS_ADJ:adl|VCM_I2C:i2c2|R_GO                                                                                                                                                                                                                                                                                                 ; 7       ;
 ; HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|I2C_Controller:u0|END                                                                                                                                                                                                                                                     ; 5       ;
-; FOCUS_ADJ:adl|VCM_I2C:i2c2|I2C_WRITE_WDATA:wrd|END_OK                                                                                                                                                                                                                                                                           ; 9       ;
-; FOCUS_ADJ:adl|VCM_I2C:i2c2|I2C_WRITE_PTR:wpt|END_OK                                                                                                                                                                                                                                                                             ; 4       ;
-; FOCUS_ADJ:adl|VCM_I2C:i2c2|I2C_READ_DATA:rd|END_OK                                                                                                                                                                                                                                                                              ; 7       ;
+; FOCUS_ADJ:adl|VCM_I2C:i2c2|I2C_WRITE_WDATA:wrd|END_OK                                                                                                                                                                                                                                                                           ; 10      ;
+; FOCUS_ADJ:adl|VCM_I2C:i2c2|I2C_WRITE_PTR:wpt|END_OK                                                                                                                                                                                                                                                                             ; 6       ;
+; FOCUS_ADJ:adl|VCM_I2C:i2c2|I2C_READ_DATA:rd|END_OK                                                                                                                                                                                                                                                                              ; 9       ;
 ; sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_sldfabric:sldfabric|sld_jtag_hub:\jtag_hub_gen:real_sld_jtag_hub|jtag_ir_reg[1] ; 3       ;
 ; sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_sldfabric:sldfabric|sld_jtag_hub:\jtag_hub_gen:real_sld_jtag_hub|jtag_ir_reg[2] ; 3       ;
 ; Total number of inverted registers = 47                                                                                                                                                                                                                                                                                         ;         ;
@@ -2484,11 +2486,11 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; boundary_port         ; 281                         ;
 ; generic_pll           ; 3                           ;
-; stratixv_ff           ; 1644                        ;
+; stratixv_ff           ; 1643                        ;
 ;     CLR               ; 183                         ;
 ;     CLR SCLR          ; 34                          ;
 ;     CLR SLD           ; 75                          ;
-;     ENA               ; 371                         ;
+;     ENA               ; 369                         ;
 ;     ENA CLR           ; 57                          ;
 ;     ENA CLR SCLR      ; 232                         ;
 ;     ENA SCLR          ; 211                         ;
@@ -2496,31 +2498,31 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     ENA SLD           ; 90                          ;
 ;     SCLR              ; 209                         ;
 ;     SLD               ; 8                           ;
-;     plain             ; 171                         ;
+;     plain             ; 172                         ;
 ; stratixv_io_obuf      ; 37                          ;
-; stratixv_lcell_comb   ; 3810                        ;
+; stratixv_lcell_comb   ; 3825                        ;
 ;     arith             ; 825                         ;
 ;         0 data inputs ; 10                          ;
 ;         1 data inputs ; 779                         ;
 ;         2 data inputs ; 26                          ;
 ;         5 data inputs ; 10                          ;
-;     extend            ; 30                          ;
-;         7 data inputs ; 30                          ;
-;     normal            ; 2939                        ;
+;     extend            ; 33                          ;
+;         7 data inputs ; 33                          ;
+;     normal            ; 2951                        ;
 ;         0 data inputs ; 5                           ;
-;         1 data inputs ; 48                          ;
-;         2 data inputs ; 540                         ;
-;         3 data inputs ; 400                         ;
-;         4 data inputs ; 492                         ;
-;         5 data inputs ; 531                         ;
-;         6 data inputs ; 923                         ;
+;         1 data inputs ; 47                          ;
+;         2 data inputs ; 545                         ;
+;         3 data inputs ; 407                         ;
+;         4 data inputs ; 495                         ;
+;         5 data inputs ; 547                         ;
+;         6 data inputs ; 905                         ;
 ;     shared            ; 16                          ;
 ;         2 data inputs ; 16                          ;
 ; stratixv_mac          ; 14                          ;
 ; stratixv_ram_block    ; 600                         ;
 ;                       ;                             ;
-; Max LUT depth         ; 64.00                       ;
-; Average LUT depth     ; 9.23                        ;
+; Max LUT depth         ; 65.00                       ;
+; Average LUT depth     ; 9.36                        ;
 +-----------------------+-----------------------------+
 
 
@@ -2529,7 +2531,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:39     ;
+; Top            ; 00:00:45     ;
 +----------------+--------------+
 
 
@@ -2539,12 +2541,10 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Mon Nov 30 22:44:28 2020
+    Info: Processing started: Tue Dec 01 21:08:12 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off TR5_D8M_HDMI -c TR5_D8M_HDMI
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file tr5_d8m_hdmi.v
-    Info (12023): Found entity 1: TR5_D8M_HDMI File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 6
 Info (12021): Found 1 design units, including 1 entities, in source file tr5_d8m_fmc_rtl/vga_controller/vga_controller.v
     Info (12023): Found entity 1: VGA_Controller File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Controller.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file tr5_d8m_fmc_rtl/v_hdmi_tx_reconfig/i2c_hdmi_config.v
@@ -2639,18 +2639,20 @@ Info (12021): Found 1 design units, including 1 entities, in source file tr5_d8m
     Info (12023): Found entity 1: I2C_RESET_DELAY File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_RESET_DELAY.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tr5_d8m_fmc_rtl/v/i2c_read_data.v
     Info (12023): Found entity 1: I2C_READ_DATA File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/I2C_READ_DATA.v Line: 1
-Warning (10236): Verilog HDL Implicit Net warning at TR5_D8M_HDMI.v(310): created implicit net for "HZ1_50M" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 310
 Warning (10236): Verilog HDL Implicit Net warning at FOCUS_ADJ.v(58): created implicit net for "V_CNT" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v Line: 58
 Warning (10236): Verilog HDL Implicit Net warning at FOCUS_ADJ.v(59): created implicit net for "H_CNT" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v Line: 59
 Warning (10236): Verilog HDL Implicit Net warning at FOCUS_ADJ.v(60): created implicit net for "LINE" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v Line: 60
+Warning (12125): Using design file tr5_d8m_hdmi.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: TR5_D8M_HDMI File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 6
+Warning (10236): Verilog HDL Implicit Net warning at tr5_d8m_hdmi.v(310): created implicit net for "HZ1_50M" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 310
 Info (12127): Elaborating entity "TR5_D8M_HDMI" for the top level hierarchy
-Warning (10034): Output port "FSM_A" at TR5_D8M_HDMI.v(32) has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-Warning (10034): Output port "SD_CLK" at TR5_D8M_HDMI.v(36) has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 36
-Warning (10034): Output port "UART_TX" at TR5_D8M_HDMI.v(42) has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 42
-Warning (10034): Output port "SMA_CLKOUT_p" at TR5_D8M_HDMI.v(57) has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 57
-Warning (10034): Output port "HDMI_SPDIF" at TR5_D8M_HDMI.v(69) has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 69
-Info (12128): Elaborating entity "RESET_DELAY" for hierarchy "RESET_DELAY:dl" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 150
-Info (12128): Elaborating entity "MIPI_BRIDGE_CAMERA_Config" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 167
+Warning (10034): Output port "FSM_A" at tr5_d8m_hdmi.v(32) has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+Warning (10034): Output port "SD_CLK" at tr5_d8m_hdmi.v(36) has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 36
+Warning (10034): Output port "UART_TX" at tr5_d8m_hdmi.v(42) has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 42
+Warning (10034): Output port "SMA_CLKOUT_p" at tr5_d8m_hdmi.v(57) has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 57
+Warning (10034): Output port "HDMI_SPDIF" at tr5_d8m_hdmi.v(69) has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 69
+Info (12128): Elaborating entity "RESET_DELAY" for hierarchy "RESET_DELAY:dl" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 150
+Info (12128): Elaborating entity "MIPI_BRIDGE_CAMERA_Config" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 167
 Warning (10858): Verilog HDL warning at MIPI_BRIDGE_CAMERA_Config.v(18): object VCM_I2C_SCL used but never assigned File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 18
 Warning (10030): Net "VCM_I2C_SCL" at MIPI_BRIDGE_CAMERA_Config.v(18) has no driver or initial value, using a default initial value '0' File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 18
 Warning (10034): Output port "STEP" at MIPI_BRIDGE_CAMERA_Config.v(12) has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 12
@@ -2762,7 +2764,7 @@ Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(236): tr
 Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(237): truncated value with size 32 to match size of target (16) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 237
 Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(238): truncated value with size 32 to match size of target (16) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 238
 Warning (10034): Output port "TR" at MIPI_BRIDGE_CONFIG.v(36) has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 36
-Info (12128): Elaborating entity "pll_test" for hierarchy "pll_test:pll_ref" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 177
+Info (12128): Elaborating entity "pll_test" for hierarchy "pll_test:pll_ref" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 177
 Info (12128): Elaborating entity "pll_test_0002" for hierarchy "pll_test:pll_ref|pll_test_0002:pll_test_inst" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/pll_test.v Line: 22
 Info (12128): Elaborating entity "altera_pll" for hierarchy "pll_test:pll_ref|pll_test_0002:pll_test_inst|altera_pll:altera_pll_i" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/pll_test/pll_test_0002.v Line: 88
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus
@@ -2828,7 +2830,7 @@ Info (12133): Instantiated megafunction "pll_test:pll_ref|pll_test_0002:pll_test
     Info (12134): Parameter "duty_cycle17" = "50"
     Info (12134): Parameter "pll_type" = "General"
     Info (12134): Parameter "pll_subtype" = "General"
-Info (12128): Elaborating entity "pll_video" for hierarchy "pll_video:pll_vg" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 185
+Info (12128): Elaborating entity "pll_video" for hierarchy "pll_video:pll_vg" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 185
 Info (12128): Elaborating entity "pll_video_0002" for hierarchy "pll_video:pll_vg|pll_video_0002:pll_video_inst" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/pll_video.v Line: 20
 Info (12128): Elaborating entity "altera_pll" for hierarchy "pll_video:pll_vg|pll_video_0002:pll_video_inst|altera_pll:altera_pll_i" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V/pll_video/pll_video_0002.v Line: 85
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus
@@ -2894,7 +2896,7 @@ Info (12133): Instantiated megafunction "pll_video:pll_vg|pll_video_0002:pll_vid
     Info (12134): Parameter "duty_cycle17" = "50"
     Info (12134): Parameter "pll_type" = "General"
     Info (12134): Parameter "pll_subtype" = "General"
-Info (12128): Elaborating entity "ON_CHIP_FRAM" for hierarchy "ON_CHIP_FRAM:fra" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 202
+Info (12128): Elaborating entity "ON_CHIP_FRAM" for hierarchy "ON_CHIP_FRAM:fra" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 202
 Info (12128): Elaborating entity "FRM_COUNTER" for hierarchy "ON_CHIP_FRAM:fra|FRM_COUNTER:wrw" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/ON_CHIP_FRAM.v Line: 17
 Warning (10230): Verilog HDL assignment warning at FRM_COUNTER.v(13): truncated value with size 32 to match size of target (20) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/FRM_COUNTER.v Line: 13
 Info (12128): Elaborating entity "FRAM_BUFF" for hierarchy "ON_CHIP_FRAM:fra|FRAM_BUFF:GG" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/ON_CHIP_FRAM.v Line: 31
@@ -2938,7 +2940,7 @@ Info (12128): Elaborating entity "decode_v3a" for hierarchy "ON_CHIP_FRAM:fra|FR
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_vjb.tdf
     Info (12023): Found entity 1: mux_vjb File: D:/Desktop/TR5_D8M_HDMI/db/mux_vjb.tdf Line: 22
 Info (12128): Elaborating entity "mux_vjb" for hierarchy "ON_CHIP_FRAM:fra|FRAM_BUFF:GG|altsyncram:altsyncram_component|altsyncram_feo2:auto_generated|mux_vjb:mux4" File: D:/Desktop/TR5_D8M_HDMI/db/altsyncram_feo2.tdf Line: 53
-Info (12128): Elaborating entity "RAW2RGB_J" for hierarchy "RAW2RGB_J:u4" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 217
+Info (12128): Elaborating entity "RAW2RGB_J" for hierarchy "RAW2RGB_J:u4" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 217
 Warning (10230): Verilog HDL assignment warning at RAW2RGB_J.v(34): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/RAW2RGB_J.v Line: 34
 Warning (10230): Verilog HDL assignment warning at RAW2RGB_J.v(35): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/RAW2RGB_J.v Line: 35
 Warning (10230): Verilog HDL assignment warning at RAW2RGB_J.v(36): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/RAW2RGB_J.v Line: 36
@@ -2981,15 +2983,15 @@ Warning (10230): Verilog HDL assignment warning at RAW_RGB_BIN.v(41): truncated 
 Warning (10230): Verilog HDL assignment warning at RAW_RGB_BIN.v(47): truncated value with size 32 to match size of target (10) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/RAW_RGB_BIN.v Line: 47
 Warning (10230): Verilog HDL assignment warning at RAW_RGB_BIN.v(53): truncated value with size 32 to match size of target (10) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/RAW_RGB_BIN.v Line: 53
 Warning (10230): Verilog HDL assignment warning at RAW_RGB_BIN.v(59): truncated value with size 32 to match size of target (10) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/RAW_RGB_BIN.v Line: 59
-Info (12128): Elaborating entity "VGA_Controller" for hierarchy "VGA_Controller:u1" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 231
+Info (12128): Elaborating entity "VGA_Controller" for hierarchy "VGA_Controller:u1" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 231
 Warning (10230): Verilog HDL assignment warning at VGA_Controller.v(63): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Controller.v Line: 63
 Warning (10230): Verilog HDL assignment warning at VGA_Controller.v(66): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Controller.v Line: 66
 Warning (10230): Verilog HDL assignment warning at VGA_Controller.v(69): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Controller.v Line: 69
 Warning (10230): Verilog HDL assignment warning at VGA_Controller.v(128): truncated value with size 32 to match size of target (13) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Controller.v Line: 128
 Warning (10230): Verilog HDL assignment warning at VGA_Controller.v(153): truncated value with size 32 to match size of target (13) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/VGA_Controller/VGA_Controller.v Line: 153
-Info (12128): Elaborating entity "AUTO_FOCUS_ON" for hierarchy "AUTO_FOCUS_ON:u9" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 238
+Info (12128): Elaborating entity "AUTO_FOCUS_ON" for hierarchy "AUTO_FOCUS_ON:u9" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 238
 Warning (10230): Verilog HDL assignment warning at AUTO_FOCUS_ON.v(19): truncated value with size 32 to match size of target (1) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/AUTO_FOCUS_ON.v Line: 19
-Info (12128): Elaborating entity "FOCUS_ADJ" for hierarchy "FOCUS_ADJ:adl" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 266
+Info (12128): Elaborating entity "FOCUS_ADJ" for hierarchy "FOCUS_ADJ:adl" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 266
 Info (12128): Elaborating entity "AUTO_SYNC_MODIFY" for hierarchy "FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/FOCUS_ADJ.v Line: 51
 Info (12128): Elaborating entity "MODIFY_SYNC" for hierarchy "FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE|MODIFY_SYNC:vs" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/AUTO_SYNC_MODIFY.v Line: 17
 Warning (10230): Verilog HDL assignment warning at MODIFY_SYNC.v(19): truncated value with size 32 to match size of target (16) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/MODIFY_SYNC.v Line: 19
@@ -3012,7 +3014,7 @@ Warning (10230): Verilog HDL assignment warning at VCM_I2C.v(116): truncated val
 Warning (10230): Verilog HDL assignment warning at VCM_I2C.v(169): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/VCM_I2C.v Line: 169
 Warning (10230): Verilog HDL assignment warning at VCM_I2C.v(208): truncated value with size 32 to match size of target (1) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/VCM_I2C.v Line: 208
 Warning (10034): Output port "TR" at VCM_I2C.v(32) has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/VCM_I2C.v Line: 32
-Info (12128): Elaborating entity "GAMMA_CORRECT" for hierarchy "GAMMA_CORRECT:ui" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 278
+Info (12128): Elaborating entity "GAMMA_CORRECT" for hierarchy "GAMMA_CORRECT:ui" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 278
 Info (12128): Elaborating entity "P1" for hierarchy "GAMMA_CORRECT:ui|P1:pp11" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/GAMMA_CORRECT.v Line: 14
 Info (12128): Elaborating entity "lpm_constant" for hierarchy "GAMMA_CORRECT:ui|P1:pp11|lpm_constant:LPM_CONSTANT_component" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/P1.v Line: 49
 Info (12130): Elaborated megafunction instantiation "GAMMA_CORRECT:ui|P1:pp11|lpm_constant:LPM_CONSTANT_component" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/P1.v Line: 49
@@ -3059,7 +3061,7 @@ Info (12133): Instantiated megafunction "GAMMA_CORRECT:ui|P2:pp22|lpm_constant:L
     Info (12134): Parameter "WIDTHAD" = "1"
 Info (12128): Elaborating entity "BEZIER_CURVE" for hierarchy "GAMMA_CORRECT:ui|BEZIER_CURVE:rr" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/GAMMA_CORRECT.v Line: 22
 Warning (10230): Verilog HDL assignment warning at BEZIER_CURVE.v(16): truncated value with size 32 to match size of target (8) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/BEZIER_CURVE.v Line: 16
-Info (12128): Elaborating entity "HDMI_TX_AD7513" for hierarchy "HDMI_TX_AD7513:hdmi" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 294
+Info (12128): Elaborating entity "HDMI_TX_AD7513" for hierarchy "HDMI_TX_AD7513:hdmi" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 294
 Info (12128): Elaborating entity "I2C_HDMI_Config" for hierarchy "HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/HDMI_TX_AD7513.v Line: 40
 Warning (10230): Verilog HDL assignment warning at I2C_HDMI_Config.v(45): truncated value with size 32 to match size of target (16) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_HDMI_Config.v Line: 45
 Warning (10230): Verilog HDL assignment warning at I2C_HDMI_Config.v(93): truncated value with size 32 to match size of target (6) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_HDMI_Config.v Line: 93
@@ -3071,7 +3073,7 @@ Warning (10230): Verilog HDL assignment warning at AUDIO_IF.v(113): truncated va
 Warning (10230): Verilog HDL assignment warning at AUDIO_IF.v(129): truncated value with size 32 to match size of target (7) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/AUDIO_IF.v Line: 129
 Warning (10230): Verilog HDL assignment warning at AUDIO_IF.v(155): truncated value with size 32 to match size of target (6) File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/AUDIO_IF.v Line: 155
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2020.11.30.22:44:48 Progress: Loading sld8acfcfd7/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2020.12.01.21:08:33 Progress: Loading sld8acfcfd7/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -3099,41 +3101,41 @@ Info (276014): Found 1 instances of uninferred RAM logic
     Info (276004): RAM logic "HDMI_TX_AD7513:hdmi|AUDIO_IF:u_AVG|Ram0" is uninferred due to inappropriate RAM size File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/AUDIO_IF.v Line: 166
 Warning (12241): 32 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13034): The following nodes have both tri-state and non-tri-state drivers
-    Warning (13035): Inserted always-enabled tri-state buffer between "CAMERA_I2C_SCL" and its non-tri-state driver. File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 60
-    Warning (13035): Inserted always-enabled tri-state buffer between "HDMI_I2C_SCL" and its non-tri-state driver. File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 63
-    Warning (13035): Inserted always-enabled tri-state buffer between "MIPI_I2C_SCL" and its non-tri-state driver. File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 77
+    Warning (13035): Inserted always-enabled tri-state buffer between "CAMERA_I2C_SCL" and its non-tri-state driver. File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 60
+    Warning (13035): Inserted always-enabled tri-state buffer between "HDMI_I2C_SCL" and its non-tri-state driver. File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 63
+    Warning (13035): Inserted always-enabled tri-state buffer between "MIPI_I2C_SCL" and its non-tri-state driver. File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 77
 Warning (13039): The following bidirectional pins have no drivers
-    Warning (13040): bidirectional pin "FSM_D[0]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[1]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[2]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[3]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[4]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[5]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[6]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[7]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[8]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[9]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[10]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[11]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[12]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[13]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[14]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 33
-    Warning (13040): bidirectional pin "FSM_D[15]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 33
-    Warning (13040): bidirectional pin "SD_CMD" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 37
-    Warning (13040): bidirectional pin "SD_DATA[0]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 38
-    Warning (13040): bidirectional pin "SD_DATA[1]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 38
-    Warning (13040): bidirectional pin "SD_DATA[2]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 38
-    Warning (13040): bidirectional pin "SD_DATA[3]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 38
-    Warning (13040): bidirectional pin "FPGA_I2C_SCL" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 45
-    Warning (13040): bidirectional pin "FPGA_I2C_SDA" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 46
-    Warning (13040): bidirectional pin "TMD_D[0]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 86
-    Warning (13040): bidirectional pin "TMD_D[1]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 86
-    Warning (13040): bidirectional pin "TMD_D[2]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 86
-    Warning (13040): bidirectional pin "TMD_D[3]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 86
-    Warning (13040): bidirectional pin "TMD_D[4]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 86
-    Warning (13040): bidirectional pin "TMD_D[5]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 86
-    Warning (13040): bidirectional pin "TMD_D[6]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 86
-    Warning (13040): bidirectional pin "TMD_D[7]" has no driver File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 86
+    Warning (13040): bidirectional pin "FSM_D[0]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[1]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[2]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[3]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[4]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[5]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[6]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[7]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[8]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[9]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[10]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[11]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[12]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[13]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[14]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 33
+    Warning (13040): bidirectional pin "FSM_D[15]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 33
+    Warning (13040): bidirectional pin "SD_CMD" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 37
+    Warning (13040): bidirectional pin "SD_DATA[0]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 38
+    Warning (13040): bidirectional pin "SD_DATA[1]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 38
+    Warning (13040): bidirectional pin "SD_DATA[2]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 38
+    Warning (13040): bidirectional pin "SD_DATA[3]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 38
+    Warning (13040): bidirectional pin "FPGA_I2C_SCL" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 45
+    Warning (13040): bidirectional pin "FPGA_I2C_SDA" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 46
+    Warning (13040): bidirectional pin "TMD_D[0]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 86
+    Warning (13040): bidirectional pin "TMD_D[1]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 86
+    Warning (13040): bidirectional pin "TMD_D[2]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 86
+    Warning (13040): bidirectional pin "TMD_D[3]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 86
+    Warning (13040): bidirectional pin "TMD_D[4]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 86
+    Warning (13040): bidirectional pin "TMD_D[5]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 86
+    Warning (13040): bidirectional pin "TMD_D[6]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 86
+    Warning (13040): bidirectional pin "TMD_D[7]" has no driver File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 86
 Warning (13004): Presettable and clearable registers converted to equivalent circuits with latches. Registers power-up to an undefined state, and DEVCLRn places the registers in an undefined state.
     Warning (13310): Register "FOCUS_ADJ:adl|VCM_I2C:i2c2|rTR_IN" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_I2C:i2c2|rTR_IN~_emulated" and latch "FOCUS_ADJ:adl|VCM_I2C:i2c2|rTR_IN~1" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/VCM_I2C.v Line: 38
     Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[3]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[3]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[3]~1" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
@@ -3148,42 +3150,42 @@ Warning (13004): Presettable and clearable registers converted to equivalent cir
     Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[1]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[1]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[1]~37" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
     Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[0]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[0]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[0]~41" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_Auto/F_VCM.v Line: 46
 Warning (13009): TRI or OPNDRN buffers permanently enabled
-    Warning (13010): Node "CAMERA_I2C_SCL~synth" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 60
-    Warning (13010): Node "HDMI_I2C_SCL~synth" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 63
-    Warning (13010): Node "MIPI_I2C_SCL~synth" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 77
+    Warning (13010): Node "CAMERA_I2C_SCL~synth" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 60
+    Warning (13010): Node "HDMI_I2C_SCL~synth" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 63
+    Warning (13010): Node "MIPI_I2C_SCL~synth" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 77
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "FSM_A[1]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[2]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[3]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[4]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[5]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[6]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[7]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[8]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[9]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[10]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[11]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[12]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[13]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[14]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[15]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[16]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[17]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[18]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[19]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[20]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[21]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[22]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[23]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[24]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[25]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "FSM_A[26]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 32
-    Warning (13410): Pin "SD_CLK" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 36
-    Warning (13410): Pin "UART_TX" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 42
-    Warning (13410): Pin "SMA_CLKOUT_p" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 57
-    Warning (13410): Pin "HDMI_MCLK" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 67
-    Warning (13410): Pin "HDMI_SPDIF" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 69
-    Warning (13410): Pin "MIPI_CS_n" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 76
+    Warning (13410): Pin "FSM_A[1]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[2]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[3]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[4]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[5]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[6]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[7]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[8]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[9]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[10]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[11]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[12]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[13]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[14]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[15]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[16]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[17]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[18]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[19]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[20]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[21]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[22]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[23]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[24]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[25]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "FSM_A[26]" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 32
+    Warning (13410): Pin "SD_CLK" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 36
+    Warning (13410): Pin "UART_TX" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 42
+    Warning (13410): Pin "SMA_CLKOUT_p" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 57
+    Warning (13410): Pin "HDMI_MCLK" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 67
+    Warning (13410): Pin "HDMI_SPDIF" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 69
+    Warning (13410): Pin "MIPI_CS_n" is stuck at GND File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 76
 Info (286031): Timing-Driven Synthesis is running on partition "Top"
 Info (17049): 66 registers lost all their fanouts during netlist optimizations.
 Info (17036): Removed 1 MSB VCC or GND address nodes from RAM block "RAW2RGB_J:u4|Line_Buffer_J:u0|int_line:d1|altsyncram:altsyncram_component|altsyncram_u2v1:auto_generated|ALTSYNCRAM" File: D:/Desktop/TR5_D8M_HDMI/db/altsyncram_u2v1.tdf Line: 34
@@ -3194,38 +3196,42 @@ Info (17016): Found the following redundant logic cells in design
     Info (17048): Logic cell "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|const_zero_sig" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_CAMERA_CONFIG.v Line: 249
     Info (17048): Logic cell "HDMI_TX_AD7513:hdmi|I2C_HDMI_Config:u_I2C_HDMI_Config|I2C_Controller:u0|const_zero_sig" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_HDMI_TX_Reconfig/I2C_Controller.v Line: 72
     Info (17048): Logic cell "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv|const_zero_sig" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_FMC_RTL/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 266
+Warning (20013): Ignored 3 assignments for entity "pll_vga" -- entity does not exist in design
+    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_NAME altera_pll -entity pll_vga -sip TR5_D8M_FMC_RTL/V/pll_vga.sip -library lib_pll_vga was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_VERSION 16.0 -entity pll_vga -sip TR5_D8M_FMC_RTL/V/pll_vga.sip -library lib_pll_vga was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name IP_TOOL_ENV mwpim -entity pll_vga -sip TR5_D8M_FMC_RTL/V/pll_vga.sip -library lib_pll_vga was ignored
 Info (144001): Generated suppressed messages file D:/Desktop/TR5_D8M_HDMI/output_files/TR5_D8M_HDMI.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 26 node(s), including 0 DDIO, 3 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 15 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "OSC_50_B7A" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 12
-    Warning (15610): No output dependent on input pin "OSC_50_B7D" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 13
-    Warning (15610): No output dependent on input pin "OSC_50_B8A" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 14
-    Warning (15610): No output dependent on input pin "OSC_50_B8D" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 15
-    Warning (15610): No output dependent on input pin "BUTTON[1]" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 18
-    Warning (15610): No output dependent on input pin "CPU_RESET_n" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 19
-    Warning (15610): No output dependent on input pin "SW[0]" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 22
-    Warning (15610): No output dependent on input pin "SW[1]" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 22
-    Warning (15610): No output dependent on input pin "SW[2]" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 22
-    Warning (15610): No output dependent on input pin "FAN_ALERT_n" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 28
-    Warning (15610): No output dependent on input pin "UART_RX" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 41
-    Warning (15610): No output dependent on input pin "TEMP_INT_n" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 49
-    Warning (15610): No output dependent on input pin "TEMP_OVERT_n" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 50
-    Warning (15610): No output dependent on input pin "POWER_MONITOR_ALERT" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 53
-    Warning (15610): No output dependent on input pin "SMA_CLKIN_p" File: D:/Desktop/TR5_D8M_HDMI/TR5_D8M_HDMI.v Line: 56
-Info (21057): Implemented 5279 device resources after synthesis - the final resource count might be different
+    Warning (15610): No output dependent on input pin "OSC_50_B7A" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 12
+    Warning (15610): No output dependent on input pin "OSC_50_B7D" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 13
+    Warning (15610): No output dependent on input pin "OSC_50_B8A" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 14
+    Warning (15610): No output dependent on input pin "OSC_50_B8D" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 15
+    Warning (15610): No output dependent on input pin "BUTTON[1]" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 18
+    Warning (15610): No output dependent on input pin "CPU_RESET_n" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 19
+    Warning (15610): No output dependent on input pin "SW[0]" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 22
+    Warning (15610): No output dependent on input pin "SW[1]" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 22
+    Warning (15610): No output dependent on input pin "SW[2]" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 22
+    Warning (15610): No output dependent on input pin "FAN_ALERT_n" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 28
+    Warning (15610): No output dependent on input pin "UART_RX" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 41
+    Warning (15610): No output dependent on input pin "TEMP_INT_n" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 49
+    Warning (15610): No output dependent on input pin "TEMP_OVERT_n" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 50
+    Warning (15610): No output dependent on input pin "POWER_MONITOR_ALERT" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 53
+    Warning (15610): No output dependent on input pin "SMA_CLKIN_p" File: D:/Desktop/TR5_D8M_HDMI/tr5_d8m_hdmi.v Line: 56
+Info (21057): Implemented 5292 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 40 input pins
     Info (21059): Implemented 74 output pins
     Info (21060): Implemented 37 bidirectional pins
-    Info (21061): Implemented 4510 logic cells
+    Info (21061): Implemented 4523 logic cells
     Info (21064): Implemented 600 RAM segments
     Info (21065): Implemented 3 PLLs
     Info (21062): Implemented 14 DSP elements
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 200 warnings
-    Info: Peak virtual memory: 5045 megabytes
-    Info: Processing ended: Mon Nov 30 22:45:40 2020
-    Info: Elapsed time: 00:01:12
-    Info: Total CPU time (on all processors): 00:01:32
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 205 warnings
+    Info: Peak virtual memory: 5032 megabytes
+    Info: Processing ended: Tue Dec 01 21:09:32 2020
+    Info: Elapsed time: 00:01:20
+    Info: Total CPU time (on all processors): 00:01:40
 
 
 +------------------------------------------+

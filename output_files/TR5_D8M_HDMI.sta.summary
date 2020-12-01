@@ -2,84 +2,468 @@
 Timing Analyzer Summary
 ------------------------------------------------------------
 
+Type  : Slow 900mV 85C Model Setup 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -1.514
+TNS   : -60.670
+
+Type  : Slow 900mV 85C Model Setup 'MIPI_PIXEL_CLK'
+Slack : 0.770
+TNS   : 0.000
+
 Type  : Slow 900mV 85C Model Setup 'altera_reserved_tck'
-Slack : 12.160
+Slack : 12.458
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Setup 'OSC_50_B3B'
+Slack : 16.089
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Setup 'OSC_50_B4A'
+Slack : 19.970
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Setup 'OSC_50_B4D'
+Slack : 19.970
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Setup 'pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 649.691
 TNS   : 0.000
 
 Type  : Slow 900mV 85C Model Hold 'altera_reserved_tck'
-Slack : 0.073
+Slack : 0.089
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.091
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.113
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'MIPI_PIXEL_CLK'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'OSC_50_B3B'
+Slack : 0.157
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'OSC_50_B4A'
+Slack : 1.250
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'OSC_50_B4D'
+Slack : 1.250
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Recovery 'pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -1.717
+TNS   : -22.296
+
+Type  : Slow 900mV 85C Model Recovery 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 11.797
 TNS   : 0.000
 
 Type  : Slow 900mV 85C Model Recovery 'altera_reserved_tck'
-Slack : 30.558
+Slack : 31.159
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Removal 'pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.351
 TNS   : 0.000
 
 Type  : Slow 900mV 85C Model Removal 'altera_reserved_tck'
-Slack : 0.307
+Slack : 0.528
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Removal 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.556
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 0.612
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 0.641
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'MIPI_PIXEL_CLK'
+Slack : 4.305
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 6.054
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'OSC_50_B3B'
+Slack : 9.263
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'OSC_50_B4D'
+Slack : 9.834
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'OSC_50_B4A'
+Slack : 9.837
 TNS   : 0.000
 
 Type  : Slow 900mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
-Slack : 16.041
+Slack : 16.020
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 325.104
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -1.199
+TNS   : -47.338
+
+Type  : Slow 900mV 0C Model Setup 'MIPI_PIXEL_CLK'
+Slack : 1.300
 TNS   : 0.000
 
 Type  : Slow 900mV 0C Model Setup 'altera_reserved_tck'
-Slack : 12.323
+Slack : 12.599
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'OSC_50_B3B'
+Slack : 16.376
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'OSC_50_B4A'
+Slack : 19.970
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'OSC_50_B4D'
+Slack : 19.970
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 649.781
 TNS   : 0.000
 
 Type  : Slow 900mV 0C Model Hold 'altera_reserved_tck'
-Slack : 0.075
+Slack : 0.091
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'MIPI_PIXEL_CLK'
+Slack : 0.130
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.170
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.178
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'OSC_50_B3B'
+Slack : 0.214
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'OSC_50_B4A'
+Slack : 1.250
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'OSC_50_B4D'
+Slack : 1.250
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Recovery 'pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -1.276
+TNS   : -16.481
+
+Type  : Slow 900mV 0C Model Recovery 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 11.964
 TNS   : 0.000
 
 Type  : Slow 900mV 0C Model Recovery 'altera_reserved_tck'
-Slack : 30.758
+Slack : 31.272
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Removal 'pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.162
 TNS   : 0.000
 
 Type  : Slow 900mV 0C Model Removal 'altera_reserved_tck'
-Slack : 0.328
+Slack : 0.526
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Removal 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.584
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 0.612
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 0.641
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'MIPI_PIXEL_CLK'
+Slack : 4.431
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 6.043
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'OSC_50_B3B'
+Slack : 9.218
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'OSC_50_B4A'
+Slack : 9.777
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'OSC_50_B4D'
+Slack : 9.934
 TNS   : 0.000
 
 Type  : Slow 900mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
-Slack : 16.137
+Slack : 16.119
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 325.098
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Setup 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -0.979
+TNS   : -39.954
+
+Type  : Fast 900mV 85C Model Setup 'MIPI_PIXEL_CLK'
+Slack : 1.538
 TNS   : 0.000
 
 Type  : Fast 900mV 85C Model Setup 'altera_reserved_tck'
-Slack : 14.017
+Slack : 14.188
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Setup 'OSC_50_B3B'
+Slack : 17.112
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Setup 'OSC_50_B4A'
+Slack : 19.970
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Setup 'OSC_50_B4D'
+Slack : 19.970
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Setup 'pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 650.178
 TNS   : 0.000
 
 Type  : Fast 900mV 85C Model Hold 'altera_reserved_tck'
-Slack : 0.032
+Slack : 0.043
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Hold 'MIPI_PIXEL_CLK'
+Slack : 0.058
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Hold 'OSC_50_B3B'
+Slack : 0.095
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Hold 'pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.096
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Hold 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.111
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Hold 'OSC_50_B4A'
+Slack : 1.250
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Hold 'OSC_50_B4D'
+Slack : 1.250
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Recovery 'pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -1.047
+TNS   : -13.512
+
+Type  : Fast 900mV 85C Model Recovery 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 12.319
 TNS   : 0.000
 
 Type  : Fast 900mV 85C Model Recovery 'altera_reserved_tck'
-Slack : 31.516
+Slack : 31.818
 TNS   : 0.000
 
 Type  : Fast 900mV 85C Model Removal 'altera_reserved_tck'
-Slack : 0.232
+Slack : 0.335
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Removal 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Removal 'pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.456
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Minimum Pulse Width 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 0.612
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Minimum Pulse Width 'pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 0.641
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Minimum Pulse Width 'MIPI_PIXEL_CLK'
+Slack : 4.043
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Minimum Pulse Width 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 6.122
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Minimum Pulse Width 'OSC_50_B4D'
+Slack : 9.560
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Minimum Pulse Width 'OSC_50_B3B'
+Slack : 9.619
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Minimum Pulse Width 'OSC_50_B4A'
+Slack : 9.956
 TNS   : 0.000
 
 Type  : Fast 900mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
-Slack : 15.935
+Slack : 15.925
+TNS   : 0.000
+
+Type  : Fast 900mV 85C Model Minimum Pulse Width 'pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 325.314
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -0.757
+TNS   : -30.930
+
+Type  : Fast 900mV 0C Model Setup 'MIPI_PIXEL_CLK'
+Slack : 1.701
 TNS   : 0.000
 
 Type  : Fast 900mV 0C Model Setup 'altera_reserved_tck'
-Slack : 14.193
+Slack : 14.323
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'OSC_50_B3B'
+Slack : 17.312
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'OSC_50_B4A'
+Slack : 19.970
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'OSC_50_B4D'
+Slack : 19.970
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 650.295
 TNS   : 0.000
 
 Type  : Fast 900mV 0C Model Hold 'altera_reserved_tck'
-Slack : 0.030
+Slack : 0.038
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'MIPI_PIXEL_CLK'
+Slack : 0.080
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'OSC_50_B3B'
+Slack : 0.108
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.139
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.143
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'OSC_50_B4A'
+Slack : 1.250
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'OSC_50_B4D'
+Slack : 1.250
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Recovery 'pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : -0.856
+TNS   : -11.033
+
+Type  : Fast 900mV 0C Model Recovery 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 12.426
 TNS   : 0.000
 
 Type  : Fast 900mV 0C Model Recovery 'altera_reserved_tck'
-Slack : 31.633
+Slack : 31.912
 TNS   : 0.000
 
 Type  : Fast 900mV 0C Model Removal 'altera_reserved_tck'
-Slack : 0.226
+Slack : 0.314
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Removal 'pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.351
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Removal 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.417
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 0.612
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'pll_ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]'
+Slack : 0.641
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'MIPI_PIXEL_CLK'
+Slack : 4.027
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'pll_vg|pll_video_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 6.140
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'OSC_50_B4D'
+Slack : 9.577
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'OSC_50_B3B'
+Slack : 9.622
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'OSC_50_B4A'
+Slack : 9.940
 TNS   : 0.000
 
 Type  : Fast 900mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
-Slack : 15.945
+Slack : 15.927
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'pll_ref|pll_test_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk'
+Slack : 325.329
 TNS   : 0.000
 
 ------------------------------------------------------------
