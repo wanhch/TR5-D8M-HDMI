@@ -1,26 +1,26 @@
-Fitter Status : Successful - Tue Dec 01 21:32:45 2020
+Fitter Status : Successful - Mon Dec 07 20:34:08 2020
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 Revision Name : TR5_FMC_HDMI
 Top-level Entity Name : TR5_FMC_HDMI
 Family : Stratix V
-Device : 5SGXEA7H3F35C3
+Device : 5SGXEA7N2F45C2
 Timing Models : Final
-Logic utilization (in ALMs) : 1,708 / 234,720 ( < 1 % )
-Total registers : 2478
-Total pins : 150 / 664 ( 23 % )
+Logic utilization (in ALMs) : 1,711 / 234,720 ( < 1 % )
+Total registers : 2459
+Total pins : 150 / 1,064 ( 14 % )
 Total virtual pins : 0
 Total block memory bits : 2,113,664 / 52,428,800 ( 4 % )
 Total RAM Blocks : 142 / 2,560 ( 6 % )
 Total DSP Blocks : 2 / 256 ( < 1 % )
-Total HSSI STD RX PCSs : 0 / 24 ( 0 % )
-Total HSSI 10G RX PCSs : 0 / 24 ( 0 % )
-Total HSSI GEN3 RX PCSs : 0 / 24 ( 0 % )
-Total HSSI PMA RX Deserializers : 0 / 24 ( 0 % )
-Total HSSI STD TX PCSs : 0 / 24 ( 0 % )
-Total HSSI 10G TX PCSs : 0 / 24 ( 0 % )
-Total HSSI GEN3 TX PCSs : 0 / 24 ( 0 % )
-Total HSSI PMA TX Serializers : 0 / 24 ( 0 % )
-Total HSSI PIPE GEN1_2s : 0 / 24 ( 0 % )
-Total HSSI GEN3s : 0 / 24 ( 0 % )
-Total PLLs : 1 / 68 ( 1 % )
+Total HSSI STD RX PCSs : 0 / 48 ( 0 % )
+Total HSSI 10G RX PCSs : 0 / 48 ( 0 % )
+Total HSSI GEN3 RX PCSs : 0 / 48 ( 0 % )
+Total HSSI PMA RX Deserializers : 0 / 48 ( 0 % )
+Total HSSI STD TX PCSs : 0 / 48 ( 0 % )
+Total HSSI 10G TX PCSs : 0 / 48 ( 0 % )
+Total HSSI GEN3 TX PCSs : 0 / 48 ( 0 % )
+Total HSSI PMA TX Serializers : 0 / 48 ( 0 % )
+Total HSSI PIPE GEN1_2s : 0 / 48 ( 0 % )
+Total HSSI GEN3s : 0 / 48 ( 0 % )
+Total PLLs : 1 / 92 ( 1 % )
 Total DLLs : 0 / 4 ( 0 % )

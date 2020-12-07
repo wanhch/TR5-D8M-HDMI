@@ -48,7 +48,7 @@ module TR5_FMC_HDMI(
 	inout 		          		RX0_DDC_SDA,
 	inout 		          		RX1_DDC_SCL,
 	inout 		          		RX1_DDC_SDA,
-   input 		     [5:0]		RX_AP, //(I2S, SPDIF)
+	input 		     [5:0]		RX_AP,
 	input 		    [15:0]		RX_BD,
 	input 		          		RX_DE,
 	input 		    [15:0]		RX_GD,
@@ -90,7 +90,6 @@ wire        reset_n;
 //=======================================================
 assign           ADV7619_CS_n = 1'b0;
 assign           reset_n = 1'b1;
-//|TR5_FMC_HDMI
 
 
 TR5_QSYS u0 (

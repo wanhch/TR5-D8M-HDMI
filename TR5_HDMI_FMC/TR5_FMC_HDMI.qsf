@@ -3,11 +3,14 @@
 #============================================================
 
 set_global_assignment -name FAMILY "Stratix V"
-set_global_assignment -name DEVICE 5SGXEA7H3F35C3
+set_global_assignment -name DEVICE 5SGXEA7N2F45C2
 set_global_assignment -name TOP_LEVEL_ENTITY "TR5_FMC_HDMI"
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 15.1.0
 set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Standard Edition"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:14:01 JANUARY 06,2016"
+set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 1932
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE C2
 
 #============================================================
 # CLOCK
@@ -19,6 +22,13 @@ set_instance_assignment -name IO_STANDARD "2.5 V" -to OSC_50_B7A
 set_instance_assignment -name IO_STANDARD "2.5 V" -to OSC_50_B7D
 set_instance_assignment -name IO_STANDARD "2.5 V" -to OSC_50_B8A
 set_instance_assignment -name IO_STANDARD "2.5 V" -to OSC_50_B8D
+set_location_assignment PIN_AW35 -to OSC_50_B3B
+set_location_assignment PIN_AP10 -to OSC_50_B4A
+set_location_assignment PIN_AY18 -to OSC_50_B4D
+set_location_assignment PIN_M8 -to OSC_50_B7A
+set_location_assignment PIN_J18 -to OSC_50_B7D
+set_location_assignment PIN_R36 -to OSC_50_B8A
+set_location_assignment PIN_R25 -to OSC_50_B8D
 
 #============================================================
 # KEY
@@ -28,6 +38,11 @@ set_instance_assignment -name IO_STANDARD "1.5 V" -to BUTTON[1]
 set_instance_assignment -name IO_STANDARD "1.5 V" -to BUTTON[2]
 set_instance_assignment -name IO_STANDARD "1.5 V" -to BUTTON[3]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to CPU_RESET_n
+set_location_assignment PIN_BC7 -to BUTTON[0]
+set_location_assignment PIN_BD7 -to BUTTON[1]
+set_location_assignment PIN_BB8 -to BUTTON[2]
+set_location_assignment PIN_BB9 -to BUTTON[3]
+set_location_assignment PIN_BC37 -to CPU_RESET_n
 
 #============================================================
 # SW
@@ -36,6 +51,10 @@ set_instance_assignment -name IO_STANDARD "1.5 V" -to SW[0]
 set_instance_assignment -name IO_STANDARD "1.5 V" -to SW[1]
 set_instance_assignment -name IO_STANDARD "1.5 V" -to SW[2]
 set_instance_assignment -name IO_STANDARD "1.5 V" -to SW[3]
+set_location_assignment PIN_AT9 -to SW[0]
+set_location_assignment PIN_AU8 -to SW[1]
+set_location_assignment PIN_AK9 -to SW[2]
+set_location_assignment PIN_AL9 -to SW[3]
 
 #============================================================
 # LED
@@ -44,29 +63,40 @@ set_instance_assignment -name IO_STANDARD "1.5 V" -to LED[0]
 set_instance_assignment -name IO_STANDARD "1.5 V" -to LED[1]
 set_instance_assignment -name IO_STANDARD "1.5 V" -to LED[2]
 set_instance_assignment -name IO_STANDARD "1.5 V" -to LED[3]
+set_location_assignment PIN_AT32 -to LED[0]
+set_location_assignment PIN_BA31 -to LED[1]
+set_location_assignment PIN_AN27 -to LED[2]
+set_location_assignment PIN_AH27 -to LED[3]
 
 #============================================================
 # FAN
 #============================================================
 set_instance_assignment -name IO_STANDARD "1.5 V" -to FAN_ALERT_n
+set_location_assignment PIN_AM11 -to FAN_ALERT_n
 
 #============================================================
 # RZQ for FMC or DDR3
 #============================================================
 set_instance_assignment -name IO_STANDARD "1.5 V" -to RZQ_DDR3
 set_instance_assignment -name IO_STANDARD "2.5 V" -to RZQ_FMC
+set_location_assignment PIN_AR8 -to RZQ_DDR3
+set_location_assignment PIN_H9 -to RZQ_FMC
 
 #============================================================
 # I2C for Temperature-Sensor or Fan-Control or Power-Monitor
 #============================================================
 set_instance_assignment -name IO_STANDARD "1.5 V" -to FPGA_I2C_SCL
 set_instance_assignment -name IO_STANDARD "1.5 V" -to FPGA_I2C_SDA
+set_location_assignment PIN_AN11 -to FPGA_I2C_SCL
+set_location_assignment PIN_AP9 -to FPGA_I2C_SDA
 
 #============================================================
 # FMC I2C
 #============================================================
 set_instance_assignment -name IO_STANDARD "2.5 V" -to FMC_SCL
 set_instance_assignment -name IO_STANDARD "2.5 V" -to FMC_SDA
+set_location_assignment PIN_F29 -to FMC_SCL
+set_location_assignment PIN_F28 -to FMC_SDA
 
 #============================================================
 # FMCA, FMCA connect to FMC-HDMI
@@ -198,28 +228,153 @@ set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_VS
 set_instance_assignment -name IO_STANDARD "2.5 V" -to TX_WS
 
 #FMCD RX
+set_location_assignment PIN_H15 -to ADV7619_CS_n
+set_location_assignment PIN_P14 -to ADV7619_INT
+set_location_assignment PIN_C12 -to ADV7619_RESET_n
 
+set_location_assignment PIN_T17 -to ADV7619_CSCL_FMC
+set_location_assignment PIN_E8 -to ADV7619_CSDA_FMC
 
+set_location_assignment PIN_C22 -to FMC_GA[0]
+set_location_assignment PIN_C21 -to FMC_GA[1]
 
+set_location_assignment PIN_AY15 -to RX0_DDC_SCL
+set_location_assignment PIN_BA15 -to RX0_DDC_SDA
+set_location_assignment PIN_V10 -to RX1_DDC_SCL
+set_location_assignment PIN_V9 -to RX1_DDC_SDA
 
+set_location_assignment PIN_AF17 -to RX_AP[0]
+set_location_assignment PIN_N22 -to RX_AP[1]
+set_location_assignment PIN_AE15 -to RX_AP[2]
+set_location_assignment PIN_AE16 -to RX_AP[3]
+set_location_assignment PIN_AG14 -to RX_AP[4]
+set_location_assignment PIN_AJ14 -to RX_AP[5]
 
+set_location_assignment PIN_F13 -to RX_BD[0]
+set_location_assignment PIN_U20 -to RX_BD[1]
+set_location_assignment PIN_AG16 -to RX_BD[2]
+set_location_assignment PIN_U21 -to RX_BD[3]
+set_location_assignment PIN_K14 -to RX_BD[4]
+set_location_assignment PIN_V19 -to RX_BD[5]
+set_location_assignment PIN_L15 -to RX_BD[6]
+set_location_assignment PIN_P21 -to RX_BD[7]
+set_location_assignment PIN_K20 -to RX_BD[8]
+set_location_assignment PIN_J15 -to RX_BD[9]
+set_location_assignment PIN_N16 -to RX_BD[10]
+set_location_assignment PIN_R21 -to RX_BD[11]
+set_location_assignment PIN_H20 -to RX_BD[12]
+set_location_assignment PIN_K15 -to RX_BD[13]
+set_location_assignment PIN_H21 -to RX_BD[14]
+set_location_assignment PIN_F14 -to RX_BD[15]
 
+set_location_assignment PIN_L21 -to RX_DE
 
+set_location_assignment PIN_D15 -to RX_GD[0]
+set_location_assignment PIN_F21 -to RX_GD[1]
+set_location_assignment PIN_E15 -to RX_GD[2]
+set_location_assignment PIN_F22 -to RX_GD[3]
+set_location_assignment PIN_B13 -to RX_GD[4]
+set_location_assignment PIN_H22 -to RX_GD[5]
+set_location_assignment PIN_G13 -to RX_GD[6]
+set_location_assignment PIN_T21 -to RX_GD[7]
+set_location_assignment PIN_AT15 -to RX_GD[8]
+set_location_assignment PIN_AM16 -to RX_GD[9]
+set_location_assignment PIN_BC16 -to RX_GD[10]
+set_location_assignment PIN_U9 -to RX_GD[11]
+set_location_assignment PIN_T9 -to RX_GD[12]
+set_location_assignment PIN_AT14 -to RX_GD[13]
+set_location_assignment PIN_AU13 -to RX_GD[14]
+set_location_assignment PIN_AH13 -to RX_GD[15]
 
+set_location_assignment PIN_L14 -to RX_HS
 
+set_location_assignment PIN_T16 -to RX_MCLK
 
+set_location_assignment PIN_M9 -to RX_PCLK
+set_location_assignment PIN_AW14 -to RX_RD[0]
+set_location_assignment PIN_AW13 -to RX_RD[1]
+set_location_assignment PIN_AP15 -to RX_RD[2]
+set_location_assignment PIN_V12 -to RX_RD[3]
+set_location_assignment PIN_AU14 -to RX_RD[4]
+set_location_assignment PIN_AY13 -to RX_RD[5]
+set_location_assignment PIN_V11 -to RX_RD[6]
+set_location_assignment PIN_AV14 -to RX_RD[7]
+set_location_assignment PIN_AN15 -to RX_RD[8]
+set_location_assignment PIN_T11 -to RX_RD[9]
+set_location_assignment PIN_AN14 -to RX_RD[10]
+set_location_assignment PIN_AM14 -to RX_RD[11]
+set_location_assignment PIN_AK15 -to RX_RD[12]
+set_location_assignment PIN_AK14 -to RX_RD[13]
+set_location_assignment PIN_F20 -to RX_RD[14]
+set_location_assignment PIN_G20 -to RX_RD[15]
+set_location_assignment PIN_AH15 -to RX_SCLK
+set_location_assignment PIN_M14 -to RX_VS
 
 #######################FMCD pin assignment
+set_location_assignment PIN_H11 -to SII9136_INT
+set_location_assignment PIN_E9 -to SII9136_RST_n
 
+set_location_assignment PIN_R10 -to SII9136_CSCL_FMC
+set_location_assignment PIN_N11 -to SII9136_CSDA_FMC
 
+set_location_assignment PIN_H12 -to TX_BD[0]
+set_location_assignment PIN_K13 -to TX_BD[1]
+set_location_assignment PIN_F11 -to TX_BD[2]
+set_location_assignment PIN_G11 -to TX_BD[3]
+set_location_assignment PIN_C9 -to TX_BD[4]
+set_location_assignment PIN_H13 -to TX_BD[5]
+set_location_assignment PIN_B11 -to TX_BD[6]
+set_location_assignment PIN_E12 -to TX_BD[7]
+set_location_assignment PIN_G10 -to TX_BD[8]
+set_location_assignment PIN_A11 -to TX_BD[9]
+set_location_assignment PIN_D10 -to TX_BD[10]
+set_location_assignment PIN_A7 -to TX_BD[11]
 
+set_location_assignment PIN_K12 -to TX_DE
 
+set_location_assignment PIN_P8 -to TX_DSR3L
+set_location_assignment PIN_N8 -to TX_DSR3R
 
+set_location_assignment PIN_B7 -to TX_GD[0]
+set_location_assignment PIN_D12 -to TX_GD[1]
+set_location_assignment PIN_A10 -to TX_GD[2]
+set_location_assignment PIN_G14 -to TX_GD[3]
+set_location_assignment PIN_T12 -to TX_GD[4]
+set_location_assignment PIN_T10 -to TX_GD[5]
+set_location_assignment PIN_M11 -to TX_GD[6]
+set_location_assignment PIN_N13 -to TX_GD[7]
+set_location_assignment PIN_N14 -to TX_GD[8]
+set_location_assignment PIN_L12 -to TX_GD[9]
+set_location_assignment PIN_K9 -to TX_GD[10]
+set_location_assignment PIN_H10 -to TX_GD[11]
 
+set_location_assignment PIN_F10 -to TX_HS
 
+set_location_assignment PIN_H14 -to TX_I2S[0]
+set_location_assignment PIN_B10 -to TX_I2S[1]
+set_location_assignment PIN_P12 -to TX_I2S[2]
+set_location_assignment PIN_U11 -to TX_I2S[3]
 
+set_location_assignment PIN_E11 -to TX_MCLK
 
+set_location_assignment PIN_F9 -to TX_PCLK
 
+set_location_assignment PIN_K10 -to TX_RD[0]
+set_location_assignment PIN_M12 -to TX_RD[1]
+set_location_assignment PIN_L11 -to TX_RD[2]
+set_location_assignment PIN_K11 -to TX_RD[3]
+set_location_assignment PIN_J9 -to TX_RD[4]
+set_location_assignment PIN_J10 -to TX_RD[5]
+set_location_assignment PIN_K8 -to TX_RD[6]
+set_location_assignment PIN_J12 -to TX_RD[7]
+set_location_assignment PIN_P13 -to TX_RD[8]
+set_location_assignment PIN_T14 -to TX_RD[9]
+set_location_assignment PIN_U14 -to TX_RD[10]
+set_location_assignment PIN_R12 -to TX_RD[11]
+set_location_assignment PIN_D11 -to TX_SCK
+set_location_assignment PIN_U12 -to TX_SPDIF
+set_location_assignment PIN_J13 -to TX_VS
+set_location_assignment PIN_C10 -to TX_WS
 
 
 #============================================================

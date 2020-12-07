@@ -1,19 +1,14 @@
 INTENDED_DEVICE_FAMILY="Stratix V"
-LPM_NUMWORDS=32
-LPM_SHOWAHEAD=OFF
-LPM_TYPE=dcfifo
-LPM_WIDTH=54
-LPM_WIDTHU=5
-OVERFLOW_CHECKING=OFF
-RDSYNC_DELAYPIPE=5
-UNDERFLOW_CHECKING=OFF
-USE_EAB=ON
-WRSYNC_DELAYPIPE=5
+enable_bus_hold=FALSE
+left_shift_series_termination_control=FALSE
+number_of_channels=1
+open_drain_output=FALSE
+use_differential_mode=TRUE
+use_dynamic_termination_control=FALSE
+use_termination_control=FALSE
 DEVICE_FAMILY="Stratix V"
-data
-rdclk
-rdreq
-wrclk
-wrreq
-q
-rdusedw
+datain
+oe
+dataio
+dataio_b
+dataout
